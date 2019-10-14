@@ -4,6 +4,7 @@ from keras.optimizers import SGD
 from random import shuffle
 from keras.models import Sequential, model_from_json
 import numpy as np
+import pandas as pd
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
@@ -18,16 +19,16 @@ class Analiser:
         return None
 
     def preprocess(self, filepath):
-        f = open(filepath)
+        dataset = pd.read_csv(filepath,delimiter=',')
 
-        sentences = f.read().split('\n')
-        sentences.pop(0)
+        self.xData = []
+        self.yData = []
 
-        for sentence in sentences:
-            temp = sentence.split(',')
-            if len(temp) == 2:
-                self.xData.append(temp[0])
-                self.yData.append(temp[1])
+        for k in dataset['Kalimat']:
+            self.xData.append(k)
+
+        for k in dataset['Formalitas']:
+            self.yData.append(k)
 
         self.tfidf_data = TFIDF([self.xData, self.yData])
 
@@ -61,7 +62,7 @@ class Analiser:
         y = []
 
         for i in self.yData:
-            if i == "1.0":
+            if i == 1:
                 y.append([1, 0])
             else:
                 y.append([0, 1])
@@ -97,7 +98,7 @@ class Analiser:
 
         model.compile(optimizer=sgd, loss=loss_error, metrics=['accuracy'])
 
-        x_train, x_test, y_train, y_test = self.train_custom_split(x, y, 0.75)
+        x_train, x_test, y_train, y_test = self.train_custom_split(x, y, 0.5)
 
         self.history = model.fit(x=x_train, y=y_train,
                                  validation_data=(x_test, y_test),
@@ -161,3 +162,26 @@ class Analiser:
             exit(0)
 
         return self.getBinaryResult(self.model_load.predict_proba(np.array(x)))
+
+    def showPlot(self):
+        history = self.history
+
+        # for plotting model accuracy
+        plt.plot(history.history['accuracy'])
+        plt.plot(history.history['val_accuracy'])
+        plt.title('Model Accuracy')
+        plt.ylabel('accuracy')
+        plt.xlabel('epoch')
+        plt.legend(['train', 'test'], loc='upper left')
+        plt.savefig('1.png')
+        plt.show()
+
+        # for plotting model loss
+        plt.plot(history.history['loss'])
+        plt.plot(history.history['val_loss'])
+        plt.title('Model Loss')
+        plt.ylabel('accuracy')
+        plt.xlabel('epoch')
+        plt.legend(['train', 'test'], loc='upper left')
+        plt.savefig('2.png')
+        plt.show()
