@@ -19,7 +19,7 @@ class Analiser:
         return None
 
     def preprocess(self, filepath):
-        dataset = pd.read_csv(filepath,delimiter=',')
+        dataset = pd.read_csv(filepath, delimiter=',')
 
         self.xData = []
         self.yData = []
@@ -91,7 +91,6 @@ class Analiser:
         learning_rate = .0005
         batch_size = 2
         loss_error = 'categorical_crossentropy'
-        
         epoch = 175
 
         sgd = SGD(lr=learning_rate)
@@ -111,12 +110,12 @@ class Analiser:
         dataset = []
 
         for i in range(len(y)):
-            dataset.append([x[i],y[i]])
-        
+            dataset.append([x[i], y[i]])
+
         shuffle(dataset)
-        
-        formal=[]
-        informal=[]
+
+        formal = []
+        informal = []
 
         for i in range(len(dataset)):
             if dataset[i][1][0] == 0:
@@ -162,7 +161,7 @@ class Analiser:
             else:
                 x_test.append(x_test_temp[i])
                 y_test.append(y_test_temp[i])
-        
+
         return np.array(x_train), np.array(x_test), np.array(y_train), np.array(y_test)
 
     def getBinaryResult(self, x):
@@ -195,4 +194,5 @@ class Analiser:
         plt.ylabel('loss')
         plt.xlabel('epoch')
         plt.legend(['train', 'test'], loc='upper left')
+
         plt.show()
