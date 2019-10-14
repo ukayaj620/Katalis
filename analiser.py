@@ -118,3 +118,22 @@ class Analiser:
                             nb_epoch=epoch)
 
 
+        #for plotting model accuracy
+        plt.plot(history.history['acc'])
+        plt.plot(history.history['val_acc'])
+        plt.title('Model Accuracy')
+        plt.ylabel('accuracy')
+        plt.xlabel('epoch')
+        plt.legend(['train, test'], loc='upper left')
+
+        #for plotting model loss
+        plt.plot(history.history['loss'])
+        plt.plot(history.history['val_loss'])
+        plt.title('Model Loss')
+        plt.ylabel('accuracy')
+        plt.xlabel('epoch')
+        plt.legend(['train, test'], loc='upper left')
+
+        plt.show()
+
+
