@@ -13,7 +13,7 @@ class Analiser:
     xData = []
     yData = []
 
-    def __init__(self, training_data='dataset\processDatasets.csv'):
+    def __init__(self, training_data='dataset\processeddata.csv'):
         self.preprocess(training_data)
         return None
 
@@ -61,7 +61,7 @@ class Analiser:
         y = []
 
         for i in self.yData:
-            if i == "1":
+            if i == "1.0":
                 y.append([1, 0])
             else:
                 y.append([0, 1])
@@ -69,7 +69,7 @@ class Analiser:
         model = Sequential()
 
         input_data_dimen = len(x[0])
-        input_data_dimen = 3000 if input_data_dimen > 3000 else input_data_dimen
+        input_data_dimen = 500 if input_data_dimen > 500 else input_data_dimen
 
         model.add(Dense(
             units=int(0.4 * input_data_dimen),
@@ -88,9 +88,9 @@ class Analiser:
         ))
 
         learning_rate = .001
-        batch_size = 2
+        batch_size = 1
         loss_error = 'categorical_crossentropy'
-        epoch = 5
+        epoch = 100
 
         sgd = SGD(lr=learning_rate)
 
