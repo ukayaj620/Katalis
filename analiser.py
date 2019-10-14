@@ -162,3 +162,26 @@ class Analiser:
             exit(0)
 
         return self.getBinaryResult(self.model_load.predict_proba(np.array(x)))
+
+    def showPlot(self):
+        history = self.history
+
+        # for plotting model accuracy
+        plt.plot(history.history['accuracy'])
+        plt.plot(history.history['val_accuracy'])
+        plt.title('Model Accuracy')
+        plt.ylabel('accuracy')
+        plt.xlabel('epoch')
+        plt.legend(['train', 'test'], loc='upper left')
+        plt.savefig('1.png')
+        plt.show()
+
+        # for plotting model loss
+        plt.plot(history.history['loss'])
+        plt.plot(history.history['val_loss'])
+        plt.title('Model Loss')
+        plt.ylabel('accuracy')
+        plt.xlabel('epoch')
+        plt.legend(['train', 'test'], loc='upper left')
+        plt.savefig('2.png')
+        plt.show()
