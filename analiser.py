@@ -22,7 +22,23 @@ class Analiser:
         sentences = f.read().split('\n')
         sentences.pop(0)
 
+        ff = open("check/before_shuffle.txt", 'w+')
+
+        for sent in sentences:
+            ff.write(sent)
+            ff.write('\n')
+
+        ff.close()
+
         shuffle(sentences)
+
+        ff = open("check/after_shuffle.txt", 'w+')
+
+        for sent in sentences:
+            ff.write(sent)
+            ff.write('\n')
+
+        ff.close()
 
         for sentence in sentences:
             temp = sentence.split(',')
