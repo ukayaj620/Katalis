@@ -13,7 +13,7 @@ class Analiser:
     xData = []
     yData = []
 
-    def __init__(self, training_data='dataset\processeddata.csv'):
+    def __init__(self, training_data='dataset\processedData.csv'):
         self.preprocess(training_data)
         return None
 
@@ -84,13 +84,14 @@ class Analiser:
 
         model.add(Dense(
             units=2,
-            activation='softmax'
+            activation='sigmoid'
         ))
 
-        learning_rate = .001
+        learning_rate = .005
         batch_size = 1
         loss_error = 'categorical_crossentropy'
-        epoch = 50
+        
+        epoch = 30
 
         sgd = SGD(lr=learning_rate)
 
