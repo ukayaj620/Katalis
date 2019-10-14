@@ -12,7 +12,7 @@ client = discord.Client()
 
 print("Loading Model...")
 an = Analiser()
-model = an.load_model()
+model = an.load_model('model_3')
 
 
 @client.event
@@ -45,7 +45,7 @@ async def on_message(message):
             response += ":white_large_square:"
         else:
             response += ":black_large_square:"
-    response += "| %f%% Informal\n" % y[0][1]
+    response += "| %f%% Non Formal\n" % y[0][1]
 
     response += 'Your statement is ' + verdict
 
