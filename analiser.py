@@ -88,11 +88,11 @@ class Analiser:
             activation='sigmoid'
         ))
 
-        learning_rate = .005
-        batch_size = 1
+        learning_rate = .0005
+        batch_size = 2
         loss_error = 'categorical_crossentropy'
         
-        epoch = 30
+        epoch = 175
 
         sgd = SGD(lr=learning_rate)
 
@@ -141,8 +141,8 @@ class Analiser:
                 x_train.append(formal[i][0])
                 y_train.append(formal[i][1])
             else:
-                x_test.append(formal[i][0])
-                y_test.append(formal[i][1])
+                x_test_temp.append(formal[i][0])
+                y_test_temp.append(formal[i][1])
 
         for i in range(inform_len):
             if i < inform_rat:
@@ -192,7 +192,7 @@ class Analiser:
         plt.plot(history.history['loss'])
         plt.plot(history.history['val_loss'])
         plt.title('Model Loss')
-        plt.ylabel('accuracy')
+        plt.ylabel('loss')
         plt.xlabel('epoch')
         plt.legend(['train', 'test'], loc='upper left')
         plt.show()
