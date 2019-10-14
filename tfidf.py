@@ -1,5 +1,5 @@
 from __future__ import division
-from tokenize import Tokenize
+from tokenizing import Tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
@@ -16,7 +16,7 @@ class TFIDF:
         self.fitData(data[1])
 
     def initVectorizer(self):
-        tokenize = lambda sent : self.preprocess.prepareToken(Tokenize, sent)
+        tokenize = lambda sent: self.preprocess.prepareToken(Tokenize, sent)
 
         return TfidfVectorizer(norm='l2',
                                min_df=0,
@@ -39,3 +39,25 @@ class TFIDF:
 
     def getFullData(self):
         return self.fullData
+
+    def transform(self, sentence):
+        factoryStem = StemmerFactory()
+        stemmer = factoryStem.create_stemmer()
+
+        factoryStop = StopWordRemoverFactory()
+        stopper = factoryStop.create_stop_word_remover()
+
+        sentStemmed = stemmer.stem(sentence)
+
+        sentStopped = sentStemmed
+
+        temp = stopper.remove(sentStemmed)
+        while temp != sentStopped:
+            sentStopped = temp
+            temp = stopper.remove(sentStopped)
+
+        print("Sentences after stemming and stopwords removal:")
+        print(sentStopped)
+
+        return self.tfidf_vectorizer.transform([sentStopped]).toarray()[0]
+
