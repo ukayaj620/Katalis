@@ -78,7 +78,7 @@ class Analiser:
         ))
 
         model.add(Dense(
-            units=int(0.4 * 0.1 * input_data_dimen),
+            units=int(0.05*0.4*input_data_dimen),
             activation='tanh'
         ))
 
@@ -90,39 +90,66 @@ class Analiser:
         learning_rate = .005
         batch_size = 1
         loss_error = 'categorical_crossentropy'
+        
         epoch = 30
 
         sgd = SGD(lr=learning_rate)
 
         model.compile(optimizer=sgd, loss=loss_error, metrics=['accuracy'])
 
-        x_train, x_test, y_train, y_test = train_test_split(np.array(x), np.array(y), test_size=0.1)
+        x_train, x_test, y_train, y_test = self.train_custom_split(x, y, 0.75)
 
-        history = model.fit(x=x_train, y=y_train,
-                            validation_data=(x_test, y_test),
-                            batch_size=batch_size,
-                            nb_epoch=epoch)
-
-
-        #for plotting model accuracy
-        plt.plot(history.history['acc'])
-        plt.plot(history.history['val_acc'])
-        plt.title('Model Accuracy')
-        plt.ylabel('accuracy')
-        plt.xlabel('epoch')
-        plt.legend(['train', 'test'], loc='upper left')
-        plt.show()
-
-        #for plotting model loss
-        plt.plot(history.history['loss'])
-        plt.plot(history.history['val_loss'])
-        plt.title('Model Loss')
-        plt.ylabel('loss')
-        plt.xlabel('epoch')
-        plt.legend(['train', 'test'], loc='upper left')
-        plt.show()
+        self.history = model.fit(x=x_train, y=y_train,
+                                 validation_data=(x_test, y_test),
+                                 batch_size=batch_size,
+                                 nb_epoch=epoch)
 
         self.save_model(model, output_file)
+
+    def train_custom_split(self, x, y, sr_train):
+        dataset = []
+
+        for i in range(len(y)):
+            dataset.append([x[i],y[i]])
+        
+        shuffle(dataset)
+        
+        formal=[]
+        informal=[]
+
+        for i in range(len(dataset)):
+            if dataset[i][1][0] == 0:
+                informal.append(dataset[i])
+            else:
+                formal.append(dataset[i])
+
+        x_train = []
+        x_test = []
+        y_train = []
+        y_test = []
+
+        formal_len = len(formal)
+        formal_rat = formal_len * sr_train
+        inform_len = len(informal)
+        inform_rat = inform_len * sr_train
+
+        for i in range(formal_len):
+            if i < formal_rat:
+                x_train.append(formal[i][0])
+                y_train.append(formal[i][1])
+            else:
+                x_test.append(formal[i][0])
+                y_test.append(formal[i][1])
+
+        for i in range(inform_len):
+            if i < inform_rat:
+                x_train.append(informal[i][0])
+                y_train.append(informal[i][1])
+            else:
+                x_test.append(informal[i][0])
+                y_test.append(informal[i][1])
+        
+        return np.array(x_train), np.array(x_test), np.array(y_train), np.array(y_test)
 
     def getBinaryResult(self, x):
         print(x)
