@@ -34,17 +34,17 @@ async def on_message(message):
     response = "|"
     for i in range(11):
         if(i < y1):
-            response += u"\u2588"
+            response += ":white_large_square:"
         else:
-            response += u"\u2581"
+            response += ":black_large_square:"
     response += "| %f%% Formal\n" % y[0][0]
 
     response += "|"
     for i in range(11):
         if(i < y2):
-            response += u"\u2588"
+            response += ":white_large_square:"
         else:
-            response += u"\u2581"
+            response += ":black_large_square:"
     response += "| %f%% Informal\n" % y[0][1]
 
     response += 'Your statement is ' + verdict
