@@ -14,7 +14,7 @@ class Analiser:
     xData = []
     yData = []
 
-    def __init__(self, training_data='dataset\processedData_Union.csv'):
+    def __init__(self, training_data='dataset\processedData_Union2.csv'):
         self.preprocess(training_data)
         return None
 
