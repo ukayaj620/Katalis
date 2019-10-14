@@ -47,3 +47,74 @@ class Analiser:
                 self.yData.append(temp[1])
 
         self.tfidf_data = TFIDF([self.xData, self.yData])
+
+    def save_model(self, model, file_name='model'):
+        self.model_load = model
+
+        model_json = model.to_json()
+        with open('model/' + file_name + '.json', 'w') as json_file:
+            json_file.write(model_json)
+
+        model.save_weight('model/' + file_name + '.h5')
+        print("Save model to disk")
+
+    def load_model(self, file_name='model'):
+        model = Sequential()
+
+        json_file = open('model/' + file_name + '.json','r')
+        loaded_model_json = json_file.read()
+
+        json_file.close()
+        model = model_from_json(loaded_model_json)
+
+        model.load_weights('model/' + file_name + '.h5')
+        print("Loaded model from disk")
+
+        self.model_load = model
+        return model
+
+    def train(self, output_file='model'):
+        x = self.tfidf_data.getOnlyXData()
+        y = self.yData
+
+        model = Sequential()
+
+        input_data_dimen = len(x[0])
+        input_data_dimen = 3000 if input_data_dimen > 3000 else input_data_dimen
+
+        model.add(Dense(
+            units=int(0.4 * input_data_dimen),
+            activation='tanh',
+            input_dim=input_data_dimen
+        ))
+
+        model.add(Dense(
+            units=0.05 * 0.4 * input_data_dimen,
+            activation='tanh',
+        ))
+
+        model.add(
+            units=1,
+            activation='sigmoid'
+        )
+
+        learning_rate = .01
+        batch_size = 1
+        loss_error = 'binary_crossentropy'
+        epoch = 0
+
+        sgd = SGD(lr=learning_rate)
+
+        model.compile(optimizer=sgd, loss=loss_error, metrics=['accuracy'])
+
+        seed = 1;
+
+        x_train, x_test, y_train, y_test = train_test_split(np.array(x), np.array(y),
+                                                            test_size=0.2, random_state=seed)
+
+        history = model.fit(x=x_train, y=y_train,
+                            validation_data=(x_test, y_test),
+                            batch_size=batch_size,
+                            nb_epoch=epoch)
+
+
