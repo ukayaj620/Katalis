@@ -125,12 +125,13 @@ class Analiser:
         plt.ylabel('accuracy')
         plt.xlabel('epoch')
         plt.legend(['train, test'], loc='upper left')
+        plt.show()
 
         #for plotting model loss
         plt.plot(history.history['loss'])
         plt.plot(history.history['val_loss'])
         plt.title('Model Loss')
-        plt.ylabel('accuracy')
+        plt.ylabel('loss')
         plt.xlabel('epoch')
         plt.legend(['train, test'], loc='upper left')
 
