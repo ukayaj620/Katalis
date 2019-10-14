@@ -101,7 +101,7 @@ class Analiser:
         learning_rate = .01
         batch_size = 1
         loss_error = 'binary_crossentropy'
-        epoch = 0
+        epoch = 10
 
         sgd = SGD(lr=learning_rate)
 
