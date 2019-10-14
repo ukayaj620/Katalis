@@ -21,7 +21,7 @@ class TFIDF:
 
         return TfidfVectorizer(norm='l2',
                                min_df=0,
-                               max_features=500,
+                               max_features=1000,
                                use_idf=True,
                                smooth_idf=False,
                                sublinear_tf=True,

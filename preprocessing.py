@@ -11,7 +11,7 @@ stopper = factoryStop.create_stop_word_remover()
 xData = []
 yData = []
 
-rawDatasets = pd.read_csv('dataset\RawDatasets.csv',delimiter=',')
+rawDatasets = pd.read_csv('dataset\data_union.csv',delimiter=',')
 
 count = 0
 
@@ -39,6 +39,6 @@ processDatasets = { 'Kalimat' : xData,
 
 dataFrameCSV = pd.DataFrame(processDatasets, columns=['Kalimat', 'Formalitas'])
 
-dataFrameCSV.to_csv('D:\BIOS-Hackaton\Katalis\dataset\processDatasets.csv', index=None, header=True)
+dataFrameCSV.to_csv('D:\BIOS-Hackaton\Katalis\dataset\processedData_Union.csv', index=None, header=True)
 
 print(dataFrameCSV)

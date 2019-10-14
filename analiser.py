@@ -14,7 +14,7 @@ class Analiser:
     xData = []
     yData = []
 
-    def __init__(self, training_data='dataset\processedData.csv'):
+    def __init__(self, training_data='dataset\processedData_Union.csv'):
         self.preprocess(training_data)
         return None
 
@@ -70,7 +70,7 @@ class Analiser:
         model = Sequential()
 
         input_data_dimen = len(x[0])
-        input_data_dimen = 500 if input_data_dimen > 500 else input_data_dimen
+        input_data_dimen = 1000 if input_data_dimen > 1000 else input_data_dimen
 
         model.add(Dense(
             units=int(0.4 * input_data_dimen),
@@ -79,7 +79,7 @@ class Analiser:
         ))
 
         model.add(Dense(
-            units=int(0.05*0.4*input_data_dimen),
+            units=int(0.075*0.4*input_data_dimen),
             activation='tanh'
         ))
 
@@ -91,7 +91,7 @@ class Analiser:
         learning_rate = .0005
         batch_size = 2
         loss_error = 'categorical_crossentropy'
-        epoch = 250
+        epoch = 175
 
         sgd = SGD(lr=learning_rate)
 
@@ -179,21 +179,20 @@ class Analiser:
         history = self.history
 
         # for plotting model accuracy
-        plt.plot(history.history['accuracy'])
-        plt.plot(history.history['val_accuracy'])
+        plt.plot(history.history['acc'])
+        plt.plot(history.history['val_acc'])
         plt.title('Model Accuracy')
         plt.ylabel('accuracy')
         plt.xlabel('epoch')
         plt.legend(['train', 'test'], loc='upper left')
-        plt.savefig('1.png')
         plt.show()
 
         # for plotting model loss
         plt.plot(history.history['loss'])
         plt.plot(history.history['val_loss'])
         plt.title('Model Loss')
-        plt.ylabel('accuracy')
+        plt.ylabel('loss')
         plt.xlabel('epoch')
         plt.legend(['train', 'test'], loc='upper left')
-        plt.savefig('2.png')
+
         plt.show()

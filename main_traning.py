@@ -2,7 +2,11 @@ from analiser import Analiser
 
 an = Analiser()
 
-an.train(output_file='model_1')
+an.train(output_file='model')
 
-test_1 = "gw sk mkn"
-print(an.testFromTrained([an.tfidf_data.transform([test_1])]))
+an.showPlot()
+
+while True:
+    sentence = input()
+    print(an.testFromTrained([an.tfidf_data.transform(sentence)]))
+
