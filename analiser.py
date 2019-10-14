@@ -13,7 +13,7 @@ class Analiser:
     xData = []
     yData = []
 
-    def __init__(self, training_data='dataset\processeddata.csv'):
+    def __init__(self, training_data='dataset\processedData.csv'):
         self.preprocess(training_data)
         return None
 
@@ -98,9 +98,7 @@ class Analiser:
 
         seed = 1
 
-        x_train, x_test, y_train, y_test = train_test_split(np.array(x), np.array(y),
-<<<<<<< HEAD
-                                                            test_size=0.2, random_state=seed)
+        x_train, x_test, y_train, y_test = train_test_split(np.array(x), np.array(y),test_size=0.2, random_state=seed)
 
         history = model.fit(x=x_train, y=y_train,
                             validation_data=(x_test, y_test),
@@ -114,7 +112,7 @@ class Analiser:
         plt.title('Model Accuracy')
         plt.ylabel('accuracy')
         plt.xlabel('epoch')
-        plt.legend(['train, test'], loc='upper left')
+        plt.legend(['train', 'test'], loc='upper left')
         plt.show()
 
         #for plotting model loss
@@ -123,17 +121,8 @@ class Analiser:
         plt.title('Model Loss')
         plt.ylabel('loss')
         plt.xlabel('epoch')
-        plt.legend(['train, test'], loc='upper left')
-
+        plt.legend(['train', 'test'], loc='upper left')
         plt.show()
-=======
-                                                            test_size=0.1, random_state=seed)
-
-        self.history = model.fit(x=x_train, y=y_train,
-                                 validation_data=(x_test, y_test),
-                                 batch_size=batch_size,
-                                 nb_epoch=epoch)
->>>>>>> 1728edf0e554355de17a9a5d847ec99a02bd0214
 
         self.save_model(model, output_file)
 
