@@ -55,7 +55,7 @@ class Analiser:
         with open('model/' + file_name + '.json', 'w') as json_file:
             json_file.write(model_json)
 
-        model.save_weight('model/' + file_name + '.h5')
+        model.save_weights('model/' + file_name + '.h5')
         print("Save model to disk")
 
     def load_model(self, file_name='model'):
@@ -89,14 +89,14 @@ class Analiser:
         ))
 
         model.add(Dense(
-            units=0.05 * 0.4 * input_data_dimen,
-            activation='tanh',
+            units=int(0.05 * 0.4 * input_data_dimen),
+            activation='tanh'
         ))
 
-        model.add(
+        model.add(Dense(
             units=1,
             activation='sigmoid'
-        )
+        ))
 
         learning_rate = .01
         batch_size = 1
