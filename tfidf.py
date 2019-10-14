@@ -4,6 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 
+
 class TFIDF:
 
     fullData = []
@@ -16,23 +17,21 @@ class TFIDF:
         self.fitData(data[1])
 
     def initVectorizer(self):
-        tokenize = lambda sent: self.preprocess.prepareToken(Tokenize, sent)
+        def tokenize(sent): return self.preprocess.prepareToken(Tokenize, sent)
 
         return TfidfVectorizer(norm='l2',
                                min_df=0,
-                               max_features=3000,
+                               max_features=500,
                                use_idf=True,
                                smooth_idf=False,
                                sublinear_tf=True,
                                tokenizer=tokenize)
 
     def fitData(self, yData):
-        i = 0
         self.fullData = []
         for count, sent in enumerate(self.tfidf_data.toarray()):
             self.xData.append(sent)
-            self.fullData.append([sent, yData[i]])
-            i += 1
+            self.fullData.append([sent, yData[count]])
 
     def getOnlyXData(self):
         return self.xData
@@ -56,8 +55,4 @@ class TFIDF:
             sentStopped = temp
             temp = stopper.remove(sentStopped)
 
-        print("Sentences after stemming and stopwords removal:")
-        print(sentStopped)
-
         return self.tfidf_vectorizer.transform([sentStopped]).toarray()[0]
-
