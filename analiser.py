@@ -19,7 +19,7 @@ class Analiser:
         return None
 
     def preprocess(self, filepath):
-        dataset = pd.read_csv(filepath,delimiter=',')
+        dataset = pd.read_csv(filepath, delimiter=',')
 
         self.xData = []
         self.yData = []
@@ -88,11 +88,10 @@ class Analiser:
             activation='sigmoid'
         ))
 
-        learning_rate = .005
-        batch_size = 1
+        learning_rate = .0005
+        batch_size = 2
         loss_error = 'categorical_crossentropy'
-        
-        epoch = 30
+        epoch = 250
 
         sgd = SGD(lr=learning_rate)
 
@@ -107,16 +106,16 @@ class Analiser:
 
         self.save_model(model, output_file)
 
-    def train_custom_split(self, x, y, sr_train):
+    def train_custom_split(self, x, y, sr_train, test_ratio=0.2):
         dataset = []
 
         for i in range(len(y)):
-            dataset.append([x[i],y[i]])
-        
+            dataset.append([x[i], y[i]])
+
         shuffle(dataset)
-        
-        formal=[]
-        informal=[]
+
+        formal = []
+        informal = []
 
         for i in range(len(dataset)):
             if dataset[i][1][0] == 0:
@@ -126,8 +125,10 @@ class Analiser:
 
         x_train = []
         x_test = []
+        x_test_temp = []
         y_train = []
         y_test = []
+        y_test_temp = []
 
         formal_len = len(formal)
         formal_rat = formal_len * sr_train
@@ -139,17 +140,28 @@ class Analiser:
                 x_train.append(formal[i][0])
                 y_train.append(formal[i][1])
             else:
-                x_test.append(formal[i][0])
-                y_test.append(formal[i][1])
+                x_test_temp.append(formal[i][0])
+                y_test_temp.append(formal[i][1])
 
         for i in range(inform_len):
             if i < inform_rat:
                 x_train.append(informal[i][0])
                 y_train.append(informal[i][1])
             else:
-                x_test.append(informal[i][0])
-                y_test.append(informal[i][1])
-        
+                x_test_temp.append(informal[i][0])
+                y_test_temp.append(informal[i][1])
+
+        test_len = len(y_test_temp)
+        test_rat = test_ratio * test_len
+
+        for i in range(test_len):
+            if i > test_rat:
+                x_train.append(x_test_temp[i])
+                y_train.append(y_test_temp[i])
+            else:
+                x_test.append(x_test_temp[i])
+                y_test.append(y_test_temp[i])
+
         return np.array(x_train), np.array(x_test), np.array(y_train), np.array(y_test)
 
     def getBinaryResult(self, x):
