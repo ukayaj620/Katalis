@@ -7,12 +7,13 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
+
 class Analiser:
 
     xData = []
     yData = []
 
-    def __init__(self, training_data='dataset\processDatasets.csv'):
+    def __init__(self, training_data='dataset\processeddata.csv'):
         self.preprocess(training_data)
         return None
 
@@ -21,24 +22,6 @@ class Analiser:
 
         sentences = f.read().split('\n')
         sentences.pop(0)
-
-        ff = open("check/before_shuffle.txt", 'w+')
-
-        for sent in sentences:
-            ff.write(sent)
-            ff.write('\n')
-
-        ff.close()
-
-        shuffle(sentences)
-
-        ff = open("check/after_shuffle.txt", 'w+')
-
-        for sent in sentences:
-            ff.write(sent)
-            ff.write('\n')
-
-        ff.close()
 
         for sentence in sentences:
             temp = sentence.split(',')
@@ -61,7 +44,7 @@ class Analiser:
     def load_model(self, file_name='model'):
         model = Sequential()
 
-        json_file = open('model/' + file_name + '.json','r')
+        json_file = open('model/' + file_name + '.json', 'r')
         loaded_model_json = json_file.read()
 
         json_file.close()
@@ -75,12 +58,18 @@ class Analiser:
 
     def train(self, output_file='model'):
         x = self.tfidf_data.getOnlyXData()
-        y = self.yData
+        y = []
+
+        for i in self.yData:
+            if i == "1.0":
+                y.append([1, 0])
+            else:
+                y.append([0, 1])
 
         model = Sequential()
 
         input_data_dimen = len(x[0])
-        input_data_dimen = 3000 if input_data_dimen > 3000 else input_data_dimen
+        input_data_dimen = 500 if input_data_dimen > 500 else input_data_dimen
 
         model.add(Dense(
             units=int(0.4 * input_data_dimen),
@@ -89,27 +78,28 @@ class Analiser:
         ))
 
         model.add(Dense(
-            units=int(0.05 * 0.4 * input_data_dimen),
+            units=50,
             activation='tanh'
         ))
 
         model.add(Dense(
-            units=1,
-            activation='sigmoid'
+            units=2,
+            activation='softmax'
         ))
 
-        learning_rate = .01
+        learning_rate = .001
         batch_size = 1
-        loss_error = 'binary_crossentropy'
-        epoch = 10
+        loss_error = 'categorical_crossentropy'
+        epoch = 100
 
         sgd = SGD(lr=learning_rate)
 
         model.compile(optimizer=sgd, loss=loss_error, metrics=['accuracy'])
 
-        seed = 1;
+        seed = 1
 
         x_train, x_test, y_train, y_test = train_test_split(np.array(x), np.array(y),
+<<<<<<< HEAD
                                                             test_size=0.2, random_state=seed)
 
         history = model.fit(x=x_train, y=y_train,
@@ -136,12 +126,20 @@ class Analiser:
         plt.legend(['train, test'], loc='upper left')
 
         plt.show()
+=======
+                                                            test_size=0.1, random_state=seed)
+
+        self.history = model.fit(x=x_train, y=y_train,
+                                 validation_data=(x_test, y_test),
+                                 batch_size=batch_size,
+                                 nb_epoch=epoch)
+>>>>>>> 1728edf0e554355de17a9a5d847ec99a02bd0214
 
         self.save_model(model, output_file)
 
     def getBinaryResult(self, x):
         print(x)
-        return "FORMAL" if x >= 0.5 else "NON FORMAL"
+        return "FORMAL" if x[0][0] > x[0][1] else "NON FORMAL"
 
     def testFromTrained(self, x):
         if self.model_load == 'None':
@@ -149,5 +147,3 @@ class Analiser:
             exit(0)
 
         return self.getBinaryResult(self.model_load.predict_proba(np.array(x)))
-
-
