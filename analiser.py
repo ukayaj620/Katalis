@@ -98,7 +98,7 @@ class Analiser:
 
         model.compile(optimizer=sgd, loss=loss_error, metrics=['accuracy'])
 
-        x_train, x_test, y_train, y_test = train_test_split(np.array(x), np.array(y), test_size=0.2, random_state=1)
+        x_train, x_test, y_train, y_test = self.train_custom_split(x, y, 0.5)
 
         self.history = model.fit(x=x_train, y=y_train,
                                  validation_data=(x_test, y_test),
@@ -107,7 +107,7 @@ class Analiser:
 
         self.save_model(model, output_file)
 
-    def train_custom_split(self, x, y, sr_train):
+    def train_custom_split(self, x, y, sr_train, test_ratio=0.2):
         dataset = []
 
         for i in range(len(y)):
@@ -126,8 +126,10 @@ class Analiser:
 
         x_train = []
         x_test = []
+        x_test_temp = []
         y_train = []
         y_test = []
+        y_test_temp = []
 
         formal_len = len(formal)
         formal_rat = formal_len * sr_train
@@ -147,8 +149,19 @@ class Analiser:
                 x_train.append(informal[i][0])
                 y_train.append(informal[i][1])
             else:
-                x_test.append(informal[i][0])
-                y_test.append(informal[i][1])
+                x_test_temp.append(informal[i][0])
+                y_test_temp.append(informal[i][1])
+
+        test_len = len(y_test_temp)
+        test_rat = test_ratio * test_len
+
+        for i in range(test_len):
+            if i > test_rat:
+                x_train.append(x_test_temp[i])
+                y_train.append(y_test_temp[i])
+            else:
+                x_test.append(x_test_temp[i])
+                y_test.append(y_test_temp[i])
         
         return np.array(x_train), np.array(x_test), np.array(y_train), np.array(y_test)
 
