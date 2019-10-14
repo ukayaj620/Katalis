@@ -1,0 +1,2001 @@
+Kalimat,Formalitas
+Sidang Kabinet Paripurna siang hari evaluasi pelaksanaan RPJMN 2014-2019 persiapan implementasi APBN tahun depan tahun 2020,1
+Sebelum mempersilakan Menteri Bappenas Menteri Keuangan menyampaikan laporan hasil evaluasi pelaksanaan persiapan APBN 2020 pertama mengucapkan terima kasih sebesar-besarnya semua Menteri semua Kepala Lembaga atas kerja kerasnya selama lima tahun membantu Bapak Jusuf Kalla menjalankan visi program-program prioritas bersama,1
+Saya ingat awal pembentukan Kabinet Kerja menyampaikan visi misi menteri visi misi presiden wakil presiden semuanya betul-betul berada satu visi satu tujuan satu jalur,1
+Kalau lihat alhamdulillah lima tahun banyak kerjakan berbagai keterbatasan-keterbatasan,1
+Dan banyak lihat pekerjaan-pekerjaan rumah selesaikan,1
+Saya melihat selama lima tahun menyusun sebuah fondasi arah pembangunan nasional lebih tangguh lebih produktif lebih merata,1
+Dan melakukan reformasi bidang fiskal APBN menjadi semakin sehat semakin mandiri,1
+Dan meletakkan fondasi pembangunan Indonesiasentris bukan Jawasentris melakukan percepatan pembangunan bidang infrastruktur,1
+Kita memulai reformasi struktural memang besar-besaran,1
+Sehingga harapkan lima tahun depan melakukan reformasi struktural besar-besaran rangka meningkatkan daya saing memangkas banyak aturan/prosedur menghambat berbelit-belit punyai,1
+Juga reformasi program perlindungan sosial penanggulangan kemiskinan terutama masyarakat empat puluh persen terbawah lakukan,1
+Kita melihat lima tahun penguatan bidang monitoring bidang pengendalian eksekusinya lapangan lakukan baik perencanaan implementasi eksekusi,1
+Saya melihat banyak berjalan,1
+Karena keandalan proses eksekusi efektivitas proses delivery menjadi penekanan perancangan RPJMN Tahun 2020-2024,1
+Dan terakhir persiapan implementasi APBN tahun depan 2020 beberapa perlu menjadikan perhatian bersama 2020 merupakan tahun pertama periode pembangunan RPJMN 2020-2024 fokuskan pembangunan SDM pembangunan sumber daya manusia besar-besaran meninggalkan pembangunan infrastruktur mulai lima tahun lalu,1
+Karena minta reformasi pemerataan kualitas pendidikan menjadi fondasinya disusun selama lima tahun lanjutkan,1
+Dan program pelatihan kewirausahaan/enterpreneurship dimiliki masing-masing kementerian lembaga disinergikan,1
+Saya rasa sampaikan kesempatan baik,1
+Dan berkaitan tambahkan sedikit peningkatan ekspor investasi kira mulai rapatkan beberapa minggu,1
+Kita harapkan selesaikan minggu depan betul-betul apa kerjakan menghasilkan bangsa negara,1
+Peranan jaringan komputer kelancaran belajar mengajar disuatu universitas mempunyai pengaruh besar mengembangkan kualitas universitas tersebut ,1
+Semakin baik jaringan komputer dimiliki suatu universitas berakibat kelancaran kenyamanan belajar mengajar,1
+Peningkatan kualitas suatu jaringan komputer ditunjang adanya program – program jaringan sebaik – baiknya menyangkut semua aktifitas berhubungan arus masuk keluar suatu jaringan ,1
+Untuk melaksanakan peningk atan kualitas tersebut perlunya pembuatan aplikasi memantau suatu jaringan komputer suatu universitas ,1
+Metodologi pembuatan aplikasi diawali pengumpulan data node dimonitoring melalui observasi Universitas Bunda Mulia bagian departemen IT pengamatan sistem sedang berjalan dilanjutkan perancangan sistem aplikasi digunakan solusi,1
+Kebutuhan binarisasi objek citra memisahkan objek dikenali visi komputer sangat diperlukan menentukan piksel dijadikan hitam objek dijadikan putih latar belakang,1
+Sehingga dipisahkan objek citra latar belakangnya,1
+Salah satu cara paling mudah memisahan obyek latar belakannya adala membandingkan citra latar belakang obyek citra berisi latar belakang obyek,1
+Piksel citra tersebut dibandingkan satu persatu,1
+Jika berbeda diberi nilai 0 sama diberi nilai 1 format citra biner,1
+Nilai intensitas piksel citra dipengaruhi pencahayaan,1
+Perbedaan waktu hitungan milidetik sangat berpengaruh nilai intensitas,1
+Untuk membuktikan tersebut dilakukan penelitian pencokan piksel beberapa citra latar belakang diambl berurutan jarak hitungan perbedaan waktu pengambilan milidetik,1
+Karena intensitas cahaya tiap mili detik berubah-ubah didapatkan citra diambil lokasi sama jarak waktu berbeda beberapa mili detik menghasilkan citra polos putih menghasilkan citra biner mempunyai banyak bercak,1
+Dalam disimpulkan pencocokan piksel citra berisi latar belakang citra berisi latar belakang obyek dilakukan bantuan proses lainnya,1
+Mulyana menjelaskan citra biner suatu citra terdiri warna biasanya warna objek warna hitam dilambangkan 0,1
+Warna latar belakang warna putih dilambangkan 1,1
+Variasi gabungan ketiga intensitas cahaya inilah menghasilkan variasi warna-warna berbeda-beda,1
+Ilustrasi pemisahan obyek latar dilihat gambar 2,1
+Pada gambar terdapat citra Latar citra berisi obyek latar sama citra latar,1
+Hasil pemisahan menghilangkan latar obyek obyek ditampilkan warna hitam warna putih latar dihilangkan,1
+citracitra benar-benar sama kedelapan citra diambil waktu satu detik berurutan perbedaan pengambilan citra satu citra berikutnya satu detik,1
+Untuk membuktikan tersebut dibuat perangkat lunak membandingkan citra-citra diambil berurutan jarak pengambilan satu detik kamera posisi kamera sama,1
+Dari hasil percobaan dibuktikan citra latar meskipun perbedaan satu detik tetap mempunyai perbedaan nilai piksel diperlukan adanya range nilai merupakan toleransi nilai latar berbeda sedikit tetap dianggap sama memfasilitasi keperluan pengenalan adanya obyek nilai pikselnya berbeda latar,1
+Hasil akhirnya semua obyek percobaan menghasilkan citra biner putih polos,1
+Hal menunjukkan sekalipun hitungan milidetik semua intensitas cahaya menyinari obyek citra selalu berubah,1
+Hal menyebabkan piksel matching memerlukan rekayasa proses mengantisipasi perubahan intensitas cahaya tersebut,1
+Intensitas cahaya menyinari obyek citra tiap berubah mengubah nilai intensitas tiap pikselnya,1
+Pada  November  2017  media  massa   Indonesia  menyoroti  persoalan  usulan  kenaikan   anggaran   Tim   Gubernur    Percepatan    Pembangunan         RAPBD    2018,1
+TGUPP    pertama    kali  dibentuk     masa   pemerintahan   Joko  Widodo       anggaran   tersebut    masuk   kedalam    APBD,1
+Pergub  411/2016  menyebutkan TGUPP   tim  gubernur  bukan  perangkat  daerah,1
+Secara  operasional    TGUPP    berkedudukan     bawah         tanggung     jawab      gubernur    administrasi   sekretaris daerah,1
+Untuk   usulan  kenaikan  anggaran  TGUPP   direalisasikan   kedalam   RAPBD  2018         menandai     langkah     awal  Gubernur   DKI   Jakarta   Anies   Baswedan  memulai         program         kerja         pasca  pelantikannya,1
+Sebelumnya   Sekda   DKI  Saefullah  membenarkan  kenaikan  anggaran  TGUPP semula Rp 23 miliar menjadi  Rp 285 miliar,1
+Dengan kata anggaran  naik 12 kali lipat,1
+Beberapa media mengutip pernyataan  Anies     menginginkan     seluruh  anggaran   disusun  benar - benar   menopang  semua  kegiatan,1
+Dalam  APBD  Anies       keluar - masuknya    anggaran   dikendalikan   baik   trans paran,1
+Menurutnya dana luar APBD   dana  CSR   perusahaan  swasta  merupakan   dana       transparan,1
+Lebih  lanjut  kenaikan  anggaran  sebanyak  Rp  266  miliar  tersebut  disebabkan    penambahan  jumlah  anggota  TGUPP,1
+Sebelumnya  TGUPP  hany a  berjumlah  15  orang   kemudian  bertambah  menjadi  74 orang,1
+Menurut     peneliti     kedua     media  melakukan   pembingkaian   berita    cara berbeda disesuaikan  ideologi     kepentingan   tertentu    media   tersebut,1
+Pesan   berisi   informasi  men genai   kenaikan   anggaran   TGUPP    RAPBD  2018  dikonstruksikan  sedemikian  rupa         memperoleh     sikap      dukungan   diharapkan  sesuai   ideologi media,1
+Penelitian     menggunakan   teknik  triangulasi,1
+Triangulasi             teknik  pemeriksaan      keabsahan      data       memanfaatkan      luar  data     keperluan   pengecekan    sembagai  pembanding   data   digunakan,1
+Pertama-tama mengucapkan terima kasih sebesar-besarnya atas kehadiran Bapak-Ibu sekalian,1
+Kemudian kedua menyampaikan beberapa baik berkaitan kebakaran hutan berkaitan Papua kemudian berkaitan masalah Undang-Undang KPK RUU KUHP berkaitan demonstrasi-demonstrasi beberapa hari,1
+Yang pertama menegaskan komitmen kehidupan demokrasi Indonesia kebebasan pers kebebasan menyampaikan pendapat pilar demokrasi terus jaga pertahankan,1
+Jangan Bapak-Ibu sekalian meragukan komitmen mengenai,1
+Atas nama pribadi atas nama masyarakat atas nama bangsa negara menyampaikan Selamat Hari Ulang Tahun Ke-74 Tentara Nasional Indonesia,1
+Selamat atas prestasi ditorehkan TNI selamat atas kepercayaan kebanggaan rakyat Indonesia Saudara-saudara semuanya,1
+Dan semua bangsa Indonesia menyampaikan penghargaan khusus prajurit TNI gugur menjalankan tugas tegaknya kedaulatan Negara Kesatuan Republik Indonesia,1
+Rakyat Indonesia selalu bangga Saudara-saudara semuanya TNI selalu berada baris terdepan menjaga NKRI  kenal menyerah menjaga kepentingan nasional selalu mengedepankan kepentingan bangsa negara atas kepentingan pribadi kelompok golongan,1
+Kami menyampaikan apresiasi tinggi seluruh jajaran TNI selalu sigap membantu rakyat wilayah terkena bencana termasuk kebakaran hutan aktif menjaga kelancaran keamanan pemilu serentak tahun 2019 selalu membanggakan penugasan PBB berbagai penjuru dunia memastikan negara hadir daerah-daerah terpencil perbatasan pulau-pulau terdepan Indonesia selalu manunggal rakyat,1
+Saya menyampaikan selamat sangat berbangga atas keberhasilan Saudara-saudara Lomba Menembak ASEAN Armies Rifle Meet ke-28 Tahun 2018 Malaysia berhasil menjadi juara Lomba Menembak Australian Army Skill at Arms Meeting senjata buatan Pindad berhasil menjadi juara belas kali berturut-turut sekali belas kali berturut-turut,1
+Oleh atas nama bangsa Indonesia izinkan menyampaikan ucapan terima kasih penghargaan setinggi-tingginya institusi TNI seluruh prajurit purnawirawan TNI,1
+Para Purnawirawan Prajurit TNI cintai banggakan Hadirin sekalian muliakan Dalam setahun terakhir TNI menorehkan sejarah baru,1
+Pada Desember 2018 diresmikan Pangkalan Militer Terpadu Natuna disusul empat pangkalan serupa Biak Morotai Merauke Saumlaki,1
+Pada 30 Juli 2019 dibentuk Komando Operasi Khusus  mendukung penanganan terorisme,1
+Dan Latihan Gabungan Dharma Yudha sukses dilaksanakan awal September 2019 melibatkan 12,1
+500 prajurit tiga matra menjadi ajang unjuk teknologi baru,1
+Kemudian 27 September 2019 dibentuk Komando Gabungan Wilayah Pertahanan  Tanjung Pinang Balikpapan Biak,1
+Kehadiran Kogabwilhan meningkatkan kesiapsiagaan penanganan krisis meningkatkan daya gentar,1
+Semua menandai pergeseran budaya militer TNI tadinya terpilah-pilah masing-masing matra kemudian menjadi terpadu lingkup Tentara Nasional Indonesia semakin didukung profesionalisme prajurit,1
+Pemerintah terus berkomitmen meningkatkan profesionalisme TNI,1
+Pemerintah menambahkan enam puluh jabatan perwira tinggi baru mengoptimalkan peran prajurit,1
+Pemerintah sedang melakukan harmonisasi Rancangan Peraturan Presiden Organisasi TNI menambah lebih 450 posisi baru perwira berpangkat kolonel tiga ratus lebih posisi baru perwira tinggi TNI,1
+Pemerintah terus menambah jumlah alutsista memenuhi target kekuatan pokok minimum tahap kedua,1
+Peningkatan kemandirian industri pertahanan nasional terus diusahakan sebagaimana diamanatkan Undang-Undang Nomor 16 Tahun 2012,1
+Serta pendidikan pelatihan prajurit TNI mendukung profesionalisme prajurit,1
+Pemerintah terus berusaha meningkatkan kesejahteraan fasilitas kerja prajurit TNI,1
+Anggaran pertahanan tahun 2019 Rp121 triliun dinaikkan menjadi lebih Rp131 triliun tahun 2020,1
+Pemerintah terus mengupayakan kredit perumahan prajurit hingga jangka waktu tiga puluh tahun meningkatkan tunjangan kinerja TNI menjadi delapan puluh persen tahun 2020,1
+Hadirin muliakan Para Prajurit TNI cintai Cita-cita menjadi salah satu kekuatan ekonomi terbesar dunia didukung angkatan perang kuat,1
+Oleh belanja pertahanan arahkan menjadi investasi pertahanan,1
+Pemanfaatan teknologi tinggi depan ditawar-tawar,1
+Rencana strategis kekuatan pokok minimum  tahap ketiga periode 2019-2024 segera difinalkan,1
+Demikian rencana jangka panjang hingga seratus tahun Indonesia merdeka,1
+Di era penuh kemajuan teknologi alutsista digunakan TNI semakin maju SDM TNI semakin tangguh semakin adaptif berjiwa Sapta Marga,1
+Dalam kaitan Panglima Tertinggi TNI perintahkan Pertama prajurit TNI masa depan memiliki kemampuan adopsi adaptasi teknologi baru menjunjung tinggi kemandirian strategis alutsista produk negeri,1
+Yang kedua prajurit TNI terjebak ego matra TNI mampu bersinergi kementerian lembaga Polri BNPT BNPB Bakamla,1
+Ketiga prajurit TNI wajib menjaga kemanunggalan TNI bersama rakyat melalui Operasi Bhakti Program Tentara Manunggal Membangun Desa,1
+Pada kesempatan menyampaikan rasa terima kasih pejabat-pejabat perwira tinggi utama membantu periode kepemimpinan presiden 2014-2019,1
+Terima kasih Wakil Presiden Bapak Haji Jusuf Kalla,1
+Terima kasih Menko Polhukam Bapak Tedjo Edy Purdjianto Bapak Luhut Binsar Pandjaitan Bapak Wiranto,1
+Terima kasih Menteri Pertahanan Bapak Ryamizard Ryacudu,1
+Terima kasih Panglima TNI Bapak Moeldoko Bapak Gatot Nurmantyo Bapak Hadi Tjahjanto,1
+Terima kasih KSAD Bapak Mulyono Bapak Andika Perkasa,1
+Terima kasih KSAL Bapak Ade Supandi Bapak Siwi Sukma Adji,1
+Dan terima kasih KSAU Bapak Ida Bagus Putu Dunia Bapak Agus Supriatna Bapak Yuyu Sutisna,1
+Kontribusi Bapak-bapak beserta semua jajaran prajurit TNI sungguh sangat berarti perjalanan negeri menjadi bhayangkari bangsa negara menegakkan NKRI mengawal kemajuan Indonesia tercinta,1
+Terjadinya kebakaran hutan berpengaruh besar kelestarian kekayaan keanekaragaman hayati  Sumatera Kalimantan,1
+Tercatat 90 persen jumlah pohon per hektar mencapai 240 pohon mati akibat kebakaran hutan Kalimantan tahun 1998 jumlah tersebut bergantung tingkat kebakarannya,1
+Mengacu kejadian kebakaran hutan tahun 1998 2015 kebakaran hutan terjadi tahun berpotensi menyebabkan 95 persen jenis tumbuhan terbakar mengalami kekeringan,1
+Lokasi terbakar menyebabkan terbukanya kondisi lahan menyebabkan lahan langsung terpapar matahari menurunkan fungsinya  penyedia unsur hara tumbuhan atasnya regenerasi hutan,1
+Tingkat kebakaran besar berdampak hilangnya sumber sumber biji diharapkan tumbuh musim hujan menjadi sumber pengkayaan keanekaragaman hayati  wilayah tersebut,1
+Setiap lulusan SMK memilih langsung bekerja melanjutkan jenjang pendidikan perguruan tinggi,1
+Pak Baroto merupakan pemimpin perusahaan mengabdi selama hampir seperempat abad,1
+Meskipun sebagian besar gedung kampus tengah direnovasi kegiatan perkuliahan tetap berjalan,1
+Sebagian besar mahasiswa berkuliah kampus mahasiswa meraih beasiswa bidik misi,1
+Setiap mahasiswa hendak mengikuti sidang skripsi wajib melunasi biaya perkuliahan menunggak,1
+Setiap orang tua diwajibkan membawa rapot anaknya pembagian rapot,1
+Seluruh siswa SDN 07 Jonggol diwajibkan mengikuti upacara bendera hari senin pagi,1
+Masyarakat Ekonomi ASEAN  membentuk ASEAN sebaggai pasar basis produksi tunggal membuat ASEAN lebih dinamis kompetitif mekanisme langkah-langkah memperkuat pelaksanaan baru mempercepat integritas regional sektor-sektor prioritas memfasilitasi pergerakan tenaga kerja trampil bakat,1
+Untuk menghadapi MEA memberikan dampak positif negatif Indonesia khususnya industri Suluwesi Utara liberalisme pasar bebas barang jasa memacu investasi negeri menarik tenaga kerja asing Indonesia,1
+Masuknya tenaga kerja asing Indonesia diungkinkan menjadi ancaman apabila tenaga kerja Indonesia lebih khususnya Sulawesi Utara mempunyai daya saing sebanding menyebabkan banyak pengangguran terjadi,1
+Sumber daya manusia salah satu sumber keunggulan kompotitif merupakan aset penting organisasi merupakan bagian proses perencanaan strategi organisasi perusahaan sendiri berperan mengelola karyawan mematuhi segala peraturan norma ditetapkan organisasi karyawan bekerja disiplin bertanggung jawab atas pekerjaannya,1
+Pengaruh Budaya organisasi dilihat sudut pandang karyawan budaya memberi pedoman karyawan segala penting dilakukan,1
+Sejumlah peran penting dimainkan budaya perusahaan membangun rasa memiliki jati diri karyawan Dipakai mengembangkan keterkaitan pribadi organisasi Membantu stabilitas organisasi suatu sistem sosial Menyajikan prilaku hasil norma perilaku dibentuk,1
+Berbagai praktik atas memperkuat budaya organisasi memastikan karyawan bekerja sesuai organisasi memberi imbalan sesuai dukungan diberikan,1
+Disiplin kerja Sebagaimana pendapat dimaksud disimpulkan disiplin kerja suatu keadaan tertib seseorang sekelompok orang tergabung organisasi tersebut berkehendak mematuhi menjalankan peraturan peraturan perusahaan baik tertulis maupun tertulis dilandasi kesadaran keinsyafan tercapainya suatu kondisi keinginan kenyataan diharapkan karyawan memiliki sikap disiplin tinggi bekerja produktivitasnya meningkat,1
+Pengamatan dilakukan peneliti karyawan PT PLN  Kantor Wilayah Suluttenggo tingkat kehadiran maupun kemangkiran jam kerja fluktuatif sepenuhnya karyawan berdisiplin masuk kerja sauatu kewajiban adanya paksaan,1
+Sutrisno menyatakan budaya organisasi berikut  budaya organisasi merupakan sistem nilai bersama suatu organisasi menentukan tingkatan bagaimana karyawan melakukan kegiatan mencapai tujuan organisasi,1
+Selanjutnya budaya organisasi suatu nilai-nilai menjadi pedoman sumber daya manusia menghadapi permasalahan eksternal usaha penyesuaian integrasi perusahaan masing-masing anggota organisasi memahami nilai nilai bagaimana bertindak bertingkah laku,1
+Disiplin Kerja Hasibuan menyatakan kedisiplinan kesadaran kedesiaan seseorang menaati semua peraturan perusahaan norma-norma sosial berlaku semakin baik disiplin karyawan semakin tinggi prestasi kerkkja dicapainnya,1
+Jadi seseorang bersedia mematuhi semua peraturan melaksanakan tugas-tugasnya baik sekarela maupun terpaksa,1
+Dan Nawawi mengemukakan umum disiplin kerja merupakan suatu kondisi tercipta terbentuk melalui proses serangkaian perilaku menunjukan nilai-nalai ketaatan kepatuhan kesetiaan ketertiban,1
+Hasil uji hipotesis menunjukkan variabel budaya kerja penelitian berpengaruh positif signifikan kinerja karyawan PT PLN  Suluttenggo Manado,1
+Budaya kerja penelitian merupakan variabel kedua terkuat berpengaruh kinerja karyawan,1
+Budaya PLN khususnya PT PLN  Sulutenggo Manado berfokus bisnis kelistrikan berorientasi kepuasan pelanggan anggota perusahaan pemegang saham menjadikan tenaga listrik media meningkatkan kualitas kehidupan masyarakat mengupayakan tenaga listrik menjadi pendorong kegiatan ekonomi,1
+Hal menjadikan karyawan perusahaan memiliki budaya selalu bekerja orientasi kepuasan pelanggan khususnya masyarakat Sulut Manado bekerja meningkatkan kegiatan perekonomian masyarakat Sulut Manado,1
+Hasil penelitian mendukung penelitian sebelumnya penelitian Gery Lexy  penelitian tersebut budaya organisasi berpengaruh kinerja pegawai Diknas Prov,1
+Sulut penelitian Richard Sangki  budaya kerja berpengaruh kinerja karyawan Grapari Telkomsel Manado,1
+Dalam penelitian ditemukan budaya organisasi berpengaruh kinerja karyawan sama kedua penelitian sebelumnya tersebut,1
+Budaya organisasi Sutrisno  merupakan sistem nilai bersama suatu organisasi menentukan tingkatan bagaimana karyawan melakukan kegiatan mencapai tujuan organisasi,1
+Berdasarkan hasil penelitian budaya organisasi pengaruh kinerja organisasi karyawan PT PLN Sulutenggo Manado berupa motivasi pimpinan tuntutan karyawan menyelesaikan pekerjaan pengaruh keanekaragaman dalan berbicara kerja sama tim kelompok kerja komunikasi langsung pimpinan merupakan budaya kerja budaya organisasi perusahaan berpengaruh kinerja kerja karyawan khususnya bekerja ataupun menyelesaikan pekerjaan,1
+Tindakan Administratif Keimigrasian penyalahgunaan izin tinggal terbatas tenaga kerja asing wilayah Bali,1
+Dalam prakteknya banyak ditemukan tenaga kerja asing pemegang Izin Tinggal Terbatas menyalahgunakan izin tinggal bekerja perusahaan berbeda menduduki lebih satu jabatan satu perusahaan ataupun bekerja sesuai jabatan tertera data Izin Tinggal Terbatas,1
+Dalam penulisan motode digunakan metode penelitian hukum empiris suatu metode penelitian hukum berfungsi melihat hukum artian nyata meneliti bagaimana bekerjanya hukum suatu lingkungan masyarakat,1
+Kesimpulan penulisan faktor mempengaruhi pemberian Tindakan Administratif Keimigrasian berdasarkan kebijakan dan/atau wewenang Pejabat Imigrasi melakukan Tindakan Administratif Keimigrasian penyalahgunaan Izin Tinggal Terbatas tenaga kerja asing Wilayah Bali upaya represif berupa Tindakan Administratif Keimigrasian kurang efektif menekan angka penyalahgunaan izin tinggal terbatas tenaga kerja asing wilayah Bali,1
+Khususnya wilayah Bali bukan merupakan daerah tujuan wisata dikenal wisatawan mancanegara penanam modal asing tenaga kerja asing sangat banyak tersebar perusahaan-perusahaan Bali,1
+Dan sebagian besar tenaga kerja asing wilayah Bali merupakan pemegang Izin Tinggal Terbatas,1
+Dalam prakteknya banyak ditemukan tenaga kerja asing pemegang Izin Tinggal Terbatas menyalahgunakan izin tinggal diperuntukkan bekerja perusahaan berbeda bekerja merangkap jabatan ataupun bekerja sesuai jabatan tertera data Izin Tinggal Terbatas,1
+Dan atas temuan penyalahgunaan Izin Tingal dimaksud Pejabat Imigrasi dilakukan Tindakan Administratif Keimigrasian baik berupa pembatalan Izin Tinggal Terbatas pendeportasian wilayah Indonesia penagkalan,1
+Untuk memahami faktor Tindakan Hukum Keimigrasian penyalahgunaan Izin Tinggal Terbatas tenaga kerja asing mengetahui efektifitas Tindakan Administratif Keimigrasian upaya represif rangka menekan angka penyalahgunaan Izin Tinggal Terbatas tenaga kerja asing wilayah Bali,1
+Dalam penulisan metode digunakan metode penelitian hukum empiris suatu metode penelitian hukum berfungsi melihat hukum artian nyata meneliti bagaimana bekerjanya hukum suatu lingkungan masyarakat,1
+Dikarenakan penelitian hukum empiris ialah meneliti orang hubungan hidup masyarakat metode penelitian hukum empiris dikatakan penelitian hukum sosiologis,1
+Sebab penelitian hukum diambil ialah fakta-fakta suatu masyarakat badan hukum badan pemerintah,1
+Kewenangan keputusan Tindakan Administratif Keimigrasian merupakan kewenangan Pejabat Imigrasi diberikan orang asing berada wilayah Indonesia melakukan kegiatan berbahaya patut diduga membahayakan keamanan ketertiban umum menghormati menaati peraturan perundang-undangan memperhatikan pertimbangan politis pertimbangan ekonomis pertimbangan sosial budaya pertimbangan keamanan,1
+Pengertian tersebut mengandung arti segala bentuk Tindakan Administratif dibidang Keimigrasian diluar tindakan hukum pidana penyidikan masuk kategori Tindakan Keimigrasian,1
+Selain ketentuan hukum positif tersebut diatas hukum internasional tindakan Keimigrasian berupa deportasi bukan tindakan hukum pidana berlaku universal negara-negara dunia,1
+Menurut pendapat petugas Imigrasi Divisi Keimigrasian Kantor Wilayah Kementerian Hukum HAM Bali bernama Putu Gede Surya Eka Prayuda,1
+Dijelaskan upaya represif penyalahgunaan Izin Tinggal Terbatas tenaga kerja asing Wilayah Bali sebagian besar dilakukan Tindakan Administratif Keimigrasian tindakan pidana Keimigrasian ,1
+Dan berdasarkan analisa dilakukan Divisi Keimigrasian Kantor Wilayah Kementerian Hukum HAM Bali diketahui upaya represif berupa Tindakan Administratif Keimigrasian kurang efektif menekan angka penyalahgunaan izin tinggal terbatas tenaga kerja asing wilayah Bali mengingat angka Tindakan Administratif Keimigrasian penyalahgunaan Izin Tinggal Terbatas tenaga kerja asing cenderung mengalami peningkatan disetiap tahunnya,1
+Kewenangan Pemerintah Daerah Kabupaten Gianyar Dalam Pengembangan Daya Tarik Wisata Alam Air Terjun Tegenungan mengembangkan Daya tarik wisata alam air terjun Tegenungan pelaksanaannya melibatkan segenap perangkat Pemerintah badan-badan usaha masyarakat,1
+Sehingga menarik sekali diteliti lebih lanjut mengenai dasar kewenangan digunakan Pemerintah daerah Kabupaten Gianyar pengembangan Daya tarik wisata alam faktor mempengaruhi menghambat pengembangan Daya tarik wisata alam air terjun Tegenungan,1
+Tulisan menggunakan penelitian hukum empiris penelitian mengetahui sejauh mana hukum bekerja masyarakat,1
+Hasil penelitian menunjukkan Pemerintah Daerah Kabupaten Gianyar pengembangan Daya tarik wisata air terjun Tegenungan memperoleh kewenangan berdasarkan Peraturan Perundang-Undangan,1
+Faktor mempengaruhi menghambat pengembangan DTW adanya faktor pendukung mempunyai Peraturan jelas dijadikan dasar kewenangan pengembangan Daya tarik wisata alam air terjun Tegenungan Faktor alamnya indah asri,1
+Faktor penghambatnya Fasilitas Sarana prasarana memadai kurangnya sumber daya manusia sesuai kompetensi pekerjaan,1
+Pariwisata berbagai macam kegiatan wisata didukung berbagai fasilitas layanan disediakan masyarakat pengusaha pemerintah Pemerintah Daerah,1
+Perkembangan pariwisata mengalami berbagai perubahan baik perubahan pola bentuk sifat kegiatan dorongan orang melakukan perjalanan cara berpikir maupun perkembangan sifat sendiri,1
+1 Penyelenggaraan kepariwisataan melibatkan berbagai komponen pemerintah badan-badan usaha masyarakat suatu kegiatan hakekatnya langsung menyentuh kehidupan masyarakat dampak kehidupan ekonomi sosial budaya maupun dampak lingkungan akibat pembangunan sarana prasarana kepariwisataan,1
+Salah satu daya tarik wisata Kabupaten Gianyar Daya Tarik wisata alam air terjun Tegenungan terletak Banjar Tegenungan Desa Kemenuh Kabupaten Gianyar memiliki tempat strategis perbatasan perkebunan aloevera persawahan Wisata alam air terjun Tegenungan berkembang sangat pesat banyak kendala hadapi pengembangan Daya tarik wisata,1
+Oleh diperlukan adanya upaya pemerintah daerah Kabupaten Gianyar khususnya Dinas Pariwisata melakukan suatu strategi pengembangan pariwisata keberlangsungan daya tarik wisata Kabupaten Gianyar memiliki potensi alam baik dikelola benar optimal,1
+Tujuan penulisan mengetahui kewenangan Pemerintah Daerah Kabupaten Gianyar pengembangan Daya tarik wisata alam air terjun Tegenungan mengetahui faktor mempengaruhi pengembangan Daya tarik wisata,1
+Jenis penelitian digunakan skripsi penelitian hukum empiris,1
+Penelitian empiris Bahder Johan Nasution mengetahui sejauh mana hukum bekerja masyarakat,1
+2 Pendekatan digunakan penelitian pendekatan fakta  pendekatan perundang-undangan ,1
+Pendekatan fakta  dilakukan melihat keadaan nyata wilayah penelitian,1
+Sedangkan pendekatan perundang-undangan  dilakukan mengkaji suatu perundang-undangan,1
+Pajak iuran negara  terutang wajib membayarnya peraturan perundang-undangan mendapat prestasi-kembali langsung ditunjuk gunanya membiayai pengeluaran-pengeluaran umum berhubungan tugas negara menyelenggarakan pemerintahan,1
+Fungsi pajak dibagi menjadi budgeter diamana fungsi terletak sektor publik merupakan suatu alat sumber memasukan uang sebanyak banyaknya kas negara kemudian dipergunakan membiayai pengeluaran-pengeluaran negara  umumnya dipergunakan membiayai pengeluaran rutin,1
+Sedangkan fungsi  regulerend  pajak digunakan sebagi suatu alat mencapai tujuan- tujuan tertentu berada luar bidang ekonomi banyak ditujukan sektor swasta,1
+Oleh menjelaskan bagaimana upaya meningkatkan Pendapatan Asli Daerah  Pajak Kendaraan Bermotor ,1
+Penelitian digunakan  penelitian hukum yuridis empiris,1
+pemerintah provinsi Bali melakukan upaya- upaya meningkatkan pendapatan asli daerah  pajak kendaraan bermotor   melakukan penambahkan jumlah samsat corner gerai samsat keliling tujuan mendekatkan diri wajib pajak memperbaiki database kendaraan bermotor dimiliki wajib pajak tujuan mendapatkan jumlah kendaraan bermotor lebih akurat,1
+Dengan mendapatkan suatu kesimpulan upaya meningkatkan Pendapatan Asli Daerah  Pajak Kendaraan Bermotor  berasal Undang-undang Nomor 28 Tahun 2009 Pajak Daerah Retribusi Daerah terdapat Pasal 2 ayat  adapun upaya dilakukan Dinas Pendaptan Provinsi Bali dilakukan tahun 2013 cara menerapkan sistem pajak online tahun 2014 cara penggunaan sistem pajak progresif melalui samsat keliling,1
+Pajak merupakan iuran rakyat kas  berdasarkan Undang-undang  tiada mendapatkan jasa imbalan langsung ditunjuk digunakan membiayai pengeluaran umum digunakan alat pencegah pendorong mencapai tujuan luar bidang keuangan,1
+Fungsi pajak dibagi menjadi budgeter diamana fungsi terletak sektor publik merupakan suatu alat sumber memasukan uang sebanyak banyaknya kas negara kemudian dipergunakan membiayai pengeluaran-pengeluaran negara  umumnya dipergunakan membiayai pengeluaran rutin,1
+Sedangkan fungsi regulerend  pajak digunakan sebagi suatu alat mencapai tujuan-tujuan tertentu berada luar bidang ekonomi banyak ditujukan sektor swasta,1
+Penerimaan pajak daerah khususnya bersumber Pajak Kendaraan Bermotor  seyogyanya mengalami peningkatan,1
+Hal didasarkan perkembangan jumlah penduduk pertumbuhan perkembangan tingkat perekonomian meningkatkan daya beli masyarakat,1
+Jika diamati jumlah kendaraan bermotor semakin lama semakin banyak berarti meningkatnya Pendapatan Asli Daerah  Provinsi Bali berkontribusi memajukan laju pertumbuhan pembangunan Daerah Bali,1
+Dinas Pendapatan Provinsi Bali melalui UPT SAMSAT tersebar tiap-tiap kabupaten/kota seluruh bali pelaksana pemungutan pajak kendaraan bermotor  merupakan salah satu jenis pajak daerah selalu berupaya menggali potensi- potensi pendapatan memenuhi target ditetapkan,1
+Tujuan umum penulisan pengembangan ilmu pengetahuan hukum pengembangan ilmu pemerintahan terkait Pemerintah Daerah pelaksanaan pemungutan pajak kendaraan bermotor bea balik nama kendaraan bermotor,1
+Tujuan khusus penulisan mendeskripsikan upaya - upaya dilakukan meningkatkan Pendapatan Asli Daerah  Pajak Kendaraan Bermotor ,1
+Adapun jenis penelitian digunakan mengkaji permasalahn tersebut penelitian hukum yuridis empiris melakukan penelitian Dinas Pendapatan Provinsi Bali,1
+Penelitian mengkaji aspek hukum hasil penelitian lapangan data-data dikumpulkan melalui wawancara   ,1
+Sumber bahan hukum digunakan berupa bahan hukum primer bahan hukum sekunder,1
+Teknik pengumpulan bahan hukum digunakan penelitian kepustakaan wawancara,1
+Jenis pendekatan digunakan penelitian bersifat deskriptif,1
+Dimana aturan mengijinkan pemerintah Provinsi baik pemerintah Provinsi Bali melakukan pemungutan tercantum Undang-undang Nomer 28 Tahun 2009 Pajak Daerah Retribusi Daerah,1
+Untuk memaksimalkan penerimaan pajak provinsi pemerintah provinsi Bali melakukan upaya-upaya meningkatkan pendapatan asli daerah  pajak kendaraan bermotor  melakukan penambahkan jumlah samsat corner gerai samsat keliling tujuan mendekatkan diri wajib pajak memperbaiki database kendaraan bermotor dimiliki wajib pajak tujuan mendapatkan jumlah kendaraan bermotor lebih akurat memberlakukan tarif pajak progresif tujuan meningkatkan pendapatan asli daerah  sekaligus membatasi laju pertumbuhan kendaraan memberlakukan pemberbasan denda balik nama kendaraan bermotor bertujuan meningkatkan minat masyarakat membayar kendaraan bermotor,1
+Dari hasil wawancara Dinas Pendapatan Provinsi Bali bapak Dewa Made Dwi Juliana selaku kepala seksi bagian pajak kendaraan bermotor menjelaskan kontribusi pajak kendaraan bermotor  meningkatkan pendapatan asli daerah  sangatlah berpengaruh terbukti pajak kendaraan bermotor  menyumbangkan hampir 90% pendapatan asli daerah  Provinsi Bali,1
+Penerapan sistem baru sistem pajak progresif pajak progresif tarif pemungutan pajak persentase naik semakin besarnya jumlah digunakan dasar pengenaan pajak kenaikan persentase jumlah tertentu kali naik,1
+Dinas Pendapatan Provinsi Bali meningkatkan pendapatan asli daerah  melakukan upaya-upaya tahunnya baik melalui pemutihan tahunnyamenyediakan samsat corner sistem pajak online sistem pajak progresif samsat keliling ,1
+Menurut hasil wawancara Dinas Pendapatan Provinsi Bali bapak Dewa Made Dwi Juliana selaku kepala seksi bagian pajak kendaraan bermotor  menjelaskan faktor menghambat meningkatkan pendapatan asli daerah  pajak kendaraan bermotor  kepemilikan kendaraan bermotor rancu pembelian kendaraan bekas dibalik nama pemilik baru kurang adanya sosialisasi pemerintah Provinsi Bali regulasi sistem pemungutan pajak kendaraan bermotor,1
+Upaya meningkatkan Pendapatan Asli Daerah  Pajak Kendaraan Bermotor  dilakukan Dinas Pendaptan Provinsi Bali dilakukan tahun 2013 cara menerapkan sistem pajak online tahun 2014 cara penggunaan sistem pajak progresif melalui samsat keliling ,1
+Dan faktor menghambat meningkatkan pendapatan asli daerah  pajak kendaraan bermotor  kepemilikan kendaraan bermotor rancu pembelian kendaraan bekas dibalik nama pemilik baru kurang adanya sosialisasi pemerintah Provinsi Bali regulasi sistem pemungutan pajak kendaraan bermotor,1
+Bahasa memang merupakan sarana komunikasi paling efektif siapapun berkomunikasi,1
+bahasa sulit berkomunikasi,1
+Bahkan berkomunikasi berbeda bahasa sulit,1
+Pengertian bahasa sendiri sistem lambang bunyi arbitrer digunakan anggota suatu masyarakat bekerja sama berinteraksi mengidentifikasikan diri,1
+Yang bahas artikel kali variasi bahasa terlebih pahami pengertian variasi bahasa ragam bahasa merupakan bahasan pokok studi sosiolinguistik,1
+Variasi ragam bahasa terjadi akibat adanya keragaman sosial keragaman fungsi bahasa,1
+Dalam variasi bahasa perlu dipahami memiliki banyak sekali bahasa daerah dialek,1
+Ada berbagai pendapat kriteria dikemukakan Hartman & Stork Peston & Shuy MC David disimpulkan variasi bahasa terbagi menjadi 4  kelompok  Variasi segi penutur,1
+Variasi segi pemakaian,1
+Variasi segi keformalan  Variasi segi Sarana,1
+Variasi bahasa segi penutur terbagi menjadi empat pertama idiolek variasi bahasa bersifat perorangan,1
+kedua dialek variasi bahasa segi sekelompok penutur jumlahnya relatif berada satu tempat wilayah area tertentu,1
+Ketiga kronolek dialek temporal variasi bahasa digunakan kelompok sosial masa tertentu,1
+keempat sosiolek dialek sosial variasi bahasa berkenaan status golongan kelas sosial penuturnya,1
+Variasi segi pemakaian fungsinya biasa disebut fungsiolek ragam register,1
+Variasi segi pemakaian dibicarakan berdasarkan bidang penggunaan gaya bahasa tingkat keformalan sarana penggunaan,1
+Variasi segi keformalan memiliki sebuah tingkatan ragam baku ragam resmi ragam usaha ragam santai ragam akrab,1
+Variasi segi sarana disebut adanya ragam lisan ragam tulis ragam berbahasa menggunakan sarana alat tertentu bertelefon bertelegraf,1
+Berbicara penggunaan bahasa variasi bahasa sering temukan adanya kesalahpahaman terjadi antar penutur disebabkan penggunaan bahasa sekaligus komunikasi menggunakan satu bahasa sama sama dimengerti menggunakan bahasa kemudian memunculkan makna ganda sejalan ,1
+Metode digunakan ialah pengumulan beberapa materi mana tahapannya berikut  Tahap persiapan awal dimulai pencarian data berbagai sumber  kemudian menyaring materi didapatkan,1
+Kemudian data – data disaring selanjutnya dikumpulkan menjadi satu,1
+Setelah dilakukan pengumpulan data selanjutnya dilakukan pengolahan data diolah menjadi sebuah artikel,1
+Bahasa merupakan alat komunikasi berupa bentuk sistem simbol suara hasilkan manusia alat berinteraksi lingkungan,1
+Tanpa bahasa mungkin berinteraksi satu sama bahasa merupakan sumber terciptanya interaksi manusia orang merupakan simbol suatu bangsa suku merupakan salah satu cirri khas bangsa suku orang – orang mengenali bangsa suku lewat bahasa,1
+Bahasa dunia sangat banyak sepenuhnya pengucapannya sama,1
+Jadi bahasa dikatakan jembatan orang – orang berkomunikasi orang,1
+Seseorang baru disebut pandai berbahasa menguasai tatacara etika berbahasa,1
+Bentuk paling dijelas diartikulasikan sebagaimana dicontohkan Hymes satu taksonomi mengandung kurang tiga belas unsur diakronimkan menjadi “speaking”,1
+Bahasa bukan sarana mengomunikasikan suatu objek membangun mempertahankan hubungan orang ,1
+Adanya variasi regional dilihat kehidupan sehari – hari  keragaman bahasa terjadi luar lingkungan,1
+Variasi ragam bahasa pandangan,1
+Pertama variasi ragam bahasa dilihat akibat adanya keragaman sosial penutur bahasa keragaman fungsi bahasa,1
+Jadi variasi ragam bahasa terjadi akibat adanya keragaman sosial keragaman fungsi bahasa,1
+Kedua variasi ragam bahasa memenuhi fungsinya alat interaksi kegiatn masyarakat beraneka ragam,1
+ketahui masyarakat seragam halnya hidup seragam,1
+Keanekaragaman pemakaian Bahasa merupakan manifestasi adanya variasi variasi Bahasa,1
+Dalam mempelajari variasi bahasa pastinya menemukan namanya dialektologi merupakan cabang ilmu linguitik mempelajari dialek Variasi bahasa komunitas tertentu,1
+Dalam variasi bahasa penting dipelajari Indonesia memiliki banyak sekali bahasa daerah,1
+Hal menandakan banyak variasi bahasa terdapat Indonesia,1
+Variasi bahasa tersebut timbul disebabkan jarak wilayah jauh pusat bahasa aslinya dikatakan bahasa digunakan sama kosa kata ataupun intonasi berbeda,1
+Selain variasi bahasa terjadi terdapat wilayah terisolasi factor alam,1
+Hal menyebabkan bahasa satu daerah daerah lainnya berbeda walaupun jarak wilayah terlalu jauh,1
+Berdasarkan penuturnya Variasi bahasa dibedakan menjadi 4 pertama  variasi disebut idiolek variasi bahasa bersifat perorangan,1
+Menurut konsep idiolek orang mempunyai variasi bahasanya idioleknya masing-masing,1
+Variasi idiolek berkenaan warna suara pilihan kata gaya bahasa susunan kalimat,1
+kedua dialek variasi bahasa segi sekelompok penutur jumlahnya relatif berada satu tempat wilayah area tertentu,1
+Karena dialek berdasarkan wilayah area tempat tinggal penutur dialeg lazim disebut dialek areal dialek regional dialek geografis,1
+Penggunaan istilah dialeg bahasa masyarakat umum memang seringkali bersifat ambigu,1
+Secara linguistik masyarakat tutur saling mengerti alat komunikasinya dialek bahasa sama,1
+Namun politis meskipun masyarakat tutur saling mengerti alat komunikasi verbalnya mempunyai kesamaan sistem subsistem keduanya dianggap bahasa berbeda misalnya bahasa Indonesia bahasa Malaysia,1
+meskipun kesamaan tetap merupakan bahasa berbeda,1
+ketiga kronolek dialek temporal variasi bahasa digunakan kelompok sosial masa tertentu,1
+Misalnya bahasa Indonesia masa tahun tiga puluhan lima puluhan variasi bahasa masa kini,1
+Variasi bahasa ketiga zaman tentunya berbeda baik segi lafal ejaan morfologi maupun sintaksis,1
+keempat sosiolek dialek sosial variasi bahasa berkenaan status golongan kelas sosial penuturnya,1
+Variasi bahasa disebut akrolek basilek vulgar slang kolokial jargon ken,1
+Ada menambahkan sebutan bahasa prokem,1
+Variasi bahasa berdasarkan pemakaiannya fungsinya biasa disebut fungsiolek ragam register,1
+Variasi biasanya dibicarakan berdasarkan bidang penggunaan gaya bahasa tingkat keformalan sarana penggunaan,1
+Variasi bahasa berdasarkan bidang kegiatan paling tampak cirinya bidang kosakata,1
+Variasi bahasa berdasarkan bidang pemakaian menyangkut bahasa digunakan keperluan bidang apa,1
+Misalnya bidang sastra jurnalis pendidikankegiatan keilmuan,1
+Martin Joos  bukunya The Five Clock membagi variasi bahasa atas lima gaya berdasarkan tingkatannya pertama gaya ragam baku  variasi bahasa paling formal digunakan situasi-situasi khidmat upacara-upacara resmi misalnya upacara kenegaraan khutbah masjid tata cara pengambilan sumpah kitab undang-undang akta notaris surat keputusan,1
+kedua gaya ragam resmi  variasi bahasa digunakan pidato kenegaraan rapat surat dinas surat-menyurat dinas buku-buku pelajaran,1
+Pola kaidah ragam resmi ditetapkan mantap suatu standar,1
+Ragam resmi dasarnya sama ragam bahasa baku standar digunakan situasi resmi situasi resmi,1
+ketiga gaya ragam usaha  variasi bahasa lazim digunakan pembicaraan biasa sekolah rapat-rapat pembicaraan berorientasi hasil produksi,1
+keempat gaya ragam santai  variasi bahasa digunakan situasi resmi berbincang-bincang keluarga teman karib waktu beristirahat olah raga berekreasi,1
+kelima gaya ragam akrab  variasi bahasa biasa digunakan penutur hubungannya akrab anggota keluarga antarteman karib,1
+Variasi bahasa padap dilihat segi sarana jalur digunakan,1
+Dalam disebut adanya ragam lisan ragam tulis ragam berbahasa menggunakan sarana alat tertentu bertelefon bertelegraf,1
+Dalam buku berjudulkan bahasa indonesia buku pegangan matakuliah dasar umum dituliskan Fachruddin dkk,1
+menjelaskan variasi bahasa dilihat segi  segi sinkronis  segi diakronis bedakan tahap-tahap perkembangan berbeda – beda waktu waktu,1
+contohnya ialah Bahasa Melayu Sriwijaya Bahasa Melayu klasik masing masing merupakan variasi historis Bahasa Melayu Bahasa Indonesia,1
+segi sinkronis varisi-variasi Bahasa dilihat dimensi daerahdimensi sosial dimensi psikis fisik penutur dimensi kebutuhan dimensi menyangkut pembicara tempat berbicara bidang pembinaan suasana situasi pembicaraan sebagainya,1
+Variasi – variasi Bahasa timbul perbedaan asal penuturnya disebut dialek Geografis  variasi Bahasa disebabkan  perbedaan kelas sosial penuturnya disebut dialek sosial sosiolek  misalnya Bahasa Indonesia dialek Ambon Bahasa Indonesia dialek Minahasa,1
+Bahasa Indonesia dialek Jakarta sebagainya,1
+Pemakaian Bahasa menimbulkan variasi kelas sosial masyarakat disebut dialek sosial misalnya Bahasa digunakan kalangan anak-anak berbeda bahas digunakan kalangan orang dewasa Bahasa digunakan kalangan orang berpendidikan  baik antar maupun antarakelas golongan,1
+Setiap penutur mempunyai sifat-sifat kas baik disebabkan factor fisik maupun psikis dimiliki orang,1
+sifat-sifat khas disebabkan factor fisik misalnya perbedaan bentuk kualitas alat-alat tuturnya ,1
+Sedangkan sifat – sifat khas disebabkan faktor psikis misalnya perbedaan waktu tempat intelegensi sikap mental,1
+Variasi - variasi Bahasa ditimbulkan sifat khas baik disebabkan factor fisik maupun psikis dikenal istilah idiolek,1
+Di media massa misalnya surat kabar jumpai berbagai jenis tulisan berita kelaparan alasan suatu masalah dianggap kurang baik tajuk rencana merupakan tanggapan ulasan redaksi situasi iklan tempat usahawan menawarkan usahanya  sebagainya masing – masing menggunakan pengungkapan Bahasa berbeda – beda sesuai sifat - sifat khas kebutuhan pemakaiannya,1
+Bahasa berita biasa berbeda Bahasa ulasan Bahasa ulasan berbeda Bahasa iklan  Bahasa iklan berbeda Bahasa tajuk  Bahasa tajuk berbeda Bahasa kritik  koreksi,1
+variasi – variasi disebabkan sifat – sifat khas kebutuhan  pemakaiannya diatas dikenal istilah register,1
+Penjenisan bahasa dilakukan sosiolinguistik sosiolinguistik sama penjenisan  bahasa genealogis  maupun tipologis,1
+Penjenisan klasifikasi genealogis tipologis berkenaan ciri-ciri internal bahasa-bahasa penjenisan sosiolinguistik berkenaan faktor-faktor eksternal bahasa bahasa-bahasa sosiolinguistik politis kultural,1
+Penjenisan berdasarkan sosiologis artinya penjenisan terbatas struktur internal bahasa berdasarkan faktor sejarah kaitannya sistem linguistik pewarisan satu generasi generasi berikutnya,1
+penjenisan namanya dasar penjenisan pertama standarisasi pembukaan adanya kodifikasi penerimaan sebuah bahasa masyarakat pemakai bahasa seperangkat kaidah norma menentukan pemakaian bahasa benar,1
+Bahasa baku standar ialah corak bahasa diterima patokan dijadikan acuan model suatu masyarakat bahasa lebih luas,1
+Bahasa berstandar hendak berfungsi baik memperoleh kemantapan,1
+Jadi standarisasi mempersoalkan sebuah bahasa memiliki kaidah-kaidah norma-norma dikodifikasikan diterima masyarakat tutur merupakan dasar pelajaran bahasa baik bahasa pertama maupun bahasa kedua,1
+Standarisasi nampak merupakan satu ciri bahasa diharuskan “Bukan satu ciri internal bahasa itu” ,1
+kedua otonomi keotonomian,1
+Sebuah sistem linguistik disebut mempunyai keotonomian kalua sistem linguistik memiliki kemandirian sistem berkaitan bahasa ,1
+ketiga faktor historis kesejarahan,1
+Sebuah sistem linguistik dianggap mempunyai historis kalua diketahui dipercayai hasil perkembangan normal masa lalu ,1
+Faktor kesejarahan berkaitan tradisi etnik tertentu,1
+Jadi faktor historis mempersoalkan sistem linguistic tumbuh melalui pemakaian kelompok etnik sosial tertentu,1
+keempat  factor vitalitas keterpakaian,1
+Menurut  dimaksud vitalitas pemakaian sistem linguistik satu masyarakat penutur asli terisolasi,1
+Bahasa apabila dilihat sikap politik sosial politik membedakan adanya bahasa nasional bahasa resmi bahasa negara bahasa persatuan,1
+Perbedaan dikatakan berdasarkan sikap sosial politik sangat erat kaitannya kepentingan kebangsaan,1
+Sebuah sistem linguistic disebut bahasa nasional seringkali disebut bahasa kebangsaan kalau sistem linguistic diangkat suatu bangsa  salah satu identitas kenasionalan bangsa,1
+Bahasa Indonesia berasal bahasa melayu sebuah sistem linguistik resmi undang-undang dasar sebuah negara ditetapkan alat komunikasi remi kenegaraan,1
+Artinya segala urusan kenegaraan dijalankan menggunakan bahasa,1
+Yang dimaksud bahasa resmi sebuah sistem linguistik ditetapkan digunakan suatu pertemuan seminar konferensi rapat,1
+Pengangkatan suatu sistem linguistik bahasa persatuan dilakukan suatu bangsa kerangka perjuangan berjuang merupakan masyarakat multilingual,1
+Kebutuhan adanya sebuah bahasa persatuan mengingat mempererat rasa persatuan satu kesatuan bangsa,1
+Dari uraian atas dilihat bahasa nasional bahasa negara bahasa resmi bahasa persatuan Indonesia mengacu satu sistem linguistik sama bahasa Indonesia,1
+Bahasa apabila dilihat tahap pemerolehannya dibedakan adanya bahasa ibu bahasa pertama bahasa kedua  bahasa asing,1
+Yang dimaksud bahasa ibu satu sistem linguistic pertama kali dipelajari alamiah ibu keluarga memelihara seorang anak,1
+Bahasa ibu lazim disebut bahasa pertama  bahasa pertama-tama dipelajarinya,1
+Kalau kemudian si anak mempelajari bahasa bukan bahasa ibunya bahasa dipelajari disebut bahasa kedua ,1
+Andai kata si anak mempelajari bahasa bahasa dipelajari terakhir disebut bahasa ketiga  begitupun,1
+Yang disebut bahasa asing selalu merupakan bahasa kedua si anak,1
+Disamping penamaan bahasa asing bersifat politis bahasa digunakan bangsa,1
+Oleh bahasa Malaysia Arab Inggris,1
+bahasa asing bangsa Indonesia,1
+Sebuah bahasa asing menjadi bahasa kedua dipelajari menguasai bahasa ibu,1
+Dalam jenis bahasa dikatakan Lingua Franca memiliki pengertian sistem linguistic digunakan alat komunikasi partisipan mempunyai bahasa ibu berbeda,1
+Dasar pemilihan lingua franca keterpahaman saling pengertian partisipan menggunakannya,1
+Bahasa apapun baik lingua pijin maupun kreol menjadi sebuah lingua franca,1
+Variasi bahasa merupakan Variasi ragam bahasa terjadi akibat adanya keragaman sosial keragaman fungsi bahasa,1
+Dalam variasi bahasa perlu dipahami memiliki banyak sekali bahasa daerah dialek disimpulkan variasi bahasa terbagi menjadi 4  kelompok  Variasi segi penutur,1
+Variasi segi pemakaian,1
+Variasi segi keformalan  Variasi segi Sarana,1
+Penjenisan sosiolinguistik berkenaan faktor – faktor eksternal bahasa bahasa – bahasa sosiolinguistik politis kultural,1
+Penjenisan bahasa berdasarkan sosiolinguistik berdasarkan sikap pilitik berdasarkan tahap pemerolehan lingua franca ,1
+Penelitian bertujuan mendeskripsikan wujud jenis interferensi bahasa Indonesia bahasa Inggris abstrak artikel jurnal ilmiah,1
+Ada 13 jurnal ilmiah menjadi bahan kajian,1
+Metode digunakan penelitian deskriptif kajian distribusional padan,1
+Data diambil abstrak jurnal ilmiah diterbitkan beberapa Universitas kurun waktu 2003—2008,1
+Hasil penelitian menunjukkan terdapat tiga bentuk interferensi morfologis sintaksis semantik,1
+Interferensi morfologis meliputi pengurangan fungsi morfem infleksi pembentukan verba orang ketiga tunggal penjamakan hubungan milik,1
+Interferensi sintaksis meliputi keterbalikan pola susun frasa bahasa Inggris paralelisasi ketidakhadiran artikel ketidakhadiran to be ketidakapikan struktur kalimat pasif,1
+Intereferensi semantik terdapat semantik penambahan penggantian,1
+Bahasa Inggris merupakan salah satu bahasa eksistensinya semakin hari semakin dirasakan penting masyarakat dunia,1
+Hal dipahami bahasa Inggris tampil menjadi bahasa dunia penyebaran wilayah pemakaiannya sangat luas,1
+Oleh PBB menjadikan bahasa salah satu bahasa resmi,1
+Untuk mengembangkan ilmu pengetahuan teknologi penguasaan bahasa Inggris sangat penting berdasarkan penelitian dilakukan Unesco lebih kurang 71% penulisan ilmiah dilakukan bahasa Perancis Jerman Inggris bahasa Inggris menduduki 62% output,1
+Indonesia merupakan negara memiliki kepentingan bahasa Inggris,1
+Sebagai negara berkembang pergaulan internasional masyarakat Indonesia merasakan pentingnya penguasaan bahasa Inggris,1
+Apalagi era kesejagatan penyebaran informasi dilakukan melalui media bahasa Inggris,1
+Dengan bahasa Inggris menjadi bahasa asing pertama perlu dikuasai masyarakatnya,1
+Di Indonesia lama bahasa Inggris diberikan sekolah menengah pertama  sekolah menengah atas  perguruan tinggi ,1
+Bahkan dewasa beberapa tempat bahasa Inggris diberikan tingkat sekolah dasar,1
+Hal menunjukkan bahasa Inggris sangatlah penting perlu dikuasai peserta didik kepentingan ilmu pengetahuan,1
+Tidak dimungkiri ilmu pengetahuan umumnya berasal Barat,1
+Bahasa Inggris bahasa-bahasa alami lainnya memiliki aturan gramatika,1
+Karakteristik bahasa Inggris menyangkut sifat bahasa inflektif,1
+Hal berbeda bahasa Indonesia aglutinatif,1
+Berkaitan verba misalnya bahasa Inggris memiliki sistem konjugasi menyangkut temporal,1
+Dengan penggunaan verba bahasa Inggris sangat dipengaruhi kala,1
+Bahasa Indonesia mengenal kala,1
+Oleh praktiknya penggunaan bahasa Inggris sering ditemukan kesalahan menyangkut masalah contoh berikut memperlihatkan ketidaksesuaian bentuk verba show waktu lampau perfek,1
+Kekeliruan ditemukan sedang belajar bahasa Inggris tingkat pemula ditemukan tingkat perguruan tinggi,1
+Dalam kepustakaan sosiolinguistik gejala kebahasaan atas berkaitan interferensi,1
+Menurut Weinreich interferensi merupakan perubahan suatu sistem bahasa sehubungan adanya persentuhan bahasa tersebut unsur-unsur bahasa dilakukan penutur bilingual,1
+Penelitian menyangkut interferensi banyak dilakukan,1
+Para ahli mengkaji ihwal interfensi antaranya Rusyana  Mustakim  Agustina ,1
+Rusyana mengkaji interferensi sehubungan penulisan disertasi,1
+Interferensi dikajinya berkaitan morfologi bahasa Sunda bahasa Indonesia karangan anak sekolah dasar,1
+Mustakim mengkaji interferensi bahasa Jawa surat kabar berbahasa Indonesia,1
+Sementara penelitian mengenai interferensi bahasa Indonesia penguasaan belajar bahasa Inggris siswa sekolah dasar dilakukan Agustina,1
+Jenis interferensi dikaji interferensi morfologis sintaktis melalui lembar kerja tes bahasa Inggris diolah naratif-deskriptif kualitatif,1
+Namun sepanjang pengetahuan penulis interferensi struktur bahasa Indonesia bahasa Inggris abstrak dilakukan,1
+Oleh penelitian perlu dilakukan mengisi kekosongan tersebut,1
+Menurut Weinreich interferensi bahasa melakukan kontak ditentukan faktor-faktor linguistik struktural nonlinguistik ,1
+Faktor-faktor linguistik struktural diramalkan suatu perbandingan  sistem fonologi grammatikal leksikal kedua bahasa tersebut,1
+Sementara bentuk-bentuk tipikal interferensi diramalkan gambaran sosiolinguistik menghubungkan bentuk-bentuk linguistik struktural faktor-faktor ekstralinguistik peranan latar sosiokultural fungsi bahasa kelompok dwibahasawan kesesuaian linguistik sosiokultural standardisasi bahasa simbol loyalitas bahasa durasi kontak bahasa-bahasa kristalisasi bahasa-bahasa baru perubahan bahasa,1
+Metode kajian digunakan penelitian metode distribusional padan,1
+Metode distribusional digunakan memilah data berdasarkan kriteria tertentu segi struktur,1
+Data dipilah dikelompokkan jenis interferensi morfologi sintaksis semantik,1
+Metode padan digunakan mengkaji kalimat bahasa Inggris apik melalui telusuran/imbangannya bahasa Indonesia,1
+Dengan ketidakapikan menulis kalimat bahasa Inggris diketahui penyebabnya,1
+Sumber data penelitian data tulis berupa abstrak berbahasa Inggris jurnal ilmiah beberapa universitas,1
+Pertimbangan pengambilan data beberapa universitas lebih memperkaya variasi interferensi tampak abstrak,1
+Teknik digunakan pengumpulan data teknik simak teknik alat data tulis,1
+Data mengenai interferensi dicatat kartu data kemudian data dikelompokkan sesuai interferensi tampak data tersebut,1
+Selanjutnya kelompok data tersebut diidentifikasi dikaji memperoleh simpulan relevan tujuan penelitian,1
+Inkorporasi pelesapan verba bahasa Bali mengharuskan adanya proses morfologis kata menduduki posisi verba,1
+Proses inkorporasi bahasa Bali biasanya diikuti proses afiksasi,1
+Artikel bertujuan menjelaskan proses afiksasi inkorporasi pelesapan verba bahasa Bali,1
+Sumber data pnelitian buku cerita modern berbahasa Bali berjudul Tutur Bali karya I Wayan Westa ,1
+Data penelitian diperoleh melalui metode pustaka teknik catat,1
+Data diperoleh diklasifikasi sesuai jenis afiksasi terjadi,1
+Data te-lah terklasifikasi dianalisis menggunakan metode agih,1
+Hasil analisis disajikan metode informal,1
+Berdasarkan analisis dilakukan proses afiksasi ditemukan kasus inkorporasi pelesapan verba meliputi proses prefiksasi proses su-fiksasi proses penambahan kombinasi afiks,1
+Bahasa sarana komunikasi terus berkembang waktu waktu,1
+Tidak mustahil muncul banyak kosakata baru mengekspresikan baru ataupun memperhalus makna,1
+Pembentukan kosakata baru kerap kali berhubuungan proses afiksasi,1
+Penelitian mengenai proses afiksasi pembentukan kata baru dilakukan judul pembentukan kata-kata ba-ru bahasa Bali ,1
+Penelitian menemukan tiga pola umum pembentukan kata baru bahasa Bali prefiks + kata dasar kata dasar + sufiks kombinasi afiks + kata dasar,1
+Berdasarkan penelitian pembentukan kata baru bahasa Bali berkaitan proses afiksasi,1
+Penelitian proses afiksasi terjadi ruang lingkup satu bahasa terjadi lingkup lebih luas misalnya daerah terdapat interaksi antar-etnis,1
+Penelitian berjudul afiks Melayu dialek Jembrana Bali kampung Loloan kecamatan Negara kabupaten Jembrana mengulas mengenai jenis-jenis afiks fungsi makna afiks digunakan masyarakat kampung Loloan campuran etnis Melayu-Pontianak  Bugis  Treng-ganu  Arab Jawa Bali ,1
+Penelitian mendeskripsikan jenis-jenis afiks prefiks sufiks konfiks ditemukan bahasa tersebut,1
+Penggunan afiks menunjukkan adanya proses afiksasi bahasa Melayu dialek Jembrana tersebut,1
+Penelitian dilakukan Satyawati analisis gramatikal adjek-tiva bahasa Bali menyinggung bentuk adjektiva bahasa Bali dasarnya digolongkan menjadi kelompok adjektiva mono-morfemik polimorfemik,1
+Ada tiga jenis adjektiva polimorfemik adjek-tiva afiks adjektiva pengulangan gabungan adjektiva ,1
+Penelitian menjelaskan proses afiksasi pembentukan adjek-tiva infleksional melalui penambahan sufiks –an misalnya adjektiva bawak  menjadi bawakan ,1
+Penelitian dilakukan banyak mengungkap jenis-jenis afiks pola pembentukan kata menggunakan afiks fungsi makna afiks tersebut,1
+Mengulas afiks membedah kata sisi linguistik memang bukan baru dilakukan,1
+Banyak penelitian dilakukan menghasilkan hasil menarik kasus ilmu bahasa,1
+Penelitian mengenai afiksasi bahasa Bali dilihat sudut pandang morfologi generatif salah satu penelitian afiksasi bahasa Bali bahasa tipe ag-lutinasi pembentukan katanya melalui proses afiksasi ,1
+Pros-es afiksasi semata-mata penambahan afiks memperhi-tungkan segi semantis suatu proses penambahan afiks mem-berikan makna semantis berterima masyarakat,1
+Analisis fungsi makan afiks dilakukan Luckiyanti mengupas fungsi makna afiks ditemukan judul berita surat kabar Jawa Pos edisi Oktober 2014 ,1
+Penelitian jelas menjelaskan afiks tersebut membentuk suatu kata mempertimbangkan unsur semantis kata terbentuk,1
+Proses afiksasi kasus inkorporasi pelesapan verba merupakan sangat menarik dibahas terlebih penelitian sebelumnya dil-akukan banyak memaparkan proses afiksasi suatu bahasa terten-tu,1
+Inkorporasi merupakan pengintegrasian kasus sebuah verba peleburan sebuah kasus morfologis membawa perbedaan semantis,1
+Kasus inkorporasi dijelaskan kon-struksi mengubah struktur tetap membawa makna sama,1
+Proses afiksasi jelas terjadi kasus inkorporasi pelesapan verba,1
+Verba dilesap-kan disetarakan afiks tertentu membentuk makna sama,1
+Penelitian mengenai inkorporasi banyak dilakukan kasus inkorporasi melibatkan frasa nomina nomina penelitian berjudul Hindi pseudo-incorporation mengulas kasus inkorporasi bahasa Hindi lebih melibatkan frasa nomina dibandingkan nomina ,1
+Jenis-jenis inkorporasi pelesapan verba pernah diteliti objek penelitian bahasa Bali,1
+Berdasarkan hasil penelitian ditemukan terdapat empat jenis inkorporasi pelesapan verba inkorporasi objektif inkorporasi instrumental inkorporasi lokatif inkorporasi keadaan ,1
+Keempat jenis inkorporasi tersebut menunjukkan adanya proses afiksasi terjadi verba dilesapkan,1
+Penelitian penelitian mengulas proses afiksasi kasus inkorporasi pelesapan verba ditemukan bahasa Bali,1
+Penelitian inkorporasi nomina progresif bahasa Jerman menjelaskan inkorporasi nomina umum dianggap se-bagai sifat bahasa Indo-Eropa suatu fenomena bahasa ,1
+Penelitian menjelaskan sintaksis semantik progresif bahasa Jerman menkonstruksi menganalisis inkorporasi nomina bahasa Jerman,1
+Banyak penelitian inkorporasi ataupun proses afiksasi dilakukan,1
+Banyak temuan-temuan penelitian tersebut,1
+Satu penelitian menjelaskan kebenaran mutlak suatu bentuk kasus bahasa terus menerus,1
+Bahasa selalu berkembang menyebabkan selalu fenomena ke-bahasaan baru,1
+Hal menjadi sangat menarik peneliti bahasa seluruh dunia,1
+Salah satu bahasa mengalami perubahan perkembangan bahasa Bali,1
+Sebelum teknologi menyentuh masyarakat Bali bahasa Bali memiliki kosakata baru,1
+Kosakata bentuk refleksi alam Bali dijelaskan penelitian ekolinguis-tik berjudul beblabadan bahasa Bali perspektif ekolinguistik ,1
+Perkembangan teknologi menyentuh masyarakat Bali menyebabkan adanya kosakata baru diadopsi bahasa Bali terkadang digunakan bersama afiks-afiks bahasa Bali,1
+Bahasa Bali merupakan bahasa aglutinatif sebagian besar katanya dibentuk proses afiksasi,1
+Hal inilah menyebabkan bahasa Bali se-bagai objek penelitian sangat menarik terlebih bahasa Bali mengalami perkembangan,1
+Penelitian mencoba mengulas proses afiksasi kasus inkorporasi pelesapan verba ditemukan cerita bahasa Bali mod-ern,1
+Kasus inkorporasi pelesapan verba terjadi mengharuskan adanya penggunaan kata pengganti verba kata tersebut biasanya men-galami proses afiksasi,1
+Penelitian menjelaskan mengenai proses afikasi terjadi kasus inkorporasi pelesapan verba,1
+Verba dilesapkan benar-benar hilang kalimat bergabung kata baik nom-ina ataupun adjektif melalui suatu proses afiksasi makna verba tersebut hilang melekat bersama kata mengalami proses af-iksasi tersebut,1
+Data digunakan penelitian berupa teks bahasa Bali diperoleh buku memuat kumpulan cerita bahasa Bali ber-judul Tutur Bali karya I Wayan Westa ,1
+Data penetian dikumpulkan menggunakan metode pustaka menerapkan teknik catat,1
+Cerita-cerita bahasa Bali dibaca menyeluruh kemudian kalimat-kalimat mengandung inkorporasi dicatat diklasifikasikan berdasarkan proses afiksas-inya,1
+Data diklasifikasi dianalisis menggunakan metode agih menerapkan teknik pilah pisah,1
+Hasil analisis penelitian disajikan menggunakan metode informal,1
+Proses afiksasi kasus inkorporasi pelesapan verba bahasa Bali dikatakan proses,1
+Proses afiksasi dialami jenis kata menjadi verba menggantikan verba awal dilesap-kan,1
+Dengan melesapkan verba awal perlu adanya verba dibentuk proses afiksasi makna verba awal su-dah dilesapkan sama,1
+Secara struktur sintaksis kalimat men-galami perubahan struktur semantis makna dikandung kedua kalimat sama,1
+Proses afiksasi ditemukan penelitian prefiksasi suffiksasi kombinasi afiks,1
+Ketiga proses afiksasi melekat pa-da pelbagai kata membentuk verba predikat,1
+Dewasa banyak guru menggunakan teknik pembelajaran teoretis hafalan kegiatan pembelajaran cenderung berlangsung kaku monoton membosankan,1
+Terkhusus pelajaran bahasa Indonesia materi disampaikan nyatanya mampu melekat diri siswa rasional kognitif afektif,1
+Penggunaan metode pembelajaran konvensional berimbas tingkat penguasaan materi pelajaran bahasa Indonesia siswa rendah,1
+Lebih jauh kondisi pembelajaran semacam merupakan bentuk kegagalan siswa mengembangkan pengetahuan keterampilan kebahasaan sikap positif penggunaan bahasa Indonesia baik benar,1
+Kondisi diatasi   menerapkan  inovasi  pembelajaran    digunakan   guru  melaksanakan pembelajaran bahasa Indonesia melalui pendekatan proses tertuang empat  aspek  keterampilan  berbahasa  Indonesia   keterampilan  menyimak  berbicara membaca menulis,1
+Berbahasa  merupakan  kegiatan  selalu  mengisi  berbagai  bidang  kehidupan manusia  baik   bidang  ekonomi  hukum politik pendidikan,1
+Kegiatan tersebut berlangsung   transaksional  maupun interaksional,1
+Dengan  bahasa  seseorang  menyampaikan  ide  pikiran  perasaan  informasi   orang   baik   lisan maupun   tulisan,1
+Hal   sejalan  pemikiran   bahasa  merupakan  alat komunikasi  antaranggota  masyarakat  berupa simbol bunyi  dihasilkan alat ucap manusia,1
+Dalam  dunia  pendidikan  khususnya bahasa  Indonesia  pelaksanaan  pembelajaran berbahasa  dikemas    empat  aspek keterampilan  berbahasa   keterampilan menyimak  membaca  berbicara   menulis,1
+Keempat aspek keterampilan berbahasa tersebut  menjadi  landasan  pembelajaran  mulai tingkat  sekolah  dasar  hingga  perguruan  tinggi,1
+Untuk       pengajar   senantiasa diberdayakan  kompetensinya   menguasai keempat  aspek  tersebut,1
+Oleh    guru   terus  berupaya  meningkatkan keberhasilannya   pembelajaran  bahasa Indonesia sekolah melakukan inovasi-inovasi  pembelajaran   efektif  inovatif aktif kreatif menyenangkan,1
+Penerapan  kegiatan  pembelajaran  inovatif menciptakan atmosfer kelas  terpasung   suasana   kaku  monoton,1
+Siswa   lebih  banyak  diajak berdiskusi berinteraksi berdialog  mampu  mengonstruksi  konsep  kaidah-kaidah  keilmuannya  sendiri  bukan  cara  dicekoki   diceramahi,1
+Siswa  perlu  dibiasakan  berbeda pendapat    menjadi  sosok  cerdas kritis,1
+Tentu demokratis melupakan kaidah-kaidah keilmuan,1
+Selain  guru   perlu  memberikan  penguatan-penguatan siswa terjadi salah konsep berbenturan nilai-nilai kebenaran sendiri,1
+Penggunaan berbagai teknik metode  inovatif    menciptakan  situasi pembelajaran   kondusif,1
+Peserta  didik  kaitan   ikut  terlibat   langsung  menyerap  informasi   menyatakan   hasil   rekaman  informasi   diperolehnya   sesuai     kemampuan individu  peserta  didik,1
+Melalui  proses  pembe-lajaran   dinamis  diharapkan   tercipta suatu  bentuk  komunikasi  lisan   peserta didik peserta didik lainnya terpola melalui  keterampilan  menyimak  berbicara membaca   menulis   suasana pembelajaran terhindar kejenuhan,1
+Setiap  penelitian  memiliki  pendekatan  berbeda-beda  bergantung   metode  digunakan  masing-masing,1
+Pendekatan  digunakan   tulisan   penelitian   kualitatif   deskriptif,1
+Penelitian kualitatif merupakan penelitian bermaksud  memahami  fenomena   apa  dialami   subjek  penelitian  misalnya perilaku persepsi motivasi tindakan lain-lain,1
+Pendekatan penelitian kualitatif ditentukan  karakter  penelitian  kualitatif   berbeda karakter penelitian kuantitatif,1
+Penelitian  pustaka   studi  pustaka   sekadar  urusan  membaca  mencatat  literatur   buku-buku,1
+Penelitian pustaka  merupakan  rangkaian  kegiatan  berkenaan   metode  pengumpulan  data pustaka membaca mencatat mengolah bahan penelitian,1
+Adapun tulisan jenis penelitian   digunakan   penelitian kualitatif deskriptif kepustakaan penelitian bibliografis   mengandalkan  teori-teori buku literatur,1
+Strategi   pembelajaran   menyimak berkembang terutama pengajaran bahasa asing,1
+Munculnya  teknologi  perekaman  kaset  CD  video   lain-lain  meningkatkan  kemajuan pemberian  materi ajar menyimak,1
+Dalam   pembelajaran   bahasa Indonesia tampaknya strategi belajar menyimak  berkutat  pola  lama  siswa mendengar   berupaya  menjawab  apa  dijelaskan guru,1
+Ada kecendrungan keterampilan menyimak bahasa Indonesia kurang  mendapat  perhatian   keseluruhan proses belajar bahasa Indonesia semua jenjang pendidikan,1
+Fenomena    terjadi  hampir semua negara,1
+Pembelajaran    menyimak    dilakukan  sendiri   terintegrasi  pembelajaran  berbicara   membaca,1
+Hal penting   perlu  dilakukan   perlunya perhatian proses menyimak sendiri,1
+Dalam  pembelajaran  menyimak  guru  membelajarkan  siswa   berbagai  macam keterampilan   menyimak  cepat  menyimak  pemahaman,1
+Guru   membelajarkan  menyimak  berdasarkan  muatan isinya    medianya     jenis  bahan simakan lainnya ,1
+Ada beberapa perlu dilatihkan  siswa   kegiatan  menyimak,1
+Pertama  siswa  diminta   mendengarkan aktif,1
+Sebelum menyimak  diminta   terus  mengajukan pertanyaan diri sendiri berkaitan bahan disimak,1
+Kedua siswa diminta mengamati   cermat,1
+Setiap  pembicara mempunyai  gaya   khas,1
+Untuk  pendengar pelu memperhatikan ekspresi wajah gerak-gerik  gerakan  tubuh   nada  suara pembicara,1
+Pembicara   mungkin   mengulangi  gagasan-gagasan   dirasa penting,1
+Ia menulis menunjukkan   penting     berbicara,1
+Ketiga  siswa  diminta   berpartisipasi,1
+Mereka    mendengar   perlu  bertanya     mengerti,1
+Mereka    memberikan  informasi tambahan   informasi   diberikan pembicara,1
+Keempat   mendengarkan biasakan  siswa   mempersiapkan  diri membaca mencari informasi bahan    dibicarakan,1
+Hal   memudahkan siswa mendengarkan bahan disimaknya,1
+Beberapa model pembelajaran berbicara dilakukan  berbicara estetik  percakapan  berbicara bertujuan  aktivitas drama ,1
+Ada  beberapa  macam  percakapan   dilakukan  siswa    kelas  analisis propaganda iklan membandingkan pelaku    cerita   topik-topik  sesuai situasi kondisi sekolah,1
+Untuk memulai percakapan guru meminta seorang  siswa   sukarelawan   guru mengajukan pertanyaan,1
+Agar percakapan tetap berlangsung  siswa  diminta   bergantian memberi komentar mengajukan pertanyaan  mendukung  pendapat  orang ,1
+Untuk menutup  percakapan   dilakukan  pencapaian  konsensus   kesimpulan  disepakati bersama,1
+Berbicara   estetik     berupa percakapan sastra bercerita teater pembaca,1
+Percakapan   sastra  dilakukan   siswa  membaca  mendengarkan  karya  sastra,1
+Siswa  menyampaikan pendapat komentar  karya  sastra   baru  baca/dengar,1
+Bercerita    merupakan kegiatan   sangat  bermanfaat,1
+Kegiatan  sangat menyenangkan sekaligus merangsang imajinasi  anak,1
+Langkah-langkah  bercerita memilih cerita mempersiapkan diri  bercerita  menambah  peraga  menyampaikan  cerita,1
+Teater  pembaca  presentasi  pembacaan  naskah  drama  sekelompok    siswa,1
+Langkah-langkah kegiatannya memilih naskah latihan presentasi,1
+Kegiatan berbicara berupa laporan lisan  wawancara   debat,1
+Dalam  laporan lisan  siswa   diminta   memberikan informasi  topik  tertentu   melaporkan  hasil membaca  buku,1
+Langkah-langkah  pembela-jarannya   memilih  topik  mencari  menyusun  informasi  membuat  peraga  mempresentasikannya,1
+Wawancara   dilakukan    siswa  sekolah  dasar,1
+Langkah-langkahnya dimulai proses perencanaan  melakukan  wawancara  berbagi pengalaman hasil wawancara,1
+Debat dilakukan isu kontradiktif   menarik,1
+Sebagian  siswa mungkin  setuju    setuju   isu tersebut,1
+Langkah-langkah  pembelajarannya   cara  menentukan  isu/usul mengelompokkan  siswa   setuju   setuju kemudian melakukan debat,1
+Untuk melaksanakan kegiatan tersebut dilakukan melalui  prosedur    pertanyaan  pertama  ketiga  mendukung  usul    pertanyaan  kedua keempat menolak  pertanyaan sanggahan pertama ketiga disampaikan kelompok siswa setuju  pertanyaan sanggahan kedua keempat dilakukan kelompok siswa tak setuju,1
+Selanjunjutnya   aktivitas   drama,1
+Aktivitas drama dilakukan melalui model pembelajaran   menggunakan  metode bermain peran bermain boneka pementasan drama,1
+Bermain  peran   dilakukan  baik  naskah    tersedia   dibuat  sendiri   siswa,1
+Jika  tersedia  media boneka   sekolah   dilakukan  kegiatan sandiwara  boneka,1
+Sementara   pementasan drama dilakukan siswa kelas  segala  kesederhanaan  sesuai  situasi pembelajaran kelas,1
+Pembelajaran    membaca    menggunakan  pendekatan  proses,1
+Proses  dimaksud proses membaca,1
+Pembelajaran membaca   menggunakan  pendekatan proses     meningkatkan   keterampilan membaca siswa,1
+Menurut hasil penelitian Palmer et,1
+al,1
+disebutkan siswa  mendapatkan  keuntungan   proses membaca diperagakan hadapan siswa,1
+Kegiatan proses membaca meliputi  persiapan   membaca    membaca   merespon    mengeksplorasi  teks    memperluas interpretasi,1
+Proses membaca dimulai   membuka  buku   langsung membaca melalui persiapan,1
+Pada tahap pertama   proses  membaca  langkah-langkah   dilakukan    memilih buku/bacaan   menghubungkan   buku/bacaan  pengalaman  pribadi   pengalaman membaca   sebelumnya   memprediksi   isi buku/bacaan     mengadakan   tinjauan pendahuluan buku/bacaan,1
+Pada  tahap  terakhir   proses membaca  memperluas  interpretasi  dilakukan   kegiatan   memperluas interpretasi   pemahaman  merefleksikan pemahaman menilai pengalaman membaca,1
+Ketiga kegiatan tersebut dilakukan melibatkan  keterampilan  berbahasa   berbicara menulis,1
+Kegiatan bermain   peran/drama     melakukan tugas/proyek khusus dilakukan,1
+Jika   dilihat     tahap-tahap membaca  melalui  pendekatan  proses   atas tampak  terdapat   banyak  kegiatan,1
+Keterlibatan  siswa    kegiatan  sangat   berharga     berguna   perkembangan  keterampilan  membaca,1
+Pada pembelajaran  membaca   pendekatan proses  siswa  benar-benar  belajar  bagimana caranya  membaca,1
+Mereka   belajar bagaimana membunyikan tulisan  belajar  bagaimana  memilih  bacaan  menarik melakukan kegiatan membaca berbagai  bentuk  memberi  respon  menggali bacaan lebih mendalam melakukan kegiatan lanjutan lebih memahami bacaan,1
+Dengan tiba waktunya mengubah  model  pendekatan  pembelajaran membaca   tradisional   berlangsung  selama    pendekatan proses teoritik meningkatkan keterampilan siswa membaca,1
+Pembelajaran    menulis    pendekatan   proses     meningkatkan keterampilan menulis siswa,1
+Untuk strategi  kiranya   dilakukan   salah  satu alternatif  kegiatan  pembelajaran,1
+Pembelajaran menulis pendekatan proses meliputi lima tahap  pramenulis  menulis draf  merevisi  menyunting  mempublikasi ,1
+Ketika  siswa  menyiapkan  diri  menulis   perlu  berpikir   tujuan menulis lakukan,1
+Apakah   menulis   menghibur menginformasikan memper-suasi,1
+Selain         perlu merencanakan    menulis  dirinya  sendiri    orang   teman sekelas orang tua nenek kakek paman   lainnya,1
+Para  siswa     mempertimbangkan  bentuk  tulisan   buat,1
+Apakah cerita surat puisi laporan  jurnal,1
+Dalam  satu  kegiatan  menulis hendaknya ditentukan satu bentuk tulisan,1
+Pada tahap menulis draf siswa diminta mengekpresikan ide-ide tulisan  kasar,1
+Karena  penulis   memulai menulis   komposisi   siap  disusun   pikiran   siswa  memulai menulis  draf    ide-ide   sifatnya tentatif,1
+Pada  tahap  membuat  draf   waktu lebih  difokuskan   mengeluarkan  ide-ide  sedikit    sama  sekali memperhatikan     aspek-aspek   teknis menulis ejaan penggunaan istilah struktur,1
+Pada tahap merevisi siswa memperbaiki ide-ide    karangan,1
+Merevisi bukanlah  membuat  karangan  menjadi  lebih halus   kegiatan   lebih  berfokus  penambahan  pengurangan  penghilangan  penyusunan isi karangan sesuai kebutuhan   keinginan  pembaca,1
+Adapun kegiatan-kegiatan   dilakukan  siswa  tahap    membaca  ulang  seluruh  draf sharing   berbagi  pengalaman   draf kasar  karangan  bersama   teman  kelompok  mengubah   merevisi  tulisan  memperhatikan  reaksi   komentar masukan teman guru,1
+Setelah menyelesaikan draf kasar siswa memerlukan  waktu   beristirahat  menjauhkan diri karangan,1
+Setelah barulah siswa membaca draf kasar  pikiran   segar,1
+Saat  siswa membaca  inilah   membuat  perubahan menambah mengurangi menghilangkan  memindah-kan  bagian-bagian  tertentu  draf  karangan,1
+Bisa   menandai  bagian-bagian    diubah   memberinya  tanda-tanda  tertentu  simbol memberi garis bawah,1
+Dalam  menyunting  siswa  membaca cepat karangan menentukan menandai kemungkinan bagian-bagian tulisan salah,1
+Guru   menunjukkan  cara  membaca  cepat misalnya  membaca  karangan salah satu siswa,1
+Guru membaca karangan lambat   menandai  kemungkinan  bagian-bagian karangan salah pensil pulpen,1
+Dalam kegiatan membaca menandai bagian   mungkin  salah  siswa  menggunakan  daftar chek   menentukan tipe-tipe kesalahan,1
+Setiap tingkatan kelas siswa  menggunakan  daftar chek   berbeda bergantung tinggi rendahnya kelas siswa,1
+Pada  tahap  publikasi   merupakan tahap  akhir  menulis  siswa  mempublikasikan tulisan    bentuk   sesuai  berbagi  bentuk  tulisan   pembaca  ditentukan,1
+Para pembaca teman sekelas  guru  pegawai  sekolah   bahkan kepala  sekolah,1
+Adapun  bentuk-bentuk  tulisan   digunakan   buku  jurnal laporan   tulisan ,1
+Penentuan  bentuk tulisan   ditetapkan  berdasarkan  kesepakatan siswa,1
+Dalam tahap mempublikasi dilakukan konsep kursi penulis,1
+Siswa    selesai  melakukan kegiatan menulis maju depan duduk kursi,1
+Selanjutnya membaca hasil karyanya   siswa     guru memberikan  perhatian  berupa  tepuk  tangan pembacaan selesai,1
+Guru  hendaknya   menolong perkembangan  keterampilan  menulis  siswa semaksimal mungkin,1
+Setiap kesulitan  dialami  siswa  guru   menciptakan situasi solutif kesulitan siswa dipecahkan  baik   bantuan  orang  teman  sekelompok  sekelas  maupun  guru,1
+Ini berarti   guru  dituntut  memiliki  kemam-puan pengelolaan pembelajaran menulis baik,1
+Guru  bukanlah  pemimpin  kelas  merupakan kolabolator teman siswa memecahkan  berbagai  persoalan   muncul membantu siswa sedang menemukan kesulitan,1
+Tidak satu model pembelajaran paling  sempurna,1
+Yang    satu kekurangan  model  pembelajaran  ditutupi  satu  model  pembelajaran  ,1
+Oleh   perlu  adanya  upaya  pemaduan beberapa model pembelajaran terciptanya tujuan  pembelajaran   lebih  baik  optimal,1
+Salah  satu  model  pembelajaran  inovatif pendekatan proses dipadukan  pembelajaran aktif inovatif kreatif efektif menyenangkan dipaparkan atas,1
+Pendekatan proses dipaparkan   bukanlah  satu-satunya  model pembelajaran   paling  sempurna,1
+Ada model-model  pembelajaran    keha-dirannya     sangat   diperlukan   mendukung keberhasilan pembelajaran terutama  pembelajaran  bahasa  Indonesia  sekolah,1
+Penggunaan  teknik   metode  inovatif   pembelajaran  bahasa  Indonesia   menciptakan  situasi  pembelajaran  kondusif,1
+Peserta  didik   kaitan  ikut  terlibat   langsung   menyerap informasi   menyatakan   hasil rekaman  informasi   diperolehnya  sesuai  kemampuan  individu  peserta  didik,1
+Melalui  proses  pembelajaran  bahasa  Indonesia  dinamis  diharapkan   tercipta  suatu bentuk  komunikasi  lisan   peserta  didik  peserta  didik  lainnya   terpola melalui  keterampilan  menyimak  berbicara membaca   menulis   suasana pembelajaran terhindar kejenuhan,1
+Penelitian   bertujuan   mendeskripsikan   unsur  strukturaldalamnovel Ayah  Menyayangi  Tanpa  Akhir karyaKirana  Kejora,1
+aspek kejiwaan  tokoh  utama novelAyah  Menyayangi  Tanpa  Akhir karya  Kirana Kejora,1
+nilai  pendidikan novel Ayah  Menyayangi  Tanpa  Akhir karya Kirana   Kejora,1
+relevansi unsur   struktural   aspek   kejiwaan     nilai pendidikan materi ajarsastra SMA,1
+Penelitian merupakan penelitian deskriptif  kualitatif  menggunakan  pendekatan  psikologi  sastra,1
+Hasil penelitian     unsur  strukturaldalamnovel Ayah  Menyayangi  Tanpa Akhir karyaKirana  Kejora  meliputi  tema  penokohan  alur  latar  sudut  pandang amanat  dialog/percakapan   gaya  bercerita,1
+aspek  kejiwaan  tokoh  utama novel Ayah   Menyayangi   Tanpa   Akhir karya   Kirana   Kejora meliputi kesinambungan  antaraego  bawah-sadar  pribadi danbawah-sadar  kolektifdari tokoh  utama  Juna,1
+nilai  pendidikan   novel Ayah  Menyayangi Tanpa Akhirkarya Kirana Kejora meliputi nilai  religius moral etika sosial estetika   budaya/adat,1
+Terdapat  relevasi  unsur  struktural  aspek  kejiwaan  nilai  pendidikan   materi  ajar  sastra,1
+Analisis  menunjukkan  novel tersebut memenuhi 8aspek materi ajaryang baik,1
+Pembelajaran  sastra   SMA   memerlukan  media   menunjang pembelajaran   pembentukan  karakter  siswa,1
+Dewasa   kesusastraan  disekolah   merasa   tertolong     kebijakan   pemerintah,1
+Kemendikbud   mengeluarkan  Permen  No  23  Tahun  2015  mengenai  program  Penumbuhan  Budi Pekerti     sekolah,1
+Salah  satu  yangharus  dilaksanakan   membaca buku  nonpelajaran   15  menit   jam  pelajaran  pertama  dimulai,1
+Berkenaan   kebijakan  tersebut  siswa   diberi  bacaan  berupa  karya sastra,1
+Tidak bacaan karya sastra digunakan pembelajaran bahasa Indonesia sesuai kurikulum digunakan,1
+Pembelajaran    sastra    sebaiknya             diarahkan    dilaksanakan  menggunakan  media   tepat,1
+Pemilihan  karya  sastra   digunakan diperhatikan baik,1
+Karya sastra dijadikan media pembelajaran sastra beberapa jenis novel cerita pendek puisi pantun lain-lain,1
+Salah satu jenis karya sastra ialah novel,1
+Novel termasuk karya sastra fiksi hasil   pemikiran   pengarang     imajinatif,1
+Hal     sesuai   paparan Luxemburg     sastra  merupakan  sebuah  ciptaan  sebuah  kreasi bukan  pertama-tama  sebuah  imitasi,1
+Psikologi   sastra  mempunyai  esensi masing-masing    selaras   disatukan  sesuai  pendapat Endraswara    psikologi   sastra  memiliki  hubungan  fungsional  sama-sama mempelajari keadaan kejiwaan orang,1
+Novel   hasil  kreativitas  seseorang    dalamnya  menceritakan kehidupan,1
+Hal tersebut sesuaidengan pendapat Jassin novel cerita menceritakan kehidupan manusia lebih satu periode,1
+Permasalahan novel ruang lingkupnya luas mendalam,1
+Sehandi   berpendapat “novel mengungkapkan seluruh episode  perjalanan  hidup tokoh-tokoh  ceritanya,1
+Itulah  sebabnya  novel   dibagi    sejumlah fragmen     fragmen-fragmen   tetap   satu-kesatuan novel utuh lengkap”,1
+Panjang sebuat novel relatif lebih panjang cerpen lebih pendek roman,1
+Hal  tersebut  sesuai   pendapat Waluyo novel  segi  panjang  cerita  berada    cerita  pendek   roman,1
+Sementara  ituTarigan  panjang cerpen kurang lebih 10000 kata novel kurang lebih 35000 kata,1
+Sementara  Priyatni   novel     cerita     bentuk   prosa     cukup   panjang,1
+Panjangnya   kurang   50000  kata   jumlah  kata   novel  relatif,1
+Unsur     sebuah novel   dibedakan  menjadi   bagianyaitu unsur  intrinsik   unsur  ekstrinsik,1
+Unsur  intrinsik  ialah  unsur-unsur  membangun   karya   sastra     sendiri,1
+Waluyo memaparkan   unsur pembangun  cerita  fiksi  meliputi  tema  cerita  plot  penokohan sudut  pandang latar dialog/percakapan gaya bercerita amanat,1
+Tema arti cerita tema arti penyiaran cerita tema menjadi penemuan cerita,1
+Karya   sastra     terlepas     pengarangnya       menulis dibutuhkan  penjiwaan,1
+Setiapkarya  menyangkut  sikap  kejiwaan  manusia  kejiwaan tersebut ditemukan tokoh dibuat pengarangnya,1
+Psikologi  sastra   dasarnya  sebuah  pendekatan   menelaah  karya sastra     memfokuskan     kerilaku     kejiwaan   tokoh-tokoh   dalamnya,1
+Psikologi  sastra  mengkaji  suatu  karya  sastra   ilmu  psikologi,1
+Minderop    menyatakan   psikologi  sastra   telaah  karya sastra diyakini mencerminkan proses aktivitas kejiwaan,1
+Senada penjelasan  MinderopRokhmansyah  menyatakan   psikologi sastra kajian sastra yng memandang karya aktivitas kejiwaan,1
+Menurut  teori Carl  Jung komponen-komponen  keribadianmanusia  terdiri atas ego bawah-sadar  pribadi  bawah-sadar  kolektif,1
+Egomerupakan  bagian kejiwaan seseorang berisi kesadaran,1
+Egoadalah jiwa sadar terdiri persepsi-persepsi  ingatan-ingatan  pikiran-pikiran   perasaan-perasaan  sadar,1
+Ego   melahirkan   perasaan   identitas     kontinuitas   seseorang       segi pandangan  sang  pribadi  ego  dipandang  berada   kesadaran  Bawah-sadar  pribadidalam  kejiwaan  seseorang  memuat   disadari   alam  bawah  sadar,1
+Menurut  Olson    bawah-sadar pribadi terdiri atas bahan-bahan awalnya disadari kemudian direpresi dilupakan sejak awal memang jelas dicerap kesadaran,1
+Bawah-sadar   pribadimengandung   kluster-kluster   pikiran   bermuatan   emosi  kompleks-kompleks,1
+Bawah-sadar  kolektifmerupakan  bagian  kejiwaan  seseorang   berisi kesadaran   sama   semua  orang,1
+Menurut  Olson  bawah-sadar  kolektifmencerminkan  pengalaman-pengalaman  kolektif     dimiliki manusia   masa  lalu  evolusinya,1
+Bukan   fragmen-fragmen  semua  sejarah manusia   ditemukan  bawah-sadarkolektifini    jejak-jejak moyang  pra-manusia  arau  hewani   ditemukan   dalamnya,1
+Karena bawah-sadar kolektifdihasilkan pengalaman umum semua manusiaatau pernah dimiliki isi bawah-sadar kolektifesensinya sama semua orang,1
+Dalam  sebuah  karya  sastra  termuat  nilai-nilai     hendak disampaikan   pengarang   pembacanya,1
+Nilai  merupakan   berharga dicari manusia,1
+Menurut Ismawati  nilai ialah penting mendasar kehidupan manusia menyangkut segala  baik   buruk   abstraksi  pandangan   maksud   beragam pengalaman   dedan   seleksi   perilaku     ketat,1
+Purwaningstyastuti    memaparkan  macam-macam  nilai  pendidikan   nilai  pendidikan  religius moral etika sosial estetika adat/budaya,1
+Pendidikan     tempat     seseorang   berproses,1
+Menurut   Hadi  berartimembimbing  anak,1
+Dalam  pendidikan   suatu  proses  disebut pembelajaran,1
+Pembelajaran menjadikan seseorang mengerti suatu ilmu,1
+Menurut   Degeng   pembelajaran     upaya   membelajarkan  siswa,1
+Secara  implisit   pembelajaran  terdapat  kegiatan memilih menetapkan mengembangkan metode mencapai hasil pengajaran diinginkan,1
+Dalam   suatu   pembelajaran   memerlukan   bahan   ajar     menunjang tercapainya  tujuan  pengajaran,1
+Bahan   materi  ajar     memberikan  pelajaran   ilmu   berguna   siswa,1
+Hal   dikemukakan  Ismawati    materi  ajar   bahan  ajar    mengandung pesan disampaikan proses belajar-mengajar,1
+Bahan ajar dikembangkan berdasarkan tujuan pembelajaran,1
+Kriteria materi ajar sastra baik Rahmanto  3yaknibahasa psikologi latar belakang budaya,1
+Sedangkan Semi   memaparkan  kriteria  bahan  ajar  sastra   baik   digunakan  SMA meliputi  bahan ajar bahan belajar valid mencapai tujuan pengajaran,1
+bahan ajar bahan belajar bermakna bermanfaat ditinjau  kebutuhan  peserta  didik,1
+bahan  ajar   bahan  belajar  menarik  merangsang  minat  peserta  didik,1
+bahan  ajar   belajar  berada   batas keterbacaan   intelektual  peserta  didik,1
+bahan  ajar   bahan  belajar khususnya berupa bacaan satra berupa karya sastra utuh bukan karya sastra sinopsis berupa ceritakehidupan nilai estetik,1
+Penelitian       merupakan    penelitian    deskriptif    kualitatif    menggunakan  pendekatan  psikologi  sastra,1
+Data   penelitian   berupa  teks sastra   berasal   novel Ayah  Menyayangi  Tanpa  Akhirkarya Kirana Kijora diterbitkan Zettupada tahun 2015,1
+Teknik sampling  digunakan purposive  sampling,1
+Teknik  pengumpulan  data   digunakan  analisis  dokumen   wawancara,1
+Teknik  analisis  data   digunakan  model   analisis mengaliryang   meliputi tigakomponen   reduksi   data penyajian data penarikan simpulan,1
+Tema utama novel keluarga,1
+Namunsecara fokus novel memiliki subtema perjuangan seorang ayah tema tersebut terlepas tema utamanya keluarga,1
+Keluarga tema utama novel dilihat banyaknya    mengandung  masalah  keluarga   tersebar  merata  keseluruhan bab,1
+Seperti kutipan bawah iniPernikahan     restu   keluarga   kedua   belah   pihak   berlangsung     sebuah   masjid   kecil   daerah   Kuningan   Karang Malang dekat rumah kontrakan Juna,1
+Karena terlanjur mengikrar janji menikahi Juna merasa bertanggung jawab atas kalimatnya meskipun banyak teman menahannya menikah beberapa   tahun     depan,1
+Juna   merasakan   kenyamanan   Keisha belahan jiwa Keisha,1
+Berdasarkan kutipan atas terlihat peresmian sebuah keluarga baru   restu   belah  pihak,1
+Tanggung  jawab  kepala  keluarga  mengikrar  janji  suci  menjadi  kunci  keluarga   bahagia,1
+Keluarga  hakikatnya merupakan  kekerabatan   sangat  erat   suatu  tingkatan  sosial  masyarakat,1
+Novel Ayah  Menyayangi  Tanpa  Akhir memiliki  penokohan   relatif berpengaruh   jalannya  cerita   amanat   hendak  disampaikan,1
+Adapun tokoh utama novel Arjuna Dewangga,1
+Tokoh tambahan  paling  dominan   cerita   Rajendra  Mada  Prawira,1
+Sedangkan tokoh tambahan novel Mada Bu Nurja Pak Abduh Mbok Jum Pak Ri Ibu Juna Keisha Mizuki Bu Indah Rosa Dean Aru Nesa Mbak Nunik Bu Wuri Mbah Ngatinah,1
+Latar   sosial   menunjukkan     hal-hal     berhubungan   kehidupan  sosial  adat  istiadat    kebiasaan     masyarakat,1
+Adanya   komunikasi   ataupun   interaksi   sosial         kehidupan bermasyarakat,1
+Latar sosial novel Menyayangi Ayah Tanpa Akhir  pesta  hanami  kegemaran  Juna  heritage  pandangan  hidup  Juna  selalu berjuang keadaan apapun,1
+Dalam  bercerita  pengarang  memilih   sudut  mana   menceritakan gagasannya,1
+Sudut  pandang   digunakan   pengarang   novel Ayah Menyayangi  TanpaAkhir  menggunakan  gaya  eksternal   menampilkan gagasan luar tokoh-tokohnya,1
+Sedangkan amanat novel tersebutadalah akhirnya   orang-orang       cintai     meninggalkan  ,1
+Sebelum kesendirian   datang  hendaknya   hidup   saling  menyayangi,1
+Salah satu  cara  menyayangi   berbagi   orang-orang  membutuhkan bantuan,1
+Pengarang    menggunakan    dialog       memperkongkret    watak    kehadiran pelaku,1
+Dengan adanya dialog membuktikan tokoh cerita benar-benar   dibuktikan  melalui  dialog,1
+Selain   pengarang  menggunakan dialog   memperjelas  karakter  tokoh,1
+Pada  novel Ayah  Menyayangi  Tanpa Akhir Kirana Kejora pengarang  menggunakan  gaya bercerita santai,1
+Maksud   gaya  bercerita  santai  menggunakan  ragam  bahasa  santai  bukan bahasa figuratif,1
+Pembahasan     aspek   kejiwaan   tokoh   utama     novel Ayah Menyayangi  Tanpa  Akhirmerupakan  pengembangan   aspek  penokohan    unsur  intrinsik   novel  tersebut,1
+Peneliti   fokus   aspek psikologi sastra tokoh utama novel,1
+Berdasarkan sifat karakter tokoh digambarkan pengarang mengalami perkembangan dipengaruhi olehfaktor internal eksternal,1
+EgoJuna  menunjukkan  ingatan   kenangan-kenangan  bersama  anak semata  wayangnya  perasaan  bersalah  sedih  sekaligus  bangga  mengingat  masa lalunya  perasaan   sabar  kecewa   marah   bimbang,1
+Hal  tersebut sesuai   paparan Hall  &  Lindzey    egoadalah ingatan-ingatan pikiran-pikiran perasaan-perasaan sadar,1
+Bawah-sadar   pribadiJuna   mengandung   kompleks     anaknya perasaan  sedih   putus  asa  Juna  disebabkan   hubungan  seorang  ayah  anaknya,1
+Bawah-sadar  pribadiJuna  meliputi perasaan  khawatir  berpikir mandiri  perasaan  cinta    mendalam  bawah-sadar  pribadi Juna mengandung  kompleks   istrinya   bersedih   istrinya  meninggal dunia,1
+Bawah-sadar  pribadiJuna  sesuai   paparan Olson bawah-sadar   pribadi terkandungemosi      kompleks-kompleks,1
+Juna merupakan seorang ayah  sangat mencintai anaknya,1
+Hal tersebut merupakan perasaan bawah-sadar kolektifJuna seorang ayah  anaknya,1
+naluriterhadap  kekasihnya    menikah,1
+Bawah-sadar kolektif perannya seorang suami,1
+Juna seorang suami sangat  mencintai  istrinya,1
+Hal  tersebut  merupakan  perasaan    bawah-sadar  kolektifseorang  suami   istrinya,1
+Hal   merupakan  suatu   manusiawi    dirasakan   semua  manusia   umum,1
+Hal tersebut  sesuai   pendapat Feist  &  Feist    bawah-sadar kolektifberasal   pengalaman  manusia   umum  bahkan   dirasakan sejak nenek moyang,1
+Pembahasan    nilai-nilai  pendidikan   terkandung   novel Ayah Menyayangi  Tanpa  Akhirkarya  Kirana  Kejora  meliputi  nilai5  nilai  pendidikan sesuai   paparan Purwaningstyastuti     meliputi   nilai pendidikan religius moral sosial nilai estetika nilai adat/budaya,1
+Nilai  pendidikan  religius   nilai  agama  berkaitan   hubungan vertikal  hubungan  manusia Tuhan,1
+Nilai religius  dipetik  novel Ayah  Menyayangi  Tanpa  Akhirdiantaranya  pelajaran   sangat berharga mengenai mendoakan seseorang meninggal salat lima waktu   sehari         wajib   dilaksanakan   seorang   muslim   wajib melaksanakan ibadah haji,1
+Ibadah haji dilakukan seseorang mampu dandalam  keadaan    menyakitkan  selalu  mengingat  Sang  Pencipta,1
+Nilai-nilai  religius  tersebut  berasal   keyakinan  ter  hadap  Tuhannya   dijelaskan  Nurgiyantoro     nilai  religius merupakan nilai   kerohanian   yangtinggi     mutlak   bersumber     keyakinan   kepercayaan manusia Tuhannya,1
+Nilai  moral  merupakan  petunjuk   sengaja  diberikan   pengarang berbagai berhubungan masalah kehidupan sikap tingkah  laku   sopan  santun  pergaulan,1
+Nilai  moral    dipetik  novel Ayah  Menyayangi  Tanpa  Akhiradalah  seseorang   hidup  mempunyai  kekuatan   jiwa  pahlawan   Gatotkaca  bangsa   besar   bangsa     berani   melawan   membela   sesama     diejek   sikap menghormati lebih tua sikap menghormati ditunjukan Mada terdapat sikap menyayangi,1
+Nilai  sosial  merupakan  nilai   berkenaan   hal-hal  kemanusiaan kaitannya mengembangkan kebutuhan hidup bersama kasih sayang kerjasama   perlindungan     segala       ditujukan     kepentingan kemanusiaan,1
+Nilai sosial terdapat  novel kepedulian sesama  saling  membantu  kasih  sayang   sesama  saling  memikirkan  saling menolong sesama,1
+Nilai  estetika  merupakan  nilai  keindahan   terdapat   karya  sastra,1
+Selain  memberikan  kebermanfaatan   segi  isi  novel   menyuguhkan  nilai keindahan,1
+Nilai  estetika   novel Ayah  Menyayangi  Tanpa  Akhirkarya Kirana   Kejora   banyak   dijumpai     pemilihan   diksi     indah   memadukan  bahasa  Indonesia   bahasa  Jawa  penggunaan  majas   majas hiperbola   personifikasi,1
+Hal  tersebut   membangkitkan  daya  imajinasi menambah keindahan keunikan  penikmat novel,1
+Nilai  pendidikan  adat/budaya  mengungkapkan  perbuatan   terpuji  tercela pandangan hidup manusia dianut dijauhi hal-hal dijunjung  tinggi,1
+Nilai  adat/budaya   novel Ayah  Menyayangi  Tanpa  Akhirdiantaranya   budaya  Jawa   diceritakan   novel   pakaian adat  penginggalan  bersejarah  bahasa  Jawa  tari  tradisional   makanan  khas,1
+Selain  budaya  Jawa  dalan  novel   ditulis   Kirana  Kejora   budaya Jepang pesta hanami dilakukan bawah pohon sakura,1
+Berdasarkan hasil wawancara Nur  Ichsan novel Ayah Menyayangi Tanpa  Akhirkarya  Kirana  Kejora  memenuhi  aspek  struktur  pembangun  novel,1
+Selain   noveltersebut  memenuhi  lima  aspek  nilai  pendidikan   layak digunakan materi ajar siswa SMA sederajat,1
+Hal itudiperkuat hasil wawancara denganNur IchsanWahonoSri Rahayu Maria SetiyawatiMelando  Yoga   Ardiyansah   novel Ayah  Menyayangi  Tanpa  Akhirkarya Kirana Kejora memenuhi 8 kriteria materi ajar  baikdari sintesis teoriRahmanto   Semi        segi kebahasaan   mudah  dipahami   sesuai   tingkat  pemahaman  siswa SMA,1
+Jika  dilihat   tingkat  psikologi  siswa  novel   sangat  mudah dipahami  jalan  ceritanya,1
+Karena  menggunakan  bahasa   komunikatif   memberi  persepsi  ganda,1
+ sesuai  latar  belakang  budaya,1
+Karena  cerita  tersebut  digambarkan  mengenai  latar  budaya  Jawa,1
+kevalidan mencapai  tujuan  pengajaran,1
+kebermaknaan  kebutuhan  peserta  didik,1
+tingkat  ketertarikan  minat  peserta  didik,1
+tingkat  keterbacaan  intelektual peserta didik,1
+keutuhan karya sastra,1
+Berdasarkan  ulasan   hasil   pembahasan   penelitian   disimpulkan berikut,1
+Secara strukturalnovel Ayah Menyayangi Tanpa Akhirmemenuhi  aspek  tema  alur  penokohan  latar  sudut  pandang  amanat dialog/percakapan     gaya   bercerita,1
+Analisis   menunjukkan     struktural novel Ayah Menyayangi Tanpa Akhir memenuhi aspek-aspek struktural sebuah novel,1
+Berdasarkan analisis dilakukan menggunakan teori psikologi  Carl  Jung menunjukkan  bahwaterdapat  kesinambungan  ego bawah-sadar  pribadi danbawah-sadar  kolektifdari  tokoh  utama,1
+Analisis  nilai  pendidikan  dalamnovel Ayah  Menyayangi  Tanpa  Akhirkarya Kirana  Kejora  meliputi  nilai  religius  moral   etika  sosial  estetika  budaya/adat,1
+Nilai-nilai    tersebut       keseluruhan    mampu    memberikan pembelajaran   pembaca   berperilaku  beretika  sesuai  tuntutan,1
+bangsaku mana bangsamu,0
+gila semangat kapitalisnya,0
+tak lekang gempa,0
+gw sama derry nemu buku karl marx rak buku diet pas gramedia matraman,0
+lebih baik,0
+siapa sini ikut tentier,0
+statement tsb batal,0
+gua ga jadi ikut,0
+ga jadi ikut,0
+vazing jd lu ikut mewakili gitu,0
+yah coeg lupa tentiernya hari,0
+gatau sbenernya nazi,0
+sumpah ga enak ngomongny,0
+grammar nazi,0
+gabloleh grammar red army,0
+well buat gerakan baru,0
+biar lebih mntp,0
+udh kenyang proletarian,0
+ibu grapnya pake motor amfibi,0
+btw ad yg liat kartu mahasiswa gw g,0
+lah lu nunjukkin aja kgk,0
+buset tu buay siapa,0
+gw naik lantai,0
+anjir cape banget,0
+gw bikin text based game perang dingin,0
+ad yg punya ide buat jalan ceritanya,0
+lu mau cerita sisa siapa,0
+sisa siapa maksudnya,0
+sisi siapa aj,0
+blok sosialis kapitalis,0
+sosialis menang,0
+ad ide jalan ceritanya,0
+ide temen gw si protagonis jadi agen kgb,0
+pancasila masuk perang dingin,0
+gk ambil cerita,0
+satu sisi kapitalis sosial mksdnya pilih negara mana mau lu pakai dulu terus endingnya bebas,0
+bikin multi ending aja,0
+gk kalau gue satu,0
+awalnya jadi jenderal dulu habistu sering perang lu kalah perang akhirnya pecat jadi lu orang tengah tengah bebas mau tim apa,0
+gw pertimbangkan dulu,0
+ide gw refrence dr game singularity,0
+lu cb cek ajaa,0
+trs ad ide buat nama gamenya,0
+cold war hot war kalau aku si blood of autority,0
+wah indo mulai terbuka sama pandangan kiri nih,0
+inilah yg dinamakan a progressive nation,0
+remember us comrade remember what a great nation we used to be,0
+beginilah cara crusade yg benar abad,0
+akhirnya gw tau arti yg bener,0
+ussr pelopor my friend,0
+kok kyknya makin condong kiri,0
+hm,0
+merasa,0
+btw lusa uts ap,0
+blm percobaan membuat jiwa yg orang hewan kan,0
+ad,0
+pelopornya lu,0
+sabar der,0
+nyantet pake hola,0
+pakai bantuan dragon ball,0
+watdefak bikin hitler make super crown siapa,0
+battle royale baru bole pulang gt yak,0
+besok kalo soalnys pemograman dasar revolusi yok,0
+atlet judonya buta trus make krudung gt nah tp judo krudung gaboleh,0
+so dilepas cewe ntu gamau so pengen pindah haluan,0
+jd atlet blind chess,0
+kampret kau bangsat,0
+berarti hos tjokroaminoto greget,0
+guru pelopor ideologi,0
+soekarno nasionalis kartosoewirjo islamis semaun soyuz nerushimy,0
+jadi jason indonesia,0
+jason jadi islami,0
+nga katolik beraliran kiri,0
+karl marx,0
+siapapun yg blg nazi pki,0
+my god,0
+ga kepikiran gw anjer,0
+mksdnya lingkar,0
+indonesia musim dingin mitos darimana lgi,0
+gw berasa jadi lagu komunism,0
+gw baru beli sepatu,0
+gw merasa aneh,0
+sepatu gw jejerin,0
+warnanya semua hitam merah,0
+makin kemari warna hitamnya makin sedikit warna merahnya makin banyak,0
+bahkan yg baru hitam cmn talinya doang,0
+wew lu udh g makan berapa lama,0
+foto hitler waifunya,0
+lu mau bunuh msh memberi perlawanan,0
+bagaimana kamu membatasi kebebasan tanggung jawab semakin banyak tanggung jawab semakin bebas intervensi pihak luar yg bs menambahmengurangi kebebasan biasanya org dgn otoritas lu ideologi yg mengakui kebebasan penuh yg membatasi,0
+kritik yg dpt kamu berikan mengacu karl marx agama candu yg membatasi kemampuan sosial contoh dr kasus rebutan hasil panen pdhl caranya kepemilikan hasil panen tsb milik bersama,0
+terus lu baru sadar klo lu tinggal gulag,0
+versi asli dr zaman soviet kyknya dr audio quality footage nya,0
+sedikit bangga dgn indonesia,0
+stalin dgn kreatifan lokal,0
+selamat buat yg lulus,0
+jd seandainya amerika yg pegang sistem komuniis dulu,0
+ngga coba kl paham masuk sini lebih awal era pra kemerdekaan mentalitas yg terbentuk proklamasi mentalitas yg ngerti penerapan communism in daily life keep that up sampe era suharto and i think were good,0
+gaada tuh jawa sentris mentalitasnya its not my country tp our motherland,0
+jangan lupa kebanyakan negara komunis gk maju cina uni soviet,0
+njir weh gw liat org mukanya mirip lenin holiday inn,0
+cuma beda ketebalan rambut wkwkwk,0
+gaada yg mirip dn aidit kan,0
+kl gw mau minta tandatangan,0
+uts pemrogdasar,0
+selamat kalian nak wkwk,0
+liat uts,0
+perang stalingrad power point,0
+lvl menghina org,0
+derry leo nardi anjai,0
+pahlawan yg dianggap,0
+korban jadikan pemimpin,0
+gw copas aja,0
+pancasila ah relevan nih gimana ye,0
+kasus univ mana gitu,0
+bawa buku tan malaka,0
+tau gw,0
+fobia banget sama communism indo,0
+nama doktrin orba,0
+klo lu didoktrin tahun non stop bukan yg aneh,0
+oi ad yg udh selesai tgs sisdig,0
+gw blh liat g,0
+nemu cara download game,0
+kasi tau,0
+memvajak game blek skrin,0
+tu game jaduk setahu aku,0
+membajaknya kurang pro,0
+nah betul,0
+jg betul wkwkkw,0
+emang cuman kurang seru kalau gk pakai hero,0
+moh seru dr the rising sun,0
+sama uhuk soviet union,0
+gw civilization,0
+gk seru semua tu coba game namanya rise of civilizations,0
+mksdnya rise and fall civilizations of war,0
+kalau main aku main ikut jg,0
+lebih bagus tu game,0
+maenny gmn,0
+mang bs multi,0
+orang,0
+gue main harentu cuman orang doang ber satu sama bot ambil peta orang,0
+research segala macam malah pakai hero,0
+tu lah game tu sekarang aku lebih unggul game game sekarang jg,0
+game steam,0
+online pake apa pak,0
+kan lan buat server sendiri,0
+mksdnya buat room sendiri pakai internet pakai aja lawson wkwkkw,0
+makanya tu dulu kangen aku main game tu cmn gk orang main,0
+seru tu game,0
+gw lupa save gambar sblm kena facebook auto refresh,0
+kan lg trend meme semudah ferguso,0
+yg ganti,0
+semudah soeharto mukanya tom jadi muka ahmad yani,0
+i open youtube dis show up,0
+tinggal cut sendiri tuh,0
+ferguso nama anjing,0
+oi ad yg udh selesaiin tgs sisdig,0
+oi ad yg udh selesaiin tgs sisdig,0
+son sepatu lu merk apa,0
+hitler used auschwitsz its super effective,0
+seandainya pasukan jihad masa,0
+bagusan yg soviet njir,0
+lebih stronk n epik,0
+make russia soviet again,0
+mau ngingetin aja,0
+bsk algo kyknya sih maju presentasi,0
+setel lagu uni soviet,0
+lu gk algo bsk,0
+karma,0
+dk ngerti wkwkkw,0
+kasih kentut tu,0
+subscribe aja remed ngetiknya,0
+belajar inggris gih,0
+bsk uas loh,0
+lu blm tau aja,0
+pas tugas akhir agama gw ambil tokoh tan po goan,0
+ternyata salah satu anggota pertama partai sosialis indonesia,0
+gw ga nyadar selama seminggu gw nulis autobiografi orang sosialis yg dicap pahlawan,0
+btw tan po goan pernah ikut pemberontakan prripermesta yg melawan sistem sosialis soekarno waktu,0
+prripermesta disupport negara kapitalis,0
+gw jawab nasakom diciduk ga,0
+diam yg nyiduk n menjara lu berhaluan kiri,0
+gk pake salib yahudi oke pake lambang nazi,0
+mod lu instal akhirnya jalan,0
+gw kyknya paling semangat bahas,0
+stalin alam sana terharu liat tindakan jason,0
+gw mengaku bahasan masuk akal,0
+lu liat vote terbanyak,0
+gw blm vote loh,0
+ayo mulai revolusi,0
+pengintegrasian ideologi k elemen lokal,0
+perang ap tuh,0
+jangan kau hancurkan nama baik org,0
+yg namanya penyamaran identitas emang elu inisial kaga sensor kaga,0
+copyright isi pak,0
+nama,0
+kan gw kapitalis,0
+g ad copyright screenshotnya milik bersama,0
+gw inget ad satu puisi ap lah,0
+wow chat yg sangat memeable grup,0
+lah gw pernah liat lebih parah,0
+baca nyanyi lagu tsubasa versi indo,0
+pertanyaan yg bodoh ad benarnya,0
+klo iblis menyiksa menghukum orang jahat neraka knp iblis jahat,0
+statement iblis bukan lawan dr tuhan tp apa yg terjadi kl tuhan,0
+kyknya gw pernah liat org nanya intinya iblis ngerjain tugasnya doang kan ga jahat dong,0
+btw besok ad tgs g,0
+btw ad yg main heart of iron,0
+gw mau nanya,0
+kurang simpatisan pendukung,0
+n btw gw ngalahin belanda papua kekuatan militer bantuan our glorious comrade soviet union,0
+ganti semua indomart,0
+gw g nemu gamenya play store,0
+blom keluar,0
+bentar tank n senapan ikut jadi anthromorphic,0
+tank udah,0
+senjata udah,0
+anjir napa lu foto gw tidur,0
+dpt grup sebelah,0
+gw aja gk tronton sama lu,0
+iseng nemu gituan,0
+gw udh pernh nonton,0
+mana video tekken nya,0
+bukan disini sharenya,0
+dikatakan mobil,0
+unvaccinated kids gaakan cukup panjang umur masuk usia sekolah,0
+jadi gini jay lu mau bidadari succubus,0
+succubus lah wkwkwkwk,0
+bidadari la tolol wkwk,0
+lu main plague inc,0
+anak gua lahir jdi setan wkwk,0
+bidadari rela lu sentuh klo lu berani mati ledakan succubus rela lu sentuh berkali lu mati,0
+jokes nya deep bgt,0
+iyep tp gw msh blm ngerti cara pake shadow plague yg efektif,0
+lu main plague inc,0
+pake apaan,0
+cuz communism makes you smart lmao,0
+btw hasil vampire mode,0
+tips tekan severity seminimal mungkin n naikin infectivity,0
+n pake skill buat berubah jadi kelelawar,0
+n skill buat nyebarin virus manual,0
+meanwhile gw yg udh pernah cobain semua plague inc,0
+waktu pasien udh banyak bikin vampire baru,0
+bukan lethality yg hrsnya rendah,0
+lethality gw rendah kyk severity,0
+klo lu nyadar penyakit lu biasanya ketahuan klo severity lu tinggi,0
+gift card apa,0
+bidadari succubus,0
+comparison joke succubus rela lu sensorin semau lu bidadari cuma rela lu sensorin klo lu berani mati ledakan rompi bom lu succubus udh perempuan bidadari blm perempuan lol succubus cuma minta bayaran jiwa lu lu mati bidadari minta bayaran jiwa lu lu bunuh diri dlm ledakan yg membunuh org,0
+debat capres keempat malam,0
+temanya ideologi pemerintahan keamanan pertahanan negara,0
+emphasis on ideologi,0
+subtema hubungan internasional posisi indonesia globalisasi,0
+gw pikir bahas pancasila vs khalifa,0
+makanya gw mau denger,0
+blm lama blunder baru kubu sebelah,0
+gw nonton via youtube live chat kyk bot jir,0
+udh doang,0
+jokowi dituduh pki prabowo dituduh ganti pancasila,0
+kebal dihina anjir orang,0
+wah revolusi industri,0
+anjir pertanyaanya ngeselin,0
+klo butuh kecepatan layanan berarti internetnya pak gedein,0
+tp lu dengerin jokowi ga kudet ternyata si bapak wkwkwk,0
+perlu ebla ebla tujuannya bla gw ga condong kubu x gw dengerin ngomong iq gw berasa naik,0
+udh sering lapangan jas,0
+mah apa,0
+wifi aja nyari yg gratis,0
+dengerin debat capres gw cabut rambut main sekiro,0
+you died in japanese,0
+nah denger kan der tanggapannya semua serba cepat sistem serba digital,0
+contoh jawaban intelek tu gitu,0
+kan gw udh bilang,0
+klo butuh kecepatan,0
+upgrade internet speednya,0
+nah susah kyknya masalah medan biaya,0
+lu bawa laptop gw coba main @louisf,0
+percaya game ngak ngikut logic ds jir,0
+lu block grab,0
+keras sekali prabowo,0
+kaga tau yg namanya nabung valas luar negeri,0
+lu tau kan pencipta facebook waktu indo yg jokowi temenin,0
+mau bantu internet indo katanya,0
+internetnya lelet,0
+gw tuker rupiah gw jadi dolar gw tabung bank of america gw buat virtual acc rekening dolar gw kalo pake logika prabowo gw dipidana dong gw anjir,0
+bahas pertahanan kemanan yg gw dpt prabowo press x to doubt jokowi please learn to belive someone,0
+lihat yg berpikiran negatif sama positif yg mana,0
+prabowo cegah kebocoran dana jokowi pak sipil percaya tni punya tank punya submarine punya alutista beli sendiri dikembangkan,0
+debat pembantaian anjir,0
+bahas hubungan inter knp jadi bahas pertahanan,0
+prabowo ibarat murid yg ketinggalan satu soal pertanyaan mencongkak kelas,0
+soal jawab nomor,0
+soal ngebahas jawaban jokowi soal no,0
+pendukungnya tetep yel heboh ngerti ga sih ngomong apa,0
+kan gw udh bilang jas,0
+udh serasa bot,0
+series kearifan lokal,0
+ngehe gw jam daritadi digebukin neneknenek jir,0
+lady butterfly,0
+jadi prabowo pengen mutusin kerja sama indo gitu,0
+dibilang kekayaan indo pengen diambil,0
+rasanya namanya kerja sama dah,0
+iya ga seru,0
+prabowo pamer dulu tentara doang drtd,0
+prabowo takut indonesia diserang pembangunan campur tangan negara jokowi gw minta perusahaan negara buka negaranya langsung,0
+gw g nonton debat kemaren,0
+ad yg mau menceritakan debat kemaren ringkas,0
+kyknya gw udh menentukan pilihan gw,0
+frankly speaking gw gk pernah niat dengerin debat sejak dulu pilkada dki debat paslon one is unloading his stash of bullshit one is high one actually knows what hes talking about,0
+wo beneran indo,0
+kera kera sini akhirnya bertransisi jadi homo sapiens,0
+baru cuma mrt,0
+lu klo liat stasiun karet ngakak jas klo gw ksh tau,0
+rapi banget battle royale kearifan lokal,0
+jujur aj foto note lu agk aneh,0
+kata jason akhirnya berevolusi menjadi manusia,0
+miliaran tahun,0
+mirror force gk magic cylinder,0
+jiah ketinggalan zaman,0
+telat hari doang,0
+nunggu selasa,0
+lu daksih pr matematika,0
+bru get some rock,0
+khusus anak sekolah digituin yg un,0
+gw coba,0
+kyknya diekspor china,0
+musiknya pake modern warfare spec ops gasi,0
+ternyata jutaan tahun evolusi pengembangan kecerdasan manusia sia,0
+moga foto cuma editan,0
+melihat bannernya sepertinya,0
+apa jutaan tahun evolusi blm cukup,0
+emangnya ikut berevolusi,0
+gw rasa transisi kera jadi manusia,0
+sangat akurat sekali,0
+anak kos tanggal tua gw mendukung pernyataan,0
+merah semua anjir,0
+masi idup manusia,0
+bukan msh idup jas,0
+msh sanggup gerak badan,0
+gw bru aj dikerik item wkwkwk,0
+gerak kok,0
+maksud gw dikerok ampe segitu parah sebelumnya msh gerak bugar,0
+udh liat gw wancak lama bgt,0
+auto congkel mata cucu nya,0
+udh liat tien,0
+gw gk ksh liat lu jirr,0
+wancak terupdate masalah ginian,0
+pengen bngst,0
+masalahnya lu kirim grup yg gw,0
+ambil noh digambar,0
+gk tin,0
+gk gw keluarin lol mksdnya duitnya,0
+ywdh gk ush keluar ribet amatwkwk,0
+tin klo misalnya beneran diambil lu mau gk,0
+btw sebelah w busway bau bawang jirr,0
+yg mana dl nih yg dimabil n,0
+bukan yg megang duit,0
+lu mah yg megang duit diambil,0
+enak y dh balik,0
+tar kamis gantian,0
+enak gk jadwal kuliah,0
+kan udh disiksa duluan,0
+gw udh pernah liat gk bosen gw ngeliat video,0
+life achevement unlocked,0
+serius lu ga tau,0
+wah jason ga bole gt lu anying wkwk,0
+tisu toilet jir wkwkw,0
+makanya gw kira pertams gulungan,0
+baru ngeh gw wkwkw,0
+kalo gua mikirnua gini,0
+krn org india terlalu itam,0
+disuru lap mukanya,0
+kbtulan org yg kasi tisu kn kulit putih,0
+rasisinya kulit,0
+lu kkk jay,0
+gua mmg biasa si yh menista segala,0
+klo gua ama temen skola gua,0
+tukang menista,0
+semua tista wkwk,0
+kalo lu mau ga rasis adil,0
+lu ga menista yg manapun,0
+lu nistakan semuanya,0
+gua ga tau si wkwk,0
+pstinya kalau gua ketemu ama temen gua,0
+psti yg ditisa,0
+ga mgkn bs menista semuanya,0
+krn jumlahnya bahkan ga tau berapa,0
+jdi anggap tak terdefinisi la,0
+foto yg dikirim jason menyindir sistem kebersihan india yg bener parah,0
+siapa bab jalan raya,0
+makanya gw pernh blng waktu semester india punya lebih banyak ranjau perangkap hutan vietnam,0
+gw jamin triggered,0
+gw baru nyadar liat yg kedau kali,0
+gw kira pertama ngasih gulungan,0
+pas gw liat lg gw bru ngeh tissu toilet wkwkw,0
+emang tau gaji presiden plus tunjangannya berapa,0
+yg gw tau sumber gaji presiden pajak rakyat,0
+mmg gaji seluruh pemerintah dri rakyat,0
+emng penghasilan kyk ekspor n inventasi asing g jadi sumber gaji pemerintah,0
+biasa duitnya perusahan,0
+perusahaan yg campur tangan pemerintah,0
+masuk apbn,0
+lu tau ga lambang apa,0
+kyknya lambang kekaisaran russia aka tsardom of russia,0
+ap lambang grup revolusioner russia,0
+gw g tau lambang ap,0
+sepupu gw bikin temen sekamarnya yg baru dengerin ussr anthem besoknya homescreen hp orang jadi gambar,0
+jujur gw gk tau,0
+titik saudara lu udh jadi,0
+ngga gitu si msh standar,0
+tp memang gitu,0
+jadi larinya kesana,0
+alternative timeline prabowo jadi presiden,0
+pemain esport indonesia mendapatkan bantuan pemerintah berupa pupuk npk,0
+apaan foto profil grup wkwkwk,0
+ferdy kena,0
+ferdy kena,0
+kasih aj sedikit asupan propaganda,0
+silakan lu yg ksh,0
+jangan gw g ahli membuat propaganda,0
+hadeh mencobai,0
+hati gua ttp yh ga tergoyakn,0
+gmn yh,0
+gw punya rumus jay,0
+lmao artinya apa yhv,0
+laughing my ass off,0
+mslhnya ga bs,0
+mutilasi kesadisan yg membara,0
+masalahnya makna lmao kiasan pak,0
+btw kalku u uda ama gua yh,0
+silakan baca ss chatnya,0
+ihh cowok,0
+terlalu kasar la,0
+gw senang ternyata ad bukti evolusi perkembangan indonesia,0
+tuhan adil,0
+negaranya sumber daya alamnya cukup banyak,0
+yg perlu nerf penduduknya,0
+ga semuanya batu,0
+yg kera,0
+whale cum to our group,0
+wah wah tak disangka wkwk,0
+jangan dibalik jay wkwk,0
+olisus bagus jg yh,0
+fak tugas pkn belom wkwk,0
+wah tenang wkwk,0
+jg blm,0
+sampe ngesleep laptopnya gw tinggal,0
+cadangan kan,0
+drtd cuma ketik nama nim belom ketik apa apa,0
+visi doang,0
+thx koreksinya,0
+bukannya misi,0
+visi yg lu harapkan kedepannya tujuannya,0
+kalo misi langkah langkah konkrit mewujudkan visi,0
+misinya membuat orang yg buta kegoblokan menjadi aman menghina orang goblom,0
+yg tadi gw share aja,0
+visi orang orang menerima keberadaan,0
+colokan wifi,0
+lalu hina org disini aja,0
+selalu mendengarkan ujaran kebencian terhadapp org goblok,0
+sus lu dgr lagu mandarin ga,0
+jujur enak,0
+lagu yg tak asing telinga wkwk,0
+tambahkan kearifan lokal,0
+lu sempet denger berita partai lambang partainya mirip lambang hti,0
+buat aja partai lambangnya palu sama sabit,0
+masyarakat indonesia sensitif,0
+contohkan sama ormas ehm,0
+disini sebut merek aja,0
+disini sangat netral,0
+pernah denger rizieq shihab protes uangbdi indonesia logo bank indonesianya kayak logo palu arit,0
+menghina siapapun menghina semuanya sekaligus,0
+federasi preman indonesia joke,0
+manusia ga pulang pulang,0
+mana berani pulang,0
+padahal sama kubu udah dirayu pulang,0
+finally lu mengatakan,0
+kemaren hari minggu gw poris melihat sebuah reklame oohhh gosh its an eye sore,0
+reklamenya prabowosandi muka muka ulama entah ulamanya beneran engga rizieq shihab disitu,0
+deket rumah gw spanduk gantung bertuliskan dukungan jadi presiden dukungannya aljihad,0
+poris daerah cipondoh tangerang,0
+positifnya rizieq shihab cuma satu,0
+umat jkt tuh kerjaannya,0
+maap pas pilgub gw coblos si mulut manis,0
+gw msh blom coblos,0
+kali pemilu gw tusuk ahok wkwk,0
+kan pilihannya gini afalan kerja nyata puisi,0
+pas pilgub tuh,0
+sayang sumbu pendek banyak yg lebih percaya si manis ahok beda server,0
+kan menang dibenci,0
+cuma gara gara servernya beda wkwk,0
+bukan menang dukung,0
+liatlah jakarta sekarang perkembangan proyek mrt wong jokowi sama ahok yg memulai si manis cuma menikmati peresmiannya,0
+anies kl mau jujur standard kok,0
+bagus ngga jelek banget jg ngga,0
+sayangnya sial naik gantiin orang yg punya standar kerja tinggi,0
+kalo anies gantiin fauzi bowo gabakal ribut deh percaya sama gw lah gantiin ahok,0
+server gurun in nutshell again albert einstein was a muslim roosevelt who won the nobel prize was also a muslim mother theresa who also won nobel prize was also a muslim,0
+kalo hubnya batu raksasa terpanggil,0
+tetep aja fauzi bowo vs anies fauzi bowo lah,0
+ngomong apa,0
+baca notes grup sedikit berbeda grup biasa,0
+ehh jason,0
+bakal jadi rival lu dibagian koding,0
+eh wilsus,0
+rival menarik wkwk,0
+gw gak tau apa terjadi,0
+jason diem diem ternyata jago wkwk,0
+heh udah pulang istirahat dlu nak,0
+dah sampe windowsh,0
+udah pulang dong deket jelambar tangerang,0
+pulang sendiri td mau gw temenin lu pulang tp ga kabar,0
+jd td gw pake hapenya angel wkwkwk,0
+sesama tangerang kok malu malu wkwk,0
+tak enak gimana gitu,0
+emg sih ga seberapa dibanding tangerang puncak bawa motor,0
+eh jelambar pluit tinggal lurus kan,0
+loh lupa jalan lu lg,0
+lu dmn,0
+lu ga ngoming kalo jelambar,0
+tau gitu mah tdi gua jenguk,0
+udah dirumah kok bener kan pluit jelambar deket,0
+td lu ga ikut gw angel ellen dkk sih pas istirahat wkwk,0
+wah apa,0
+td hape angel sempet dibajak makanya foto jet sama gw,0
+alisa beraksi wkwk,0
+jgn bahas tekken disini,0
+udah lama gw ga lawan lu wkwk,0
+gw sih ikut psyfest,0
+gw sabtu masuk,0
+sekalin coba main tekken tuh,0
+gw mau tutor temen gw wkwk,0
+oke sabtu,0
+udah ujung tanduk gw dongkrak,0
+entah jam brp,0
+apa sabtu,0
+main tuga,0
+sejak kapan gw windowsh,0
+belajar bareng kalo lu kan dah jago jd lu bukan belajar ngajar wkwk,0
+anjay sama sama pemula kok,0
+perasaan mentok gw pake stdlib buat clear console doang,0
+hari lalu pas hari minggu wkwkkwkw,0
+pemula kok,0
+hmm merasakan hmmm,0
+korban jason,0
+eh derry dah sampe situ,0
+gw baru inget,0
+jangan bohong kamu derry,0
+berarti bukan pemula yg bener gw harusnya yg pemula,0
+bukti,0
+rival lu nambah sus,0
+kalian c aku c,0
+sekalian tekken,0
+berarti struct sama pointer udah dong,0
+mantap jiwa kalian kerad wkwk,0
+wah gw paling payah disini,0
+sabtu gw tutor temen gw deh pokoknya jd berhalangan hadir dulu,0
+nanya dong kalian tugas akhir dr pak halim ga,0
+belom dikasih tau,0
+cuma buat unity buat game doang,0
+kok jadi ml wkwkwk,0
+gw kasi tau gitu gw dah ngeliat lu berbakat koding,0
+lg bahas apa,0
+bahas kehidupan wkwk,0
+lg bahas siapa mau ditumbalkan nyoba java duluan,0
+tutor aku mas,0
+ngebet belajar java gw wkwk,0
+eerr java hampir mirip c,0
+mau cpt wkwk,0
+santai aj wkwk,0
+enak aja udah bekal duluan,0
+jadinya ga kelabakan,0
+aih gila dh pd mo java,0
+java bntr lg la yh,0
+gw borland aja msh statement missing,0
+gw gak ngerti apa apa,0
+makanya jangan borland,0
+wah kerad disuruh turbo,0
+pliss jgn turbo,0
+cout aja gw msh tandanya,0
+gw udh nyobain pas bikin tugas pertama pak lukman,0
+kerad km nak,0
+mata gw berlinang air mata,0
+inget string mu nak,0
+string gw kalahkan,0
+derry gmn rasanya pake turbo,0
+mendingan exploitasi command scanf,0
+pake borland buat bikin game go go,0
+sedang belajar begituan dikasih cobaan sama diata,0
+pemakai turbo pascal,0
+typonya banyak,0
+gimana,0
+mending java dlu apa javascript sololearn bljr duluannya,0
+kalo javascript mending html css dulu,0
+jd gw bljr java dlu yak,0
+goal gw bsa smw bahasa mesin sms tp keknya gk bsa,0
+sebenarnya terserah sih,0
+bedanya apa java biasa ama javascript babang,0
+javascript utk ui biasany,0
+javascript bikin orangnya beda,0
+java lebih mirip c javscript lebih mirip c,0
+aku gk tw apa,0
+kl gk salah,0
+inilah yg terjadi nama bahasannya mirip latar belakang keduanya beda jauh,0
+sedetail tp simple,0
+javascript terdiri huruf,0
+sriusan ei wkwk,0
+njay gw berasa paling noob wkwkwk,0
+intinya bahasanya beda java biasanya bikin aplikasi javascript bikin script website yg biasanya digabungkan html css php,0
+masalah apa,0
+kredit motor awalnya elu yg buat,0
+kan case pak,0
+dulu gw mana ngeh apa case,0
+hitungan aja pake cin,0
+kalian jago gw paling newbie kayaknya wkwk,0
+seminggu kok wkwk,0
+selamat ulang tahun versi it,0
+berasa liat encryption dah,0
+hbd boy,0
+btw buat agama space nya brp nya,0
+minggu kan bakal udh uas,0
+mau gk kapan kapan grup call trs belajar bareng,0
+bsnya kapan,0
+pti hari libur jadwalnya kl pti kan libur tiap hari kamis,0
+lebih enak jas hari kamis sampe sabtu gk kelas,0
+tp seninrabu full,0
+berarti kamisminggu dong,0
+jumat jg yg pti cuma kelas sampe stgh,0
+asumsi abis lgsg plg ga tekken didepan lawson,0
+semudah ferguso,0
+gw setengah dah ubm hari jumat,0
+baca buku perpus,0
+gw sempet bbrp kali ngegeledah perpus emg buku bagus apa disana,0
+malah yg gw baca buku pengantar kimia organik,0
+geledah bom,0
+wah kimia organik,0
+yg ikut seminar kemaren mah ngegas wae,0
+logika gw salah yg volume bola,0
+kok hasilnya beda sama kalkulator,0
+coba inputr kalku hasilnya,0
+yg latihan dr ferdy,0
+pas sampe yg volume bola,0
+hasil compiler sama hasil kalkulator kok selisih jauh,0
+buat if mod bla bla bla nya,0
+sama kurung nya coba,0
+selisih ratusan masa mod,0
+coba kayak gitu,0
+bs gitu,0
+ngitung baru lanjutin rumus kekanan,0
+pembagian float,0
+ikutin peraturan matematika,0
+belom pernah lawan gw jas wkwk,0
+gapernah lagian gw gabisa main,0
+perasaan gw pernahnya sama martien derry,0
+iya rip kontroler bentar lg kl kalian yg main,0
+mejanya aja geter,0
+ayo balik bahas coding,0
+cukup tekken nya,0
+wkwkwk seneng bet gw sentuh dmg sekali combo,0
+jadi sandbagnya susilo,0
+iya sama gw combo selalu lancar,0
+gw dapet feeling jelek nomor latihannya ferdy sangat cocok jd latihannya miss kristien,0
+nomor paling asik,0
+emang asik,0
+asik sekali membayangkan berapa rambut gw rontok mikirnya,0
+asik sekali membayangkan silinder gw naik berapa,0
+hari gw udah jam natap layar laptop coding seharian ngicilin project tugas akhir algo,0
+algo lu bikin apa sus,0
+untung tabel periodik gw ditolak miss kristien kl gt,0
+andaikata pass gw bundir mikir logika dr persamaan reaksi,0
+wah chemist,0
+btw no gw bingung,0
+output tulisan apanya,0
+output dlm bentuk dialog,0
+tp inputnya bukan dialog,0
+gk input,0
+kan masi level easy,0
+gw dah tau caranya wkwk,0
+gw pernah baca buku perpus,0
+soal minggu dah gw update,0
+skrng dah nomor,0
+soalnya banyak hari bs dipakai ngerjain,0
+kyk sehari nomor gitu,0
+sisdig dong,0
+ajarin kmi wkwk,0
+mending jwbnnya dlu baru diajarin,0
+gw gampang analisis jawabannya,0
+step by stepnya udh ketauan,0
+lah kok ajaran lu beda sama pak teady,0
+jadiin biner kelompokin cari nilai sign eksponen mantisa masukin rumus,0
+emg harusnya kyk gmn gw ajarin temen gw,0
+sma kek yg si ajarin,0
+gw kagak paham sama sekali apa yg pak teady tulis dipapan tulis,0
+cma jwbn lengkap pak teady gk tulis lengkap kolom nya,0
+no sign nya,0
+mautisa nya ga apain,0
+ad paling bwh,0
+lu udh ngerjain ric,0
+blm mls wkwk,0
+pak teady gak kasih rumus,0
+tpi inti nya sma,0
+klo langsung jdi satu,0
+emang gw yg pake males manual kl gk salah pdf nya,0
+gua manual ga dapet,0
+eh yg tau cara transfer kuota gk,0
+setau gw hp khusus,0
+yg biasa dipegang pemilik counter pulsakuota,0
+gw liat internet,0
+tpi pas praktek menu nya gk ad,0
+gw cari ferdy,0
+jd bnyk orng ni grup,0
+klo tugas lu gk gw krjain gmn,0
+cuman latihan soal,0
+yg ikut seminar hari,0
+owh kirain seminar atamerica xd,0
+tau syarat makalah tugas akhir agama gk,0
+yg margin line spacing gituan,0
+tergantung kelompok brp,0
+kelompok sih semuanya cm semua marginnya,0
+kelompok yg nonwawancara semua marginnya seinget gw,0
+kl wawancara gw lupa,0
+beda kelompok beda ketentuan,0
+kalo kelompok ketentuanya apa,0
+font times new roman space magins judul bold capslock subjudul bold italic kertas a,0
+eh salah kel,0
+yg beda sih cuma margin setau gw,0
+beda margin doang,0
+kok kyknya lebih capek kel,0
+judul blhnya,0
+siapa udh selesai sisdig,0
+tips takut sisdig jawabannya salah buka google search floating point to hexadecimal calculator,0
+ntar pas uas siap buka xorg,0
+gw dapet,0
+si kubus tekken sama chara dark souls gw,0
+dark soul satu lah wkwk,0
+banyak yg komplain kalo soal minggu lalu kebanyakan yg minggu cuman nomor,0
+fer jgn buat gw pensiun dr ti plis,0
+justru bagus jd bahan latihan,0
+soal kmrn aja gw msh heran array gw gk jalan,0
+semoga bermanfaat yg begitukah ferdy @ferdy,0
+yep seringlah latihan koding tau fungsi operator gunanya apa dipakai sekreativitas apa,0
+macem seseorang yg masang jebakan kodingnya switch case default setel lingsir wengi,0
+hello grup opo,0
+cek notes aja ntr semua jelas,0
+thnx mastah ferdy,0
+grup yg menikmati indahnya hidup,0
+gk salah sih soalnya pernah bahas kehidupan,0
+klo gw ngakalin biar rapihnya pake setw,0
+nah setw thnx vin,0
+kok pnya w malah muncul banyak yak,0
+kode nya,0
+for kan emg udah diatas if,0
+sabar kesalahan teknis,0
+maksudnya if nya diatas for kali,0
+case coutx for,0
+tp eror,0
+wah ga pernah ketemu error,0
+kalo nuker tipe datanya char x jadi string x gimana,0
+lagian deklar arraynya salah,0
+datanya,0
+kalau nama array dimensi,0
+data tipenya salah string,0
+udh diganti fer kwkw,0
+tp msh eror,0
+cout cin ditaruh diluar for,0
+atas or bawah,0
+if nya biarin aha,0
+yg violation pointer interger data lu masi dimensi,0
+yep biarin aja,0
+datatipe x lu blm ganti jadi string,0
+variabel i blm dideklar,0
+yg bagian cout kelas uts uas,0
+taro if,0
+ohh oke thnx fer,0
+ijin announce fer biar semua read,0
+yg baru masuk grup gabisa baca yg lu announce,0
+tpi klo notes baru bsa,0
+yaudah deh,0
+maap pake inggris karna lbh singkat gw susun kalimatnya kalo pake indo kepanjangan kata katanya wkwk,0
+jd notepad bs compile,0
+compile borland mas copas wkwk,0
+gk ush ijin kan gw dah bilang grup notes semua orang bs pake sesuka hati,0
+dgn ikutin tips no susilo gw akhirny bsa nyelesain kuis dri pak halim lab jg,0
+notepad bs disetting warna warni jadinya bacanya gampang,0
+say no to type your code on borland,0
+viralkan propaganda,0
+btw buku lu progress udah sampe mana,0
+kalo tips buat ngetik jadi cepet ga sus,0
+blm gw lanjutin,0
+nah tuh sus ajarin gimana caranya ketik cepet kyk printer wkwkkw,0
+tips bkin borland bsa bahasa manusia jg plis,0
+kta kan katanya pke dev semester,0
+biar nama kelas uts uas ga keukang gmn,0
+jangan lupa nomornya,0
+gjd deng hehe,0
+biar rata kiri gmn,0
+apa emng baca dr kanan aja,0
+setw buat auto ratakanan memberi spasi,0
+rata kiri lu pake gotoxy,0
+penempatan clearscreen ni,0
+pnya gw abis input nama lgsg clearscreen,0
+tp klo gw taro dibawah goto malah ga kebaca,0
+mending dmn nya ditaro clrscrn,0
+sama fungsi h buat apa sih bbrp ide kok yg perlu h ama kagak,0
+h ekstensi file header,0
+bukan taro lu lupa getch,0
+jd nampilin data nama gw cari lgsg goto menu,0
+klo gw sih gitu,0
+kasih koding full nya lag,0
+case doang mana tau salah nya,0
+clrscr tambahin getch,0
+okee thnx fer,0
+tp system pause apa,0
+getch ama getche bdanya,0
+yg satu echo yg satu ngk,0
+kalo dijelasin kata kata susah dipraktekin baru gampang ngerti kalo bedanya,0
+gw td print out tugas akhir algo,0
+hasilnya mind blowing,0
+flowchart sama code gw siap print,0
+punten aing ga sunda,0
+flowchart gua lmbr,0
+lu brp sus,0
+bikin pake apa kok sampe segitu,0
+warning jangan shock,0
+gw belek dulu liver gw siapa tau flowchart didalam,0
+kerjain sendiri gua flowchart,0
+pseudocode code program flowchart,0
+skripsi elu,0
+code baris flowchart halaman a full bolak balik,0
+code jg perlu diprint sama miss k,0
+kayaknya halaman deh,0
+ga tau,0
+seinget gw pseudo sama flowchart nya doang yg diprint,0
+code udah tebel kok,0
+besok w liat dong sus,0
+pseudocodenya sendiri halaman lebih,0
+sekalian program nya,0
+senin gw kasih lu karna bagian yg gw tambah,0
+mantap jiwa kelompok gw kerjanya paling kerad wkwk,0
+tugas nya gimana,0
+mantappp terkapar gw wkwk,0
+gw buat codenya lalu ber ngerjain pseu flowchart rumah gw,0
+dikecilin tulisan,0
+udh kecil wkwk,0
+spacing mepet,0
+trus yg code dr notepad lsg print otomatis spacing mepet margin mepet font kecil,0
+kesian bener kerjain koding sendiri,0
+mantap budjank miss k bakalan baca semua ga tuh,0
+lbh capek bikin pseu sama flowchart,0
+off page sama on page nya banyak banget tuh bulet,0
+pas gw kumpul flowchart halaman a full aja no comment,0
+kelompok w flow cma lembar,0
+coding dr baris jd baris,0
+bikin apa lu,0
+keknya bakal asik nih bsk kel w,0
+gw buat codingan an trus kompres ama temen w jd,0
+wah gw merasa tersaingi wkwk,0
+gokil sih pnya gw,0
+ohh enternya dikit,0
+codingnya keren apa daya coding kel gw wkwkw,0
+mata missnya masuk jec ga tuh wkwk,0
+semua main,0
+kelompok gw flowchart masi sama kyk minggu lalu,0
+flowchart kel w kgk da kabar wkwkw,0
+lah tus bsk gmn dah lu,0
+kumpulnya senin depan kan,0
+senen apa rabu,0
+bsk bknnya latihan trus cek lgi,0
+pert kan bsk,0
+senin kp bro,0
+koding nya bukan kodingan asli lu @william,0
+pertama apa kedua,0
+yg borland hotel,0
+pertama pnya w yg kedua pnya si willam s,0
+borland hotel loh,0
+msh ngakak gw,0
+soalnya tuh dikira kumpul bsk,0
+jd sistem sks,0
+william s yg ubah jd,0
+biar flow ama pseu nya dikit,0
+isinya beda bet asli,0
+jgn download,0
+awalnya pilihan kamar,0
+trus sistem pesenan diubah,0
+pantes jadi,0
+gua kira kodingan lu yg rapihin jadi,0
+tau nya ubah,0
+gw mikirnya sama wkwk,0
+cuma judul yg sama,0
+ga mungkin bs,0
+ngetik nya horizontal,0
+w pikir sejago ferdy,0
+coding dlu full compile blkngan,0
+barbar pake borland,0
+pake borland,0
+kalo ga diisengin pa halim ga save,0
+kalau gua include gua save,0
+gw dr td pager,0
+gua mati sendiri hoki start sistem resume kalau ngga gigit jari,0
+udah lesai woy tinggal pseudocode,0
+si kodok kalau ngetik setengah jam kelar,0
+lu mo ngeprint ubm,0
+mahal bang ngeprint ubm,0
+willy susilo added a note,0
+terbiasa tips selama setaun niscaya cara tadi nempan buat hafal conversation inggris menit,0
+tugas algo yg kmren pake array dimensi y,0
+sus lu project brp baris,0
+project apa nih,0
+algoritma kalah udeh cuma baris kok der,0
+pemdas lu an,0
+project algo gw cma debg,0
+gw singkatin dgn ajaran koko ferdi,0
+kok enak gk tugas akhir pemdas pti,0
+pak halim mas,0
+kek gitu jas,0
+uas pak halim kejam kalau nggk,0
+ancem biar belajar,0
+yg gw tktin array gw bermslh lg,0
+borland bujang gw pake dev lancar aja arraynya,0
+kayak apa hayoo,0
+versi c dev borland beda,0
+borland pake c,0
+dev udah c,0
+ajarin tugas sisdig operasit artimatika biner gk,0
+bagian pengurangan nilai negatif biner aja,0
+gw kurangin dulu,0
+trs gw bkin jd twos complement,0
+kgk gw kurang scra biner scr angka aslinya,0
+sama aja hasilnya,0
+mslhnya kelas ae blm diajarin mo jwb gmn gw,0
+negatif ganti aj s complement terus lakukan penjumlahan aritmatika biner sperti biasa kan kalau bilangan decimal positif biner s kn sama jdi lgsg dilakukan operasi penjumlahan @ferdy,0
+blm sama sekali,0
+trs uda tugasnya,0
+misalnya soal,0
+berakhir pas hari senin jadi gk bs nunggu pas pelajaran,0
+hasil stlh dikurangin minus,0
+ganti biner bit,0
+trs ganti s complement bit,0
+baru lakukan operasi penjumlahan,0
+nah hasilnya kan jadi tambahan hilangin aja,0
+cara legal pak ted kan,0
+jdinya dpt,0
+kalo ad yg terakhir gt,0
+misalnya bit,0
+bermainnya bit,0
+duanya ganti s complement,0
+jumlahkan biasa la,0
+klo ragu jawabannya cek,0
+bikin jadi biner,0
+terus reverse,0
+hasilnya dlm s complement,0
+ooo pantes kok aneh,0
+gtu si yg diajarkn pak teady,0
+wah derry jgn kau pake cara wkwk,0
+gpp kok,0
+nnti pas ujian auto lautan merah,0
+tergantung pen gurunya,0
+bikin terharu pak teady dli,0
+biar dpt pengampunan,0
+kan awalnya gw dah bilang jay,0
+klo misalnya ragu dgn jawaban sendiri,0
+buktiinnya pake cara,0
+hasilnya kan,0
+jd misal salah nya gw ubah jd s,0
+jawabannya jdnya dlm bntk s apa,0
+jd misal bakal jd bla bla s kan,0
+gw sih gitu lagian kl s bukannya selama sign nya nilainya biner biasa,0
+sama,0
+makanya hasilnya bs,0
+jangan ngegas dulu coba dipikir gw menit baru nemu jawabannya,0
+anjir bahasa apaan tuh wkwkwk,0
+wtf bljr bhasa dr mana lu pd,0
+kyknya gw tau cara bacanya,0
+gw aja blm ketemu jawabanya,0
+soal bukanny ud lama,0
+gw kira meme,0
+soal test beasiswa bank mandiri kan,0
+sjk kpn test begituan,0
+bca aja cma psikotes biasa,0
+njay beasiswa langsung suruh decrypt xd,0
+gw pernah beli buku full soal test mandiri soalnya begituan wkwkw,0
+wanjer kerad uga mandiri drpd bca wkwk,0
+iya viral,0
+tes ppti kali,0
+gampang mah pramuka,0
+sekolah gw gada pramuka,0
+teach me about sorting dong,0
+waow prtama kali sjk sms akhrnya diksh cepe uga ama ni org,0
+gw yg pernah inget ppti gk test gituan,0
+ppti emg gada gituan bca,0
+soalnya temen ge ampe interview cerita,0
+gua ikut nya ppa,0
+gak keterima kecewa,0
+ampe telat lgi datengnya,0
+gw ppti ikut cmn gugur interview,0
+lu wisma asia bukan,0
+lgi apa,0
+lumayan makan gratis,0
+gw yg slipi,0
+gw slipi,0
+Puji   syukur   panjatkan  kehadirat  Tuhan  Yang  Maha  Esa,1
+Berkat  rahmat-Nya akhirnya menyelesaikan skripsi memenuhi sebagian persyaratan memperoleh gelar sarjana,1
+Penulisan skripsi terselesaikan bantuan berbagai pihak,1
+Untuk       menyampaikan   terima   kasih     tulus     Rektor   Universitas  Negeri  Yogyakarta  Dekan  Fakultas  Bahasa   Seni   Ketua  Jurusan   Pendidikan   Bahasa     Sastra   Indonesia       memberikan   kesempatan berbagai kemudahan,1
+Rasa hormat terima kasih penghargaan sampaikan kedua pembimbing   Dr,1
+Wiyatmi  M,1
+Hum   Else  Liliani  M,1
+Hum   penuh  kesabaran kearifan bijaksana memberikan bimbingan arahan dorongan tiada henti-hentinya sela-sela kesibukannya,1
+Ucapan   terima   kasih       sampaikan     keluarga   sahabat   kekasih teman-teman BSI angkatan 2008 2009 2010 selalu senantiasa memberikan  doa  motivasi   canda-tawa  selama  proses  penyelesaian  skripsi ,1
+Akhirnya   penuh  kesadaran   rendah  hati   penulisan  skripsi  banyak kekurangan jauh sempurna,1
+Untuk saran kritik bersifat membangun sangat diharapkan,1
+Akhir kata semoga skripsi bermanfaat pembaca,1
+Penelitian     bertujuan     mendeskripsikan   bentuk   diskriminasi    perempuan  etnis  Tionghoa  faktor-faktor  penyebab  diskriminasi  tokoh  perempuan  etnis  Tionghoa   suara  tokoh  perempuan  etnis  Tionghoa   melawan diskriminasi Dimsum Terakhir karya Clara Ng,1
+Penelitian     deskriptif   kualitatif,1
+Objek   penelitian       novel   Dimsum   Terakhir   karya   Clara   Ng,1
+Penelitian     difokuskan   mengenai   permasalahan   terkait   diskriminasi   tokoh  perempuan  etnis  Tionghoa ditinjau kritik sastra feminis,1
+Data diperoleh teknik pembacaan  pencatatan,1
+Keabsahan data diperoleh melalui validitas semantis reliabilitas,1
+Hasil   penelitian   menunjukkan        Bentuk   diskriminasi     dialami tokoh perempuan etnis Tionghoa terdapat ranah domestik publik,1
+Bentuk  diskriminasi   ranah  domestik   sikap  diskriminasi  senioritas   ranah  publik   ejekan   hinaan   beretnis  Tionghoa    larangan    libur    imlek       keturunan    Tionghoa    penolakan    pertanggungjawaban   kehamilan   pengharusan   panggilan   nama   Cina     keturunan   Tionghoa     kekerasan   fisik,1
+Bentuk   diskriminasi     paling   dominan bentuk ejekan hinaan ditujukan keempat tokoh,1
+Faktor-faktor  penyebab  terjadinya  diskriminasi  tokoh  perempuan  etnis  Tionghoa    dibedakan       bentuk     ranah   domestik     ranah   publik,1
+Diskriminasi domestik terjadi faktor jenis kelamin  posisi urutan anak  diskriminasi  publik  terjadi   faktor  etnis  agama   politik,1
+Faktor  diskriminasi   paling  dominan   faktor  politik   mengekang  etnis  Tionghoa   masa  Orde  Baru,1
+Cara  tokoh  perempuan  etnis  Tionghoa  merespon  tindak  diskriminasi  terlihat    bentuk   respon  menolak  menerima,1
+Respon paling dominan respon menolak tindak diskriminasi,1
+Bentuk   sikap  penolakan  tersebut  berupa  tindakan  verbal   sikap mengritisi tindak diskriminasi,1
+Etnis  Tionghoa  merupakan  salah  satu   golongan  etnis   senang  mengembara,1
+Salah satu negara pengembaraan dituju orang-orang Cina tersebut   Indonesia,1
+Hal   dikarenakan  Indonesia  merupakan  salah  satu  negara  kaya  penghasil  rempah-rempah   sangat  digemari   seluruh  dunia,1
+Maka mengherankan bila hubungan Indonesia Cina terjalin sejak  lama,1
+Etnis    Tionghoa  merupakan  salah  satu  perantara   baik   Indonesia negara perdagangan orang Cina dikenal kejujurannya ,1
+Etnis   Tionghoa   memiliki   sejarah   tersendiri     Indonesia,1
+Pada   masa   pemerintahan  Orde  Baru   dikeluarkan  berbagai  kebijakan   orang  Cina   bersifat  opresif   diskriminatif  ,1
+Salah  satu  bentuk  diskriminasi   tersebut       ditutupnya   sekolah   Tionghoa   media   berbahasa  Cina   dilarangnya  organisasi  etnis  Tionghoa  berbagai  strategi  dilakukan  terus-menerus   etnis    identitas   tetap  eksis,1
+Hal  tersebut  tak   berlaku   kaum  laki-laki  etnis  Tionghoa     berlaku   perempuan  etnis  Tionghoa,1
+Meij    menambahkan   identitas perempuan etnis Tionghoa sepanjang masa dibentuk ditentukan  berbagai  pihak,1
+Identitas  tersebut  seringkali  dikonstruksi  melalui  relasi  kekuasaaan timpang melahirkan berbagai bentuk diskriminasi ketidakadilan perempuan khususnya etnis Tionghoa,1
+Mengenai  identitas  perempuan  tersebut  Levy    menyatakan Tiongkok mekanisme kontrol laki-laki seksualitas perempuan   dilakukan     mengikat   kaki   perempuan   sejak   usia   dini,1
+Pengikatan  kaki  tersebut  dikenal   foot  binding,1
+Foot  binding  menjadi  cermin prestise budaya peradaban Tiongkok,1
+Di Tiongkok foot binding bertahan  selama  1000  tahun,1
+Pengikatan  kaki   merupakan  simbol   status  perempuan kalangan kerajaan,1
+Tradisi tersebut kemudian menjadi simbol status perempuan keluarga kaya,1
+Dalam   artikel   bertajuk   “Analisa   Data     Fakta   Kasus   Tragedi   Kemanusiaan 13-15 Mei” Sudarjanto  menyebutkan isu diskriminasi  etnis  Tionghoa   Indonesia  bukan  merupakan  peristiwa  baru    menjadi   rahasia   umum,1
+Tindakan   diskriminatif     etnis   Tionghoa     Indonesia   lama  terjadi,1
+Setidaknya  sejarah  mencatat   Batavia   tahun  1740       jaman   pemerintahan   kolonial   Belanda   pernah   terjadi   pembantaian  massal,1
+Sejak  masa  awal  orde  baru  aksi-aksi  anti-Cina  semakin  meningkat kemudian berkembang spektrum lebih luas,1
+Dalam artikel tersebut dinyatakan masa-masa awal berdirinya Orde Baru isu anti-Cina dikaitkan sentimen anti komunis,1
+Kegiatan anti- Cina kemudian meluas kalangan pengusaha etnis,1
+Bahkan muncul bentuk  keputusan-keputusan  pemerintah    tanggal  6  Desember  1967  Presiden  Soeharto  mengeluarkan  Instruksi  Presiden  No,1
+14/1967   Agama  Kepercayaan Adat Istiadat Cina,1
+3 Lebih  lanjut   dinyatakan    instruksi  tersebut  ditetapkan   seluruh  upacara  agama  kepercayaan   adat  istiadat  Cina    dirayakan   lingkungan  keluarga    ruangan  tertutup,1
+Instruksi  Presiden     bertujuan    melikuidasi    pengaruh    seluruh    kebudayaan    Cina    termasuk    kepercayaan   tradisi   adat   istiadat     agamanya     mendorong   terjadinya   asimilasi   total,1
+Selain    warga  negara  Indonesia  etnis  Tionghoa   anak-anaknya  melalui  Surat  Keputusan  Bersama  Menteri  Kehakiman   Menteri  Dalam  Negeri  Republik  Indonesia  SKB  01-UM,1
+wajib  memiliki   Surat   Bukti   Kewarganegaraan   Republik   Indonesia     SBKRI,1
+Setidaknya  terdapat  32  keputusan  negara   bermacam  tingkatan   dinilai  berbau rasialis dibuat kurun waktu 1969-1998,1
+Salah satu contohnya  dilihat   kasus   dialami  Lie  Tjun  Mei  salah  satu  warga   daerah  Cina  Benteng   Tangerang   terangkum   buku  “Jalan  Berliku  Menjadi  Orang  Indonesia”  karya  Rebeka  Harsono    seorang   aktivis   LADI   ,1
+Tjun   Mei   mengalami  diskriminasi   pengurusan  SKBRI   bertele-tele   kantor  kelurahan  daerah  Tangerang,1
+Dalam  buku  tersebut  dikisahkan   Tjun  Mei   menunggu  empat  hari   mendapatkan  nomor  pemutihan  SKBRI   ditetapkan Soeharto waktu,1
+Setelah mendapatkan nomor tersebut mulai mengurus pemutihan SKBRI,1
+Hari-hari    menanti    hasil    pemutihan    SKBRI    sungguh    mendebarkan,1
+Yun  Sen  suami  Tjun  Mei  berkali-kali  mendatangi  kantor   kelurahan   membaca     teliti   pengumuman     ditempel   papan  tulis,1
+Sekitar  tiga  puluh  hari  nomor  Tjun  Mei  keluar   papan  pengumuman,1
+Ia   istrinya   lega,1
+Kemudian  Tjun Mei berangkat kantor kecamatan mengambil SKBRI,1
+Di  sana   tetap  dipungut  biaya  Rp  5  Ribu,1
+“Katanya   biaya  fotokopi” kata Tjun Mei heran,1
+SKBRI   didapat   urusan   tuntas,1
+Ia   mndapatkan memo Kebon Sirih Jakarta Pusat,1
+Ia kantor  catatan  sipil   membuat  K-1   lampiran  SKBRI,1
+“Kalau  orang  Cina  formulirnya  distempel   bawah  surat ,1
+Jadi  kalau  dulu  mau  membuat  KTP  SKBRI  difotokopi  sama  K-1,1
+Itu  dinyatakan” kata Tjun Mei,1
+Berdasarkan  penelitian    dilakukan  Harsono     keberadaan Tionghoa daerah Cina Benteng menyebutkan tindakan diskriminasi   pemerintah     warga   Tionghoa       meraka   diharuskan  membuat  SKBRI   surat  kelahiran   ditetapkan   pengadilan negeri,1
+Pasalnya negara orang-orang Tionghoa dianggap warna  negara  asing  ,1
+Ini  berlaku   seluruh  orang  Tionghoa  termasuk  Cina  Benteng   sebenarnya   berasimilasi   bercampur-baur  sangat  lama   pibumi,1
+Bagi  keluarga  Cina  Benteng   berasal   keluarga  miskin   SKBRI     jeratan       menyengsarakan     biaya   pembuatan surat sangat besar,1
+Faktor utama berupa ciri fisik kultural orang Tionghoa   bermata  sipit    menjalankan  ritual  tradisi  Cina  betul-betul dimanfaatkan penyelenggara negara,1
+Harsono     menambahkan   terdapat  upaya  penetapan  pengadilan     mengurus   keterlambatan   akta   lahir     warga   Tionghoa   dilakukan   Menteri  Dalam  Negeri   2005   tertuang  lewat  Instruksi  Menteri  Dalam  Negeri  No,1
+Namun  keputusan    tak  bertaring     menghentikan   tindakan   diskriminasi     orang-orang   Tionghoa,1
+Selama  beberapa  bulan  ibu-ibu  Cina  Benteng   berjuang  keras  persidangan mendapatkan penetapan pengadilan akta lahir terima kantor catatan sipil,1
+Jika  diamati   keseluruhan  keberadaan  etnis  Tionghoa   selalu  ditempatkan posisi serba salah,1
+Hoon  berpendapat persoalan  mengenai  keberadaan   identitas  Tionghoa   Indonesia  merupakan  sebuah  paradoks,1
+Menurutnya  paradoks   “etnisitas”   “identitas”   disebabkan  adanya  perbedaan  penafsiran   mendefinisikan   persoalan  tersebut,1
+Kita perlu merekonsiliasi paradoks identitas  memang  merupakan  proses   terus  menerus  menjadi  bukan  kondisi mengada,1
+Hal mungkin membuat frustasi perlu   inilah  satu-satunya  cara   mungkin    jadikan  sarana  memahami  kompleksitas  ketinghoaan  pasca-Suharto,1
+Meskipun   banyak   diskriminasi     ketertindasan     dialami   etnis   Tionghoa dewasa banyak ruang publik mengapresiasi keberadaan,1
+Setelah  turunnya  Soeharto   kursi  kepresidenan  persoalan  mengenai  diskriminasi mulai sedikit berkurang,1
+Dimulai penetapan Hari Raya Imlek  hari  libur  nasional  hingga  apresiasi   seniman    intelektual   menampakkan kepeduliannya etnis Tionghoa,1
+Para  seniman   sineas  menyajikan  berbagai  karya  sastra  berupa  film   mengangkat  tema   etnis  Tionghoa,1
+Kusuma    melihat  adanya  keadaan  krisis  identitas   dialami   etnis  Tionghoa  terekam   apik   film  Jangan  Panggil  Aku  Cina,1
+Film   menonjolkan  sulit   peliknya   6 masalah  asimilasi   terjadi   etnis  Tionghoa,1
+Film   mempunyai  makna  pesan hidup adanya prasangka antaretnis,1
+Film   lainnya   berjudul   Ca   Bau   Kan   karya   Nia   Dinata        diadaptasi novel karya Remy Silado berjudul Ca Bau Kan,1
+Dalam novel film  tersebut  menggambarkan  tokoh  utama  pria  bernama  Tan  Pei  Liang   beretnis  Tionghoa   hidup   masa  penjajahan   tuan  tanah   saudagar  tembakau   licik   mau  kalah  suka  wanita  kasar   beberapa  sifat  buruk  lainnya,1
+Bukan    film    menegaskan  stereotip  etnis  Tionghoa berkembang masyarakat mana mayoritas etnis Tionghoa Indonesia memiliki profesi pedagang penguasa perekonomian ,1
+Pandangan   etnis  Tionghoa   sejalan   pendapat  Ninda     menjelaskan  etnis  Tionghoa  ditegaskan   etnis   minoritas   Indonesia  sering  mengalami  perlakuan  diskriminatif    film  May     menceritakan   peristiwa  penindasan    kerusuhan  tahun  1998,1
+Bahkan  wanita  beretnis  Tionghoa   film    bernasib  baik contohnya film Wo Ai Ni  Identitas  keduanya diperankan aktris keturunan Tionghoa bernama Leony,1
+Tokoh utama wanita   film   tersebut   diceritakan   memiliki   nasib     sama     wanita   keturunan  Tionghoa   terjebak   dunia  pelacuran,1
+Film   berjudul  Perempuan  Punya  Cerita    mengisahkan  seorang  ibu  beretnis  Tionghoa  bernasib   malang   bernama   Laksmi     mendapatkan   stigma   negatif     masyarakat sekitarnya mengidap HIV/AIDS,1
+Selain bentuk film bentuk apresiasi  hadir bentuk karya non-sastra   karya  sastra,1
+Kini   bertebaran  buku-buku   berkaitan   bukti  diskriminasi   ketertindasan  etnis  Tionghoa   takut  adanya  pihak   melarang,1
+Ada   karya  sastra   menyuarakan  ketertindasan   dialami  etnis  Tionghoa,1
+Salah  satunya   cerpen  karya  Seno  Gumira  Ajidarma     berjudul   Clara     mengisahkan     gadis   keturunan   Tionghoa   diperkosa   masa  Orde  Baru   sedang  kisruh   penghancuran  etnis  Tionghoa,1
+Clara  merupakan  salah  satu  korban  tak  berdosa  menjadi imbas konflik Mei 1998 tersebut,1
+Ada   novel   berkisah   etnis  Tionghoa,1
+Salah  satu  novel    tersebut  berjudul  Dimsum  Terakhir karya Clara Ng,1
+Clara lulus SMA Bunda  Hati  Kudus   tahun  1992   melanjutkan  pendidikannya   Amerika  menghabiskan tujuh setengah tahun Amerika memutuskan pulang   Indonesia   tahun  1999,1
+Pekerjaan  pertamanya   Indonesia   membangun departemen Human Resources perusahaan shipping Korea Hanjin Shipping,1
+Beberapa  cerpen   esainya  dimuat   media-media  nasional   Koran  Tempo  Kompas  Jawa  Pos  Femina,1
+Dan   bulan  Agustus  2008  sejumlah  cerpennya  dikumpulkan   dimuat   kumpulan  cerita  pendek  berjudul Malaikat Jatuh,1
+Dimsum Terakhir merupakan karyanya kedua diterbitkan  pertama  kali  tahun  2006   Gramedia  Pustaka  Utama,1
+Buku    8 tebalnya   369   halaman       dicetak   empat   kali     Januari   2012,1
+Pemilihan   bahan   penelitian     novel   Dimsum   Terakhir     dikarenakan     sedikitnya  wacana  berupa  penelitian   berkaitan   perempuan  beretnis  Tionghoa,1
+Masyarakat  lebih  banyak  mengapresiasi  wacana  etnis  Tionghoa    bentuk  film  cerpen  novel   bedah  buku,1
+Belum  banyak  penelitian  terkait  penindasan   diskriminasi   etnis  Tionghoa  berkembang,1
+Dimsum Terakhir  merupakan novel mengisahkan kehidupan perempuan   etnis   Tionghoa     berbagai   karakter       menolak   ‘keperempuanan’       berlatar   era   Orde   Baru,1
+Selain       membeberkan  persoalan  seputar  kaum  keturunan  Tionghoa   bukan  berkisar   isu  diskriminasi  semata,1
+Dimsum  Terakhir  merupakan  salah  satu  karya   menjadi  potret  utuh  kehidupan  sebuah  keluarga  modern   segala  ragam persoalannya,1
+Meski hitam putih Clara membuat satu deskripsi detail   sisi  fisik  hingga  perilaku  tokoh-tokohnya   melakukan  gugatan  maksud menjadi hero menyalakan “lampu kuning”    diperbaiki   hidup   ,1
+Dimsum  Terakhir   menegaskan  adanya  konflik   dialami  tokoh  perempuan etnis Tionghoa berkisar diskriminasi ras pertanyaan-pertanyaan   kesejatian  diri,1
+Ada   sikap   tindakan    akhirnya  dilakukan  tokoh   mempertahankan  eksistensinya   seorang   9 perempuan     seorang   etnis   Tionghoa        cukup     memberikan   gambaran   novel  Dimsum  Terakhir  karya  Clara  Ng  layak  dijadikan  bahan  penelitian menjadi pokok pembahasan Kritik Sastra Feminis,1
+Dengan  banyaknya  permasalahan     semua  masalah   berhubungan   perempuan  tersebut   dibahas,1
+Munculnya  berbagai  masalah  tersebut  membutuhkan  pembatasan  masalah   penelitian   lebih  terfokus sasaran dikaji,1
+Adapun batasan permasalahan dikaji berikut,1
+Hasil   penelitian     diharapkan     menjadi   sumbangsih     pengembangan   kritik   khususnya     menambah   wacana   kajian     mengunakan   sudut   pandang   kritik   sastra   feminis,1
+Selain         mendukung   perkembangan   sastra   khususnya   fiksi     mengangkat   tema   dikriminasi etnis Tionghoa,1
+Agar  terdapat  persamaan  konsep  berikut   terdapat  beberapa  batasan  istilah digunakan penelitian berikut,1
+Diskriminasi  pembedaan  perlakuan   sesama  warga  negara  ,1
+Etnis  Tionghoa  salah  satu  etnis   Indonesia   berasal   Cina  dikelompokkan peranakan totok ,1
+Respon  tokoh  perempuan  etnis  Tionghoa  tanggapan   reaksi   dilakukan tokoh perempuan etnis Tionghoa,1
+Feminisme  aliran  pemikiran   gerakan  sosial   menginginkan  adanya    penghargaan       kaum    feminin           kesetaraan gender,1
+Kritik  Sastra  Feminis  kegiatan  memberikan  penilaian  baik   buruk     suatu    karya    sastra       menggunakan    perspektif    feminisme,1
+Dimsum     istilah     bahasa   Kanton     artinya     makanan     kecil            makna     harfiahnya     Dim        Sum    jadi  Dim  Sum    diartikan   makanan  kecil   menyentuh  hati,1
+Ada  banyak  macam  pilihan  dimsum   siomay  ayam  siomay  udang  hakau  casio  ayam  ceker  ayam  bakpao  pandan   lain-lain,1
+Dimsum  merupakan  salah satu sajian khas  hari Imlek kue keranjang,1
+Dimsum  Terakhir   harfiyah   dimaknai   makanan  khas  imlek   disajikan  terakhir  kali    dinikmati  bersama  ayah   ibu   tokoh   novel,1
+Secara  simbolis  Dimsum Terakhir       dimaknai       salah    satu    cara    melewati    kebersamaan   anggota  keluarga   menyantap  dimsum  bersama-sama Imlek meninggalnya ayah rumah  sakit,1
+Bagi  tokoh  perempuan   novel    dimsum  terakhir   ayah   ibu   selalu  hadir  bersama    perayaan imlek tiba,1
+Diskriminasi pembatasan pelecehan pengucilan langsung ataupun langsung didasarkan perbedaan manusia atas dasar agama suku ras etnik kelompok golongan status sosial status ekonomi jenis kelamin bahasa keyakinan politik berakibat pengangguran penyimpangan penghapusan  pengakuan  pelaksanaan   penggunaan  hak  asasi  manusia   kebebasan dasar kehidupan baik individual maupun kolektif bidang politik ekonomi hukum sosial budaya aspek kehidupan,1
+UU Nomor 39 Tahun 1999 Hak Asasi Manusia),1
+Pengertian  tersebut   dasarnya   jauh  berbeda   pengertian  Kamus Besar Bahasa Indonesia diskriminasi bentuk pembedaan  perlakuan   sesama  warga  negara,1
+Eresen     menyatakan     diskriminasi   merupakan   fenomena   sosial     menimpa   masyarakat     belahan   duniamanapun         Indonesia,1
+Diskriminasi dilakukan negara kelompok etnis ras agamakelamin   ideologi budaya tertentu,1
+Diskriminasi dibedakan menjadi  bersifat langsung   maupuntidak   langsung,1
+Diskriminasi   langsung     pembedaan   perlakuan   dilakukan  secaraterang-terangan   diskriminasi   langsung    membuat  suatu  pernyataanatau  peraturan   bersifat  netral praktiknya tetap melakukan diskriminasi,1
+Untuk  memahami  konsep  gender   terlebih    dibedakan  kata   gender     jenis   kelamin,1
+Jenis   kelamin   merupakan   pensifatan     pembagian  jenis  kelamin  manusia   ditentukan   biologis,1
+Manusia  berjenis  kelamin  laki-laki   manusia   memiliki  sifat  biologis   memiliki  jakun  memiliki  penis   memproduksi  sperma   manusia  berjenis kelamin perempuan manusia memiliki alat reproduksi berupa rahim memproduksi telur memiliki vagina alat menyusui ,1
+Konsep gender suatu sifat melekat kaum laki-laki maupun perempuan dikonstruksi sosial kultural,1
+Misalnya perempuan dikenal  lemah  lembut  cantik  emosional   keibuan   laki-laki  dianggap kuat jantan perkasa pemberani rasional,1
+Sejarah perbedaan gender  manusia  jenis  laki-laki   perempuan  terjadi  melalui  proses   sangat  panjang,1
+Oleh    terbentuknya  perbedaan-perbedaan  gender  dikarenakan    banyak     diantaranya   dibentuk   disosialisasikan   diperkuat   bahkan   dikonstruksi sosial kultural melalui ajaran keagamaan maupun negara,1
+Universitas Bunda Mulia perguruan swasta terbaik Jakarta,1
+Gender   digambarkan     “nyata”    suatu  batasan   diatur   politis,1
+Seks    dilihat   sebuah  perintah  wajib   tubuh   menjadi  sebuah  tanda  budaya     mendefinisikan  diri  sedemikian  rupa,1
+Selanjutnya  dijabarkan   gagasan   sebuah  maskulinitas   femininitas   sebenarnya     digantikan     gagasan     semua   bentuk   gender   ditampilkan   da   dibentuk     sebuah   daur   ulang   tanda-tanda   gender   atas   seksualitas hasrat,1
+Fakih    menambahkan  perbedaan  gender  tersebut  ternyata   menyebabkan ketidakadilan gender baik laki-laki maupun perempuan,1
+Ketidakadilan gender tersebut dilihat kehidupan sehari-hari terutama terjadi   kaum  perempuan,1
+Terdapat  diskriminasi   berbagai   baik   tempat  kerja  ataupun   rumah  tangga,1
+Bias  gender   mengakibatkan  beban tempat kerja seringkali diperkuat adanya pandangan masyarakat pekerjaan dianggap masyakat “pekerjaan perempuan” pekerjaan  domestik  dianggap   dinilai  lebih  rendah  dibandingkan   pekerjaan   digolongkan   “pekerjaan  laki-laki”   dikategorikan  “bukan produktif” kacamata statistik negara,1
+Etnis   merupakan   salah   satu   faktor   terjadinya   diskriminasi   terutama   apabila  etnis  tersebut  berada   tingkatan  minoritas   sebuah  negara,1
+Kebencian antarras memicu terjadinya diskriminasi,1
+Hal tersebut 17 terihat   kasus  ras  Uighur   ras  Han   menyebabkan  perselisihan   sebuah negara,1
+Kebencian  antarras  Uighur   minoritas   Han   mayoritas punya sejarah tersendiri,1
+Kebencian   pernah  memuncak   keinginan  Uighur  memisahkan  diri,1
+Hal    diatasi   Mao  Zedong   mengirimkan   tentara   tahun   1949     Xinjiang,1
+Namun   akar   kebencian tak pernah sirna,1
+Kini     booming     ekonomi         diiringi     peningkatan     kesenjangan  makin  mencuatkan  kebencian  kultural     kelompok etnis,1
+Buktinya sepekan lalu merebak bentrokan etnis  Urumqi   menewaskan  184  orang,1
+”Warga  etnis  Han   menyukai,1
+Kami selalu mengalami diskriminasi dipandang rendah”   kata   Abdullah        Urumqi   ibu   kota   Provinsi   Xinjiang,1
+”Hampir  semua  perusahaan  China   suka  menggunakan  etnis   Uighur           pekerjaan     kurang   menghargai kami” kata Abdullah buruh sebuah pabrik baja milik negara,1
+Dia  mengatakan  buruh  etnis  Han  menerima  gaji  empat  kali   gajinya   sebesar  Rp  16  juta  per  bulan   pekerjaan  serupa,1
+Kedatangan  etnis  Han   sejumlah  wilayah   China   Xinjiang       didominasi    Muslim    Uighur       menambah    masalah,1
+Pada 1949 porsi etnis Han enam persen total   penduduk   Xinjiang   sebuah   wilayah   berpegunungan,1
+Kini   persentase   Han   melejit   menjadi   40   persen     201   juta   jiwa   penduduk Xinjiang,1
+”Tak pelak memperburuk ketegangan etnis makin  meningkat  akhir-akhir  ini”  kata  Nicholas  Tapp  seorang  pakar  imigrasi  Asia   Australian  National  University    Canberra Australia,1
+Kedatangan kelompok etnis Han kelompok etnis Uighur selalu  dianggap   niat   mencaplok  kekayaan  minyak  pertambangan pertanian Xinjiang,1
+Kejengkelan terpendam diperburuk perlakuan buruk   Muslim  Uighur,1
+Zabuti  pria  Uighur   luar  Masjid  Zhela  Urumqi  mengatakan  beberapa tempat ibadah ditutup   kegiatan   rohani     kerusuhan   terjadi   pekan   lalu,1
+Berdasarkan pasal 1 ayat 3 tersebut dinyatakan salah satu penyebab adanya diskriminasi faktor jenis kelamin agama ras etnis,1
+Dalam pembahasannya faktor diskriminasi terdapat Dimsum Terakhirdikembangkan  menjadi   ruang  lingkup   domestik   publik,1
+Faktor    domestik   faktor  jenis  kelamin   faktor  urutan  anak   faktor  publik faktor ras etnis faktor agama faktor politik,1
+Pertama   jenis   kelamin,1
+Jenis   kelamin   perempuan     dasarnya   dibedakan jenis kelamin laki-laki,1
+Bila membicarakan perempuan   banyak  sekali  hal-hal    bersinggungan   laki-laki              merekalah    orang       ‘mendiskriminasi’       ‘memarginalkan’     perempuan,1
+Dikatakan    realitas       kehidupan    sehari-hari    banyak    sekali    berita       kabar       menomorduakan  perempuan,1
+Salah  satu  penyebabnya   budaya  patriarkhi  dianut sebagian besar masyarakat Indonesia,1
+Wiyatmi      menyebutkan     hegemoni   patriarkat   terus   menerus  disosialisasikan   generasi   generasi  bahkan   melalui  undang-undang   kekuasaan  negara,1
+Di  antaranya  Undang-Undang  Perkawinan    Nomor  1  Tahun  1974  pasal  31  ayat  3   berbunyi  “Suami   kepala  keluarga   isteri  ibu  rumah  tangga,1
+Diperkuat    pasal  34  ayat  2  “Isteri wajib mengatur urusan rumah tangga sebaik-baiknya,1
+Dalam     disimpulkan   berdasarkan  hukum  negara   perempuan   diatur   ‘kandang’  patriarkhi     mengurus   urusan  domestik  kerumahtanggaan  semata   ruang  gerak  perempuan  meniti karir mengembangkan kemampuannya menjadi dinomorduakan,1
+Faktor kedua faktor urutan posisi anak keluarga,1
+Faktor urutan   anak     membuat   seseorang   ‘merasa’     mendiskriminasi     ‘merasa’    terdikriminasi,1
+Seorang    kakak       lebih    mendominasi       memerintah   meminta  suatu    adiknya   adiknya   merasa dijadikan objek diperintah kakaknya lebih tua,1
+Faktor  ketiga   faktor  etnis  faktor  ras   etnis,1
+Eresen    menyebutkan keluar kebingungan  etnisitas identitas tersebut sebuah teori menerangkan etnisitas seseorang ditentukan 4 faktor biologis kultural self identification acceptability,1
+Pertama   faktor   biologis     salah   satu   faktor      menentukan  etnis  seseorang    orang-tua  beretnis  apa   dilahirkan,1
+Kedua faktor kulturalyang  dimaksud   kebudayaan   dikategorikan    sebuah  kelompok  etnis   Seberapa  banyak  warisan  budaya  leluhur  terinternalisasi jiwanya,1
+Ini dibedakan non-Tionghoa lewat belajar mampu menguasai budaya fasih berbahasa Cinatetapi    menjiwai   melaksanakan  warisan  tradisi  leluhur,1
+Ketiga self  identification  merupakan  faktor   erat  kaitannya   faktor  kultural  sebelumnya   semakin  banyak  warisan  budaya  leluhur  Cina   terserap    dirinya  semakin  kuat  kehendaknya   mengidentifikasikan  diri     orang   Tionghoa     merupakan   sebuah   loyalitas   sosial     disatukan lewat memori kolektif budaya tradisi pola-pola sosial,1
+Keempat acceptability   seberapa   tinggi   akseptabilitas      kelompok etnis kepadanya seseorang mengidentifikaan diri merupakan salah satu faktor penentu etnisitas,1
+Faktor  keempat   agama,1
+Mengenai    ternyata  banyak  pihak   mencoba  berkelit   jarinya  menunjuk   pihak    pelaku  diskriminasi,1
+Eresen    menyatakan   miling-list  Budaya-Tionghoa,1
+Net    menyatakan     sebenarnya  banyak  diskriminasi  agama  disekitar       menyadari    mau  mengakuinya   menendang   samping     menyembunyikannya   dibalik   karpet,1
+Diskriminasi   agama     berbahaya   lebih  sulit  dihapus  dibanding  diskriminasi  jenis  lainnya   banyak  tindakan  diskriminasi   agama   menggunakan  landasan  kitab  suci iman dibelokkan baik sengaja maupun sengaja   keuntungankelompoknya  sendiri   militan   fanatisme   kental intoleran,1
+Banyak dikritik hal-hal bersifat diskriminasi menimbulkan gejolak perlawanan usaha-usaha penutupan pengkaburan masalah,1
+Faktor            terakhir                       faktor  politik,1
+Faktor  politik   berkaitan   berbagai   aturan   pemerintah     mendiskriminasi   etnis   Tionghoa     dampaknya mendapat perlakuan diskrimninatif,1
+Salah satu tindakan aturan politik   warga  Tionghoa    meraka  diharuskan  membuat  SKBRI     surat   kelahiran     ditetapkan     pengadilan   negeri,1
+Pasalnya negara orang-orang Tionghoa dianggap warna negara asing ,1
+Penelitian  sebelumnya    dilakukan  Harsono    kehidupan  Cina  Benteng  menyebutkan   tahun  2005  terdapat   sepuluh  ribu   empat  puluh  empat  anak  mengurusi  keterlambatan  akta  lahir,1
+Mereka  mengirimkan berkas-berkas disyaratan kantor Catatan Sipil DKI Jakarta,1
+Namun    terjadi  sebelumnya  hampir  separuh   berkas-berkas   ditolak   petugas   beragam  alasan,1
+Berbagai  aturan  diberikan   proses  mendapatkannya   menemui  berbagai  kesulitan,1
+Begitulah   terjadi salah satu etnis Tionghoa Indonesia,1
+Secara  umum  orang  awam   mengartikan  Etnis  Tionghoa    salah  satu  etnis     dunia   berasal   negara  Cina,1
+Sebenarnya   konteks  Indonesia  Meij    menyatakan   etnis  Tionghoa   bukan  sekedar  etnis   dibawa   Cina,1
+Orang  Tionghoa  bukan  merupakan  kelompok homogen,1
+Dari sudut kebudayaan dikategorikan   kelompok  besar   peranakan   totok,1
+Peranakan   orang  Cina    lama  tinggal   Indonesia,1
+Umumnya   menikah   perempuan pribumi berbahasa Cina,1
+Totok pendatang baru satu generasi bermukim Indonesia berbahasa Cina,1
+Dengan terhentinya  migrasi   dataran  Tiongkok   ditutupnya  sekolah  berbahasa  Cina  jumlah  totok   menurun   keturunan  totok    mengalami  peranakanisasi,1
+22 Meij     menjelaskan   selama  masa  kolonial  peranakan  umumnya mempunyai status sosial tinggi totok,1
+Status   sosial     tinggi     menyadarkan   kaum   peranakan     pentingnya   status   pendidikan,1
+Anak-anak     dikirim     sekolah     sekolah Belanda sekolah negeri Belanda,1
+Siburian      menyatakan     keberadaan   etnis   Tionghoa     Indonesia  diperkirakan    sejak  abad  ke-5,1
+Hal   ditunjukkan   kunjungan  Fa-Hsien  seorang  pendeta  Budha   Indonesia   abad  awal  tarikh  masehi,1
+Dengan  adanya  fakta    berarti  etnis  Tionghoa   hadir  kurang  lebih  15  abad  jauh   bangsa  Belanda  menjajah   Indonesia3,1
+Tahun  kedatangan  pendeta  Budha   lebih  jauh    dibandingkan   tahun    terbentuknya    Negara    Kesatuan    Republik    Indonesia           diproklamirkan 17 Agustus 1945 lalu,1
+Secara  lebih  mendalam  Siburian     menjelaskan   bukti  keberadaan  etnis  Tionghoa   Indonesia   berupa  keikutsertaan  muslim  Tionghoa   membangun  Kesultanan  Demak,1
+Kesultanan  Demak  merupakan  salah  satu  pusat  pemerintahan  Islam  pertama   bumi  Nusantara ,1
+Muslim  Tionghoa musafir muslim bermazhab Hanafi terdampar kemudian membangun sebuah mesjid Semarang,1
+Dalam rentang waktu kiprah etnis Tionghoa Nusantara banyak walaupun sejarah mencatat kiprah dominan bidang perdagangan,1
+Selama banyak orang Tionghoa lahir mati dikuburkan bumi Pertiwi,1
+"Lebih   lanjut   dijelaskan   walaupun   proses   pengakuan   etnis   Tionghoa   bagian warga negara Indonesia dimulai sejak masa penjajahan   tampaknya   keberadaan   etnis   Tionghoa     bagian     bangsa   Indonesia   berjalan  mulus   etnis  Tionghoa   diterima   etnis  ""asli"" penghuni negeri optimal walaupun banyak kontribusi etnis Tionghoa       Indonesia",1
+Salah   satunya         dilansir   Kwartanada     merangkum  catatan  kontribusi  etnis  Tionghoa   masa Revolusi kemerdekaan menjadi tiga kesimpulan,1
+Pertama  kontribusi   sikap   tindakan,1
+Kwartanada  menyatakan  sebagian etnis Tionghoa masa berpihak konflik Hindia-Belanda berpendapat bukanlah Belanda bukan Indonesia,1
+Sikap “netral” muncul produk devide et imperakolonial  Belanda   politik  resifikasi    penguasa  Jepang,1
+Mereka bahkan turut bersimpati berjuang pihak Republik,1
+Salah satu tokoh dianggap cukup dominan bernama Liem Koen Hian,1
+Lelaki menegaskan identitas  keindonesiaannya    tahun  1932  mendirikan  Partai  Tionghoa  Indonesia      henti  menyerukan   peranakan  Tionghoa   etnis  Tionghoa   memberikan  loyalitas  politiknya   Indonesia,1
+Liem   salah  satu  founding  fathers  Negara  Republik  Indonesia  sehubungan    partisipasinya     BPUPKI,1
+Dalam   salah   satu   sidang   BPUPKI   menjelang  kemerdekaan   tegas  Liem  memohon    golongan  etnis  Tionghoa mendapatkan pengakuan kewarganegaraan Indonesia,1
+Kedua  kontribusi   bentuk  sumbangan  finansial  berupa  uang,1
+Ini kalimat formal,1
