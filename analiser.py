@@ -98,7 +98,7 @@ class Analiser:
 
         model.compile(optimizer=sgd, loss=loss_error, metrics=['accuracy'])
 
-        x_train, x_test, y_train, y_test = self.train_custom_split(x, y, 0.5)
+        x_train, x_test, y_train, y_test = train_test_split(np.array(x), np.array(y), test_size=0.2, random_state=1)
 
         self.history = model.fit(x=x_train, y=y_train,
                                  validation_data=(x_test, y_test),
