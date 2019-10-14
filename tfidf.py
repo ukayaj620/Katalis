@@ -50,11 +50,11 @@ class TFIDF:
 
         sentStopped = sentStemmed
 
-        '''
+
         temp = stopper.remove(sentStemmed)
         while temp != sentStopped:
             sentStopped = temp
             temp = stopper.remove(sentStopped)
-        '''
+
 
         return self.tfidf_vectorizer.transform([sentStopped]).toarray()[0]
