@@ -78,27 +78,25 @@ class Analiser:
         ))
 
         model.add(Dense(
-            units=50,
+            units=int(0.4 * 0.1 * input_data_dimen),
             activation='tanh'
         ))
 
         model.add(Dense(
             units=2,
-            activation='softmax'
+            activation='sigmoid'
         ))
 
-        learning_rate = .001
+        learning_rate = .005
         batch_size = 1
         loss_error = 'categorical_crossentropy'
-        epoch = 100
+        epoch = 30
 
         sgd = SGD(lr=learning_rate)
 
         model.compile(optimizer=sgd, loss=loss_error, metrics=['accuracy'])
 
-        seed = 1
-
-        x_train, x_test, y_train, y_test = train_test_split(np.array(x), np.array(y),test_size=0.2, random_state=seed)
+        x_train, x_test, y_train, y_test = train_test_split(np.array(x), np.array(y), test_size=0.1)
 
         history = model.fit(x=x_train, y=y_train,
                             validation_data=(x_test, y_test),
