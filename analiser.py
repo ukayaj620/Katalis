@@ -136,4 +136,17 @@ class Analiser:
 
         plt.show()
 
+        self.save_model(model, output_file)
+
+    def getBinaryResult(self, x):
+        print(x)
+        return "FORMAL" if x >= 0.5 else "NON FORMAL"
+
+    def testFromTrained(self, x):
+        if self.model_load == 'None':
+            print("Model tidak ditemukan!")
+            exit(0)
+
+        return self.getBinaryResult(self.model_load.predict_proba(np.array(x)))
+
 
