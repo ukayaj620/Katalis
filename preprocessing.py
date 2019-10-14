@@ -21,13 +21,13 @@ for k in rawDatasets['Kalimat']:
     sentStemmed = stemmer.stem(k)
 
     sentStopped = sentStemmed
-    '''
+
     temp = stopper.remove(k)
 
     while temp != sentStopped:
         sentStopped = temp
         temp = stopper.remove(sentStopped)
-    '''
+    
 
     xData.append(sentStopped)
     count += 1
