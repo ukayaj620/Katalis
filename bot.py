@@ -14,6 +14,9 @@ print("Loading Model...")
 an = Analiser()
 model = an.load_model('EIGHT_MODEL')
 
+@client.event
+async def on_ready():
+    print(f'{client.user.name} has connected to Discord!')
 
 @client.event
 async def on_message(message):
