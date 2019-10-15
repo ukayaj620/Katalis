@@ -21,7 +21,7 @@ class TFIDF:
 
         return TfidfVectorizer(norm='l2',
                                min_df=0,
-                               max_features=1000,
+                               max_features=1800,
                                use_idf=True,
                                smooth_idf=False,
                                sublinear_tf=True,
@@ -50,11 +50,13 @@ class TFIDF:
 
         sentStopped = sentStemmed
 
-
+        '''
         temp = stopper.remove(sentStemmed)
         while temp != sentStopped:
             sentStopped = temp
             temp = stopper.remove(sentStopped)
+        '''
 
+        print(sentStopped)
 
         return self.tfidf_vectorizer.transform([sentStopped]).toarray()[0]
