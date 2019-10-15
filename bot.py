@@ -12,7 +12,7 @@ client = discord.Client()
 
 print("Loading Model...")
 an = Analiser()
-model = an.load_model('model_3')
+model = an.load_model('model (0.01 16 20)')
 
 
 @client.event
@@ -31,7 +31,7 @@ async def on_message(message):
         y1 = y1*10 - math.floor(y1)*10
         y2 = y2*10 - math.floor(y2)*10
 
-    response = "|"
+    response = "Result : \n|"
     for i in range(11):
         if(i < y1):
             response += ":white_large_square:"

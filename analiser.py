@@ -14,7 +14,7 @@ class Analiser:
     xData = []
     yData = []
 
-    def __init__(self, training_data='dataset\processedData_Union2.csv'):
+    def __init__(self, training_data='dataset\processed_pool.csv'):
         self.preprocess(training_data)
         return None
 
@@ -70,7 +70,7 @@ class Analiser:
         model = Sequential()
 
         input_data_dimen = len(x[0])
-        input_data_dimen = 1000 if input_data_dimen > 1000 else input_data_dimen
+        input_data_dimen = 1800 if input_data_dimen > 1800 else input_data_dimen
 
         model.add(Dense(
             units=int(0.4 * input_data_dimen),
@@ -85,19 +85,19 @@ class Analiser:
 
         model.add(Dense(
             units=2,
-            activation='sigmoid'
+            activation='softmax'
         ))
 
-        learning_rate = .0005
-        batch_size = 2
+        learning_rate = .01
+        batch_size = 16
         loss_error = 'categorical_crossentropy'
-        epoch = 175
+        epoch = 20
 
         sgd = SGD(lr=learning_rate)
 
         model.compile(optimizer=sgd, loss=loss_error, metrics=['accuracy'])
 
-        x_train, x_test, y_train, y_test = self.train_custom_split(x, y, 0.5)
+        x_train, x_test, y_train, y_test = self.train_custom_split(x, y, 0.6)
 
         self.history = model.fit(x=x_train, y=y_train,
                                  validation_data=(x_test, y_test),
@@ -155,7 +155,7 @@ class Analiser:
         test_rat = test_ratio * test_len
 
         for i in range(test_len):
-            if i > test_rat:
+            if i >= test_rat:
                 x_train.append(x_test_temp[i])
                 y_train.append(y_test_temp[i])
             else:
@@ -179,12 +179,13 @@ class Analiser:
         history = self.history
 
         # for plotting model accuracy
-        plt.plot(history.history['acc'])
-        plt.plot(history.history['val_acc'])
+        plt.plot(history.history['accuracy'])
+        plt.plot(history.history['val_accuracy'])
         plt.title('Model Accuracy')
         plt.ylabel('accuracy')
         plt.xlabel('epoch')
         plt.legend(['train', 'test'], loc='upper left')
+        plt.savefig('training_pic/model_acc.png')
         plt.show()
 
         # for plotting model loss
@@ -193,6 +194,7 @@ class Analiser:
         plt.title('Model Loss')
         plt.ylabel('loss')
         plt.xlabel('epoch')
+        plt.savefig('training_pic/model_loss.png')
         plt.legend(['train', 'test'], loc='upper left')
 
         plt.show()

@@ -21,7 +21,7 @@ class TFIDF:
 
         return TfidfVectorizer(norm='l2',
                                min_df=0,
-                               max_features=1000,
+                               max_features=1800,
                                use_idf=True,
                                smooth_idf=False,
                                sublinear_tf=True,
@@ -43,18 +43,16 @@ class TFIDF:
         factoryStem = StemmerFactory()
         stemmer = factoryStem.create_stemmer()
 
-        factoryStop = StopWordRemoverFactory()
-        stopper = factoryStop.create_stop_word_remover()
+        #factoryStop = StopWordRemoverFactory()
+        #stopper = factoryStop.create_stop_word_remover()
 
         sentStemmed = stemmer.stem(sentence)
 
-        sentStopped = sentStemmed
+        #sentStopped = sentStemmed
 
+        #temp = stopper.remove(sentStemmed)
+        # while temp != sentStopped:
+        #    sentStopped = temp
+        #    temp = stopper.remove(sentStopped)
 
-        temp = stopper.remove(sentStemmed)
-        while temp != sentStopped:
-            sentStopped = temp
-            temp = stopper.remove(sentStopped)
-
-
-        return self.tfidf_vectorizer.transform([sentStopped]).toarray()[0]
+        return self.tfidf_vectorizer.transform([sentStemmed]).toarray()[0]
